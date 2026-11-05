@@ -1,0 +1,268 @@
+record_id,input_lines,operation,output_formula,status
+laskowski:csvline0109,"108,109,110",concatenate_adjacent_formula_fragments,(Ag0.33Li0.67)0.27La0.57TiO3,unverified
+laskowski:csvline0113,"112,113,114",concatenate_adjacent_formula_fragments,(Ag0.67Li0.33)0.27La0.57TiO3,unverified
+laskowski:csvline0236,"235,236,237",concatenate_adjacent_formula_fragments,La0.56Li0.33TiO3-5wt%Al2O3,unverified
+laskowski:csvline0239,"238,239,240",concatenate_adjacent_formula_fragments,La0.56Li0.33TiO3-10wt%Al2O3,unverified
+laskowski:csvline0242,"241,242,243",concatenate_adjacent_formula_fragments,La0.56Li0.33TiO3-15wt%Al2O3,unverified
+laskowski:csvline0249,"248,249,250",concatenate_adjacent_formula_fragments,La0.62Li0.14(Mg0.5W0.5)O3,unverified
+laskowski:csvline0298,"297,298,299",concatenate_adjacent_formula_fragments,Li10.2(Sn0.2Si0.8)1.2P1.8S12,unverified
+laskowski:csvline0302,"301,302,303",concatenate_adjacent_formula_fragments,Li 10.35 (Sn 0.2 Si 0.8 ) 1.35 P1.65S12,unverified
+laskowski:csvline0405,"404,405,406",concatenate_adjacent_formula_fragments,Li 1.3 (Al0.23Ga0.07Ti1.7)(PO4)3,unverified
+laskowski:csvline0408,"407,408,409",concatenate_adjacent_formula_fragments,Li1.3(Al0.23Sc0.07Ti1.7)(PO4)3,unverified
+laskowski:csvline0411,"410,411,412",concatenate_adjacent_formula_fragments,Li1.3(Al0.23Y0.07Ti1.7)(PO4)3,unverified
+laskowski:csvline0432,"431,432,433",concatenate_adjacent_formula_fragments,Li1.3Al0.15Sc0.15Ti1.7(PO4)3,unverified
+laskowski:csvline0578,"577,578,579",concatenate_adjacent_formula_fragments,(La0.49Li0.461Sr0.049)(TiO3),unverified
+laskowski:csvline0581,"580,581,582",concatenate_adjacent_formula_fragments,(La0.46Li0.429Sr0.111)(TiO3),unverified
+laskowski:csvline0584,"583,584,585",concatenate_adjacent_formula_fragments,(La0.402Li0.368Sr0.230)(TiO3),unverified
+laskowski:csvline0594,"593,594,595",concatenate_adjacent_formula_fragments,(Li0.16Sr0.69)(Ga0.25Ta0.75)O3,unverified
+laskowski:csvline0599,"598,599,600",concatenate_adjacent_formula_fragments,Li0.375Sr0.4375Hf0.25Ta0.75O3,unverified
+laskowski:csvline0602,"601,602,603",concatenate_adjacent_formula_fragments,Li0.375Sr0.4375Zr0.25Nb0.75O3,unverified
+laskowski:csvline0637,"636,637,638",concatenate_adjacent_formula_fragments,(Li0.74Mg0.26)(Li0.40Mg0.04Ti1.56)O4,unverified
+laskowski:csvline0687,"686,687,688",concatenate_adjacent_formula_fragments,Li6.05Ga0.25La3Zr2O11.8F0.2,unverified
+laskowski:csvline0690,"689,690,691",concatenate_adjacent_formula_fragments,Li5.72Al0.26La3Zr1.5W0.25O12,unverified
+laskowski:csvline0700,"699,700,701",concatenate_adjacent_formula_fragments,Li6.375La3Zr1.375Nb0.625O12,unverified
+laskowski:csvline0715,"714,715,716",concatenate_adjacent_formula_fragments,Li6.15La3Zr1.75Ta0.25Ga0.2O12,unverified
+laskowski:csvline0718,"717,718,719",concatenate_adjacent_formula_fragments,Li6.15La3Zr1.75Ta0.25Al0.2O12,unverified
+laskowski:csvline0746,"745,746,747",concatenate_adjacent_formula_fragments,Li49.6Al1.6La24Zr14.4Ta1.6O96,unverified
+laskowski:csvline0777,"776,777,778",concatenate_adjacent_formula_fragments,Li6.5La3Zr1.75Te0.25O12-0.07Al,unverified
+laskowski:csvline0780,"779,780,781",concatenate_adjacent_formula_fragments,Li6.65La2.75Ba0.25Zr1.4Ta0.5Nb0.1O12,unverified
+laskowski:csvline0784,"783,784,785",concatenate_adjacent_formula_fragments,Li6.4La3Zr1.4Ta0.5Nb0.1O12,unverified
+laskowski:csvline0787,"786,787,788",concatenate_adjacent_formula_fragments,Li6.4La3Zr1.4Ta0.4Nb0.2O12,unverified
+laskowski:csvline0790,"789,790,791",concatenate_adjacent_formula_fragments,Li6.4La3Zr1.4Ta0.3Nb0.3O12,unverified
+laskowski:csvline0829,"828,829,830",concatenate_adjacent_formula_fragments,Li1.3Al0.3Ti1.7(PO4)3-0.3Li2O,unverified
+laskowski:csvline0942,"941,942,943",concatenate_adjacent_formula_fragments,Li7La2.75Ca0.25Zr1.75Nb0.25O12,unverified
+laskowski:csvline0960,"959,960,961",concatenate_adjacent_formula_fragments,0.14 SiS2-0.09 P2S5-0.47 Li2S-0.30 LiI,unverified
+laskowski:csvline0963,"962,963,964",concatenate_adjacent_formula_fragments,0.26B2S3 – 0.3Li2S –0.44LiI,unverified
+laskowski:csvline0966,"965,966,967",concatenate_adjacent_formula_fragments,0.26B2S3 – 0.31Li S – 20.43LiI,unverified
+laskowski:csvline0969,"968,969,970",concatenate_adjacent_formula_fragments,0.27B S2 3 – 0.32Li2S –0.41LiI,unverified
+laskowski:csvline0973,"972,973,974",concatenate_adjacent_formula_fragments,0.1 LiBr-0.45 SiS -0.45 2Li2S,unverified
+laskowski:csvline0976,"975,976,977",concatenate_adjacent_formula_fragments,0.2 LiBr-0.4 SiS2-0.4Li2S,unverified
+laskowski:csvline0979,"978,979,980",concatenate_adjacent_formula_fragments,0.25 LiBr-0.38 SiS2-0.38 Li2S,unverified
+laskowski:csvline0982,"981,982,983",concatenate_adjacent_formula_fragments,0.3 LiBr-0.3 SiS2-0.35Li2S,unverified
+laskowski:csvline0985,"984,985,986",concatenate_adjacent_formula_fragments,0.35 LiBr-0.33 SiS -20.33 Li2S,unverified
+laskowski:csvline0988,"987,988,989",concatenate_adjacent_formula_fragments,0.4 LiBr-0.3 SiS2-0.3Li2S,unverified
+laskowski:csvline0994,"993,994,995",concatenate_adjacent_formula_fragments,0.75(SiS -Li S)-2 20.25LiCl,unverified
+laskowski:csvline0998,"997,998,999",concatenate_adjacent_formula_fragments,0.65(SiS -Li S)-2 20.35LiCl,unverified
+laskowski:csvline1003,"1002,1003,1004",concatenate_adjacent_formula_fragments,0.9(0.4SiS2-0.6Li2S)-0.1LiI,unverified
+laskowski:csvline1006,"1005,1006,1007",concatenate_adjacent_formula_fragments,0.8(0.4SiS2-0.6Li2S)-0.2LiI,unverified
+laskowski:csvline1009,"1008,1009,1010",concatenate_adjacent_formula_fragments,0.7(0.4SiS2-0.6Li2S)-0.3LiI,unverified
+laskowski:csvline1012,"1011,1012,1013",concatenate_adjacent_formula_fragments,0.6(0.4SiS2-0.6Li2S)-0.4LiI,unverified
+laskowski:csvline1015,"1014,1015,1016",concatenate_adjacent_formula_fragments,0.55(0.4SiS2-0.6Li2S)-0.45LiI,unverified
+laskowski:csvline1018,"1017,1018,1019",concatenate_adjacent_formula_fragments,0.24SiS2-0.36Li2S-0.4LiI,unverified
+laskowski:csvline1021,"1020,1021,1022",concatenate_adjacent_formula_fragments,0.28SiS2-0.42Li2S-0.30LiI,unverified
+laskowski:csvline1024,"1023,1024,1025",concatenate_adjacent_formula_fragments,0.14SiS2-0.09P2S5-0.47Li2S-0.30LiI,unverified
+laskowski:csvline1027,"1026,1027,1028",concatenate_adjacent_formula_fragments,0.27SiS2-0.03Al2S3-0.30Li2S-0.40LiI,unverified
+laskowski:csvline1030,"1029,1030,1031",concatenate_adjacent_formula_fragments,0.21SiS2-0.09B2S3-0.30Li2S-0.40LiI,unverified
+laskowski:csvline1039,"1038,1039,1040",concatenate_adjacent_formula_fragments,0.95(0.6Li2S-0.4SiS2)-0.05Li4SiO4,unverified
+laskowski:csvline1042,"1041,1042,1043",concatenate_adjacent_formula_fragments,0.9(0.6Li2S-0.4SiS2)-0.1Li4SiO4,unverified
+laskowski:csvline1045,"1044,1045,1046",concatenate_adjacent_formula_fragments,0.8(0.6Li2S-0.4SiS2)-0.2Li4SiO4,unverified
+laskowski:csvline1048,"1047,1048,1049",concatenate_adjacent_formula_fragments,0.95(0.6Li2S-0.4SiS2)-0.05Li3PO4,unverified
+laskowski:csvline1051,"1050,1051,1052",concatenate_adjacent_formula_fragments,0.7(0.6Li2S-0.4SiS )- 20.3Li3PO4,unverified
+laskowski:csvline1054,"1053,1054,1055",concatenate_adjacent_formula_fragments,0.6(0.6Li2S-0.4SiS2)-0.4Li3PO4,unverified
+laskowski:csvline1057,"1056,1057,1058",concatenate_adjacent_formula_fragments,0.95(0.6Li2S-0.4SiS2)-0.05Li4GeO4,unverified
+laskowski:csvline1060,"1059,1060,1061",concatenate_adjacent_formula_fragments,0.9(0.6Li2S-0.4SiS2)-0.1Li4GeO4,unverified
+laskowski:csvline1063,"1062,1063,1064",concatenate_adjacent_formula_fragments,0.85(0.6Li2S-0.4SiS )- 20.15Li4GeO4,unverified
+laskowski:csvline1066,"1065,1066,1067",concatenate_adjacent_formula_fragments,0.95(0.6Li2S-0.4SiS2)-0.05Li3BO3,unverified
+laskowski:csvline1069,"1068,1069,1070",concatenate_adjacent_formula_fragments,0.93(0.6Li S-0.4SiS )-2 20.07Li3BO3,unverified
+laskowski:csvline1072,"1071,1072,1073",concatenate_adjacent_formula_fragments,0.85(0.6Li2S-0.4SiS2)-0.15Li3BO3,unverified
+laskowski:csvline1075,"1074,1075,1076",concatenate_adjacent_formula_fragments,0.75(0.6Li2S-0.4SiS )-20.25Li3BO3,unverified
+laskowski:csvline1078,"1077,1078,1079",concatenate_adjacent_formula_fragments,0.95(0.6Li S-0.4SiS )-2 20.05Li3AlO3,unverified
+laskowski:csvline1081,"1080,1081,1082",concatenate_adjacent_formula_fragments,0.94(0.6Li2S-0.4SiS2)-0.06Li3AlO3,unverified
+laskowski:csvline1084,"1083,1084,1085",concatenate_adjacent_formula_fragments,0.92(0.6Li2S-0.4SiS )-20.08Li3AlO3,unverified
+laskowski:csvline1087,"1086,1087,1088",concatenate_adjacent_formula_fragments,0.825(0.6Li2S-0.4SiS2)-0.175Li3AlO3,unverified
+laskowski:csvline1090,"1089,1090,1091",concatenate_adjacent_formula_fragments,0.975(0.6Li2S-0.4SiS2)-0.025Li3GaO3,unverified
+laskowski:csvline1093,"1092,1093,1094",concatenate_adjacent_formula_fragments,0.95(0.6Li2S-0.4SiS2)-0.05Li3GaO3,unverified
+laskowski:csvline1096,"1095,1096,1097",concatenate_adjacent_formula_fragments,0.92(0.6Li2S-0.4SiS2)-0.08Li3GaO3,unverified
+laskowski:csvline1099,"1098,1099,1100",concatenate_adjacent_formula_fragments,0.89(0.6Li S-0.4SiS )-2 20.11Li3GaO3,unverified
+laskowski:csvline1102,"1101,1102,1103",concatenate_adjacent_formula_fragments,0.97(0.6Li2S-0.4SiS2)-0.03Li3InO3,unverified
+laskowski:csvline1105,"1104,1105,1106",concatenate_adjacent_formula_fragments,0.95(0.6Li2S-0.4SiS )-20.05Li3InO3,unverified
+laskowski:csvline1108,"1107,1108,1109",concatenate_adjacent_formula_fragments,0.9(0.6Li2S-0.4SiS )-20.1Li3InO3,unverified
+laskowski:csvline1111,"1110,1111,1112",concatenate_adjacent_formula_fragments,0.95(0.6Li2S-0.4SiS2)-0.05Li4SiO4,unverified
+laskowski:csvline1114,"1113,1114,1115",concatenate_adjacent_formula_fragments,0.9(0.6Li2S-0.4SiS2)-0.1Li4SiO4,unverified
+laskowski:csvline1117,"1116,1117,1118",concatenate_adjacent_formula_fragments,0.95(0.6Li S-0.4SiS )-2 20.05Li2SO4,unverified
+laskowski:csvline1120,"1119,1120,1121",concatenate_adjacent_formula_fragments,0.9(0.6Li S-0.4SiS2 2)-0.1Li2SO4,unverified
+laskowski:csvline1123,"1122,1123,1124",concatenate_adjacent_formula_fragments,0.5Li2O-0.1TiO2-0.4P2O5,unverified
+laskowski:csvline1129,"1128,1129,1130",concatenate_adjacent_formula_fragments,0.505Li2O-0.005Al2O3-0.09TiO2-0.4P2O5,unverified
+laskowski:csvline1135,"1134,1135,1136",concatenate_adjacent_formula_fragments,0.51Li2O-0.01Al2O3-0.08TiO2-0.4P2O5,unverified
+laskowski:csvline1138,"1137,1138,1139",concatenate_adjacent_formula_fragments,0.515Li2O-0.015Al2O -30.07TiO2-0.4P2O5,unverified
+laskowski:csvline1141,"1140,1141,1142",concatenate_adjacent_formula_fragments,0.525Li2O-0.025Al O -2 30.05TiO2-0.4P2O5,unverified
+laskowski:csvline1144,"1143,1144,1145",concatenate_adjacent_formula_fragments,0.53Li O-0.03Al O -2 2 30.04TiO2-0.4P2O5,unverified
+laskowski:csvline1147,"1146,1147,1148",concatenate_adjacent_formula_fragments,0.54Li O-0.04Al O -2 2 30.02TiO2-0.4P2O5,unverified
+laskowski:csvline1150,"1149,1150,1151",concatenate_adjacent_formula_fragments,0.545Li2O-0.045Al O -2 30.01TiO2-0.4P2O5,unverified
+laskowski:csvline1153,"1152,1153,1154",concatenate_adjacent_formula_fragments,0.95(0.6Li2S-0.4SiS2)-0.05Li4SiO4,unverified
+laskowski:csvline1156,"1155,1156,1157",concatenate_adjacent_formula_fragments,0.90(0.6Li2S-0.4SiS2)-0.1Li4SiO4,unverified
+laskowski:csvline1159,"1158,1159,1160",concatenate_adjacent_formula_fragments,0.8(0.6Li2S-0.4SiS2)-0.2Li4SiO4,unverified
+laskowski:csvline1162,"1161,1162,1163",concatenate_adjacent_formula_fragments,0.95(0.6Li2S-0.4SiS )-20.05Li3PO4,unverified
+laskowski:csvline1165,"1164,1165,1166",concatenate_adjacent_formula_fragments,0.9(0.6Li2S-0.4SiS )-20.1Li3PO4,unverified
+laskowski:csvline1168,"1167,1168,1169",concatenate_adjacent_formula_fragments,0.7(0.6Li2S-0.4SiS2)-0.3Li3PO4,unverified
+laskowski:csvline1171,"1170,1171,1172",concatenate_adjacent_formula_fragments,0.6(0.6Li2S-0.4SiS2)-0.4Li3PO4,unverified
+laskowski:csvline1174,"1173,1174,1175",concatenate_adjacent_formula_fragments,0.95(0.6Li2S-0.4SiS )-20.05Li4GeO4,unverified
+laskowski:csvline1177,"1176,1177,1178",concatenate_adjacent_formula_fragments,0.9(0.6Li2S-0.4SiS2)-0.1Li4GeO4,unverified
+laskowski:csvline1180,"1179,1180,1181",concatenate_adjacent_formula_fragments,0.85(0.6Li2S-0.4SiS2)-0.15Li4GeO4,unverified
+laskowski:csvline1185,"1184,1185,1186",concatenate_adjacent_formula_fragments,0.95(0.6Li2S-0.4SiS2)-0.05Li3BO3,unverified
+laskowski:csvline1188,"1187,1188,1189",concatenate_adjacent_formula_fragments,0.93(0.6Li S-0.4SiS )-2 20.07Li3BO3,unverified
+laskowski:csvline1191,"1190,1191,1192",concatenate_adjacent_formula_fragments,0.85(0.6Li S-0.4SiS )-2 20.15Li3BO3,unverified
+laskowski:csvline1194,"1193,1194,1195",concatenate_adjacent_formula_fragments,0.75(0.6Li2S-0.4SiS2)-0.25Li3BO3,unverified
+laskowski:csvline1197,"1196,1197,1198",concatenate_adjacent_formula_fragments,0.95(0.6Li2S-0.4SiS2)-0.05Li3AlO3,unverified
+laskowski:csvline1200,"1199,1200,1201",concatenate_adjacent_formula_fragments,0.94(0.6Li2S-0.4SiS )-20.06Li3AlO3,unverified
+laskowski:csvline1203,"1202,1203,1204",concatenate_adjacent_formula_fragments,0.92(0.6Li S-0.4SiS )-2 20.08Li3AlO3,unverified
+laskowski:csvline1206,"1205,1206,1207",concatenate_adjacent_formula_fragments,0.825(0.6Li S-0.4SiS )-2 20.175Li3AlO3,unverified
+laskowski:csvline1209,"1208,1209,1210",concatenate_adjacent_formula_fragments,0.975(0.6Li2S-0.4SiS )-20.025Li3GaO3,unverified
+laskowski:csvline1212,"1211,1212,1213",concatenate_adjacent_formula_fragments,0.95(0.6Li S-0.4SiS )-2 20.05Li3GaO3,unverified
+laskowski:csvline1215,"1214,1215,1216",concatenate_adjacent_formula_fragments,0.92(0.6Li2S-0.4SiS2)-0.08Li3GaO3,unverified
+laskowski:csvline1218,"1217,1218,1219",concatenate_adjacent_formula_fragments,0.89(0.6Li S-0.4SiS )-2 20.11Li3GaO3,unverified
+laskowski:csvline1221,"1220,1221,1222",concatenate_adjacent_formula_fragments,0.97(0.6Li S-0.4SiS )-2 20.03Li3InO3,unverified
+laskowski:csvline1224,"1223,1224,1225",concatenate_adjacent_formula_fragments,0.95(0.6Li2S-0.4SiS2)-0.05Li3InO3,unverified
+laskowski:csvline1227,"1226,1227,1228",concatenate_adjacent_formula_fragments,0.90(0.6Li2S-0.4SiS2)-0.10Li3InO3,unverified
+laskowski:csvline1230,"1229,1230,1231",concatenate_adjacent_formula_fragments,(0.67Li2S-0.33SiS2)-(0.75Li2S-0.25P2S5),unverified
+laskowski:csvline1244,"1243,1244,1245",concatenate_adjacent_formula_fragments,0.555Li2S-0.4SiS -20.045Li3N,unverified
+laskowski:csvline1247,"1246,1247,1248",concatenate_adjacent_formula_fragments,0.525Li S-0.4SiS -2 20.075Li3N,unverified
+laskowski:csvline1254,"1253,1254,1255",concatenate_adjacent_formula_fragments,0.75(0.7Li2O-0.3Li2S)-0.25P2S5,unverified
+laskowski:csvline1257,"1256,1257,1258",concatenate_adjacent_formula_fragments,0.75(0.5Li2O-0.5Li2S)-0.25P2S5,unverified
+laskowski:csvline1260,"1259,1260,1261",concatenate_adjacent_formula_fragments,0.75(0.4Li2O-0.6Li S)-20.25P2S5,unverified
+laskowski:csvline1263,"1262,1263,1264",concatenate_adjacent_formula_fragments,0.75(0.3Li2O-0.7Li2S)-0.25P2S5,unverified
+laskowski:csvline1266,"1265,1266,1267",concatenate_adjacent_formula_fragments,0.75(0.2Li O-0.8Li S)-2 20.25P2S5,unverified
+laskowski:csvline1269,"1268,1269,1270",concatenate_adjacent_formula_fragments,0.75(0.1Li2O-0.9Li2S)-0.25P2S5,unverified
+laskowski:csvline1279,"1278,1279,1280",concatenate_adjacent_formula_fragments,0.95(0.5Li2-0.5SiS2)-0.05(0.5Li2O-0.5P2O5),unverified
+laskowski:csvline1291,"1290,1291,1292",concatenate_adjacent_formula_fragments,0.95(0.6Li2-0.4SiS2)-0.05(0.6Li2O-0.4P2O5),unverified
+laskowski:csvline1303,"1302,1303,1304",concatenate_adjacent_formula_fragments,0.8(0.55Li2-0.45SiS2)-0.2(0.55Li2O-0.45P2O5),unverified
+laskowski:csvline1306,"1305,1306,1307",concatenate_adjacent_formula_fragments,0.8(0.6Li -0.4SiS )-2 20.2(0.6Li2O-0.4P2O5),unverified
+laskowski:csvline1309,"1308,1309,1310",concatenate_adjacent_formula_fragments,0.8(0.65Li2-0.35SiS )-20.2(0.65Li2O-0.35P2O5),unverified
+laskowski:csvline1318,"1317,1318,1319",concatenate_adjacent_formula_fragments,0.1LiI-0.9(0.6Li S-20.4SiS2),unverified
+laskowski:csvline1321,"1320,1321,1322",concatenate_adjacent_formula_fragments,0.2LiI-0.8(0.6Li2S-0.4SiS2),unverified
+laskowski:csvline1324,"1323,1324,1325",concatenate_adjacent_formula_fragments,0.3LiI-0.7(0.6Li S-20.4SiS2),unverified
+laskowski:csvline1328,"1327,1328,1329",concatenate_adjacent_formula_fragments,0.1LiI-0.9(0.5Li S-20.5SiS2),unverified
+laskowski:csvline1331,"1330,1331,1332",concatenate_adjacent_formula_fragments,0.2LiI-0.8(0.6Li2S-0.4SiS2),unverified
+laskowski:csvline1334,"1333,1334,1335",concatenate_adjacent_formula_fragments,0.3LiI-0.7(0.6Li2S-0.4SiS2),unverified
+laskowski:csvline1338,"1337,1338,1339",concatenate_adjacent_formula_fragments,0.95Li6Si2S7-0.05Li6B4O9,unverified
+laskowski:csvline1342,"1341,1342,1343",concatenate_adjacent_formula_fragments,0.875Li6Si S -2 70.125Li6B4O9,unverified
+laskowski:csvline1345,"1344,1345,1346",concatenate_adjacent_formula_fragments,0.75Li Si S -6 2 70.25Li6B4O9,unverified
+laskowski:csvline1348,"1347,1348,1349",concatenate_adjacent_formula_fragments,0.95Li6Si2S7-0.05Li6B4S9,unverified
+laskowski:csvline1351,"1350,1351,1352",concatenate_adjacent_formula_fragments,0.925Li Si S -6 2 70.075Li6B4S9,unverified
+laskowski:csvline1355,"1354,1355,1356",concatenate_adjacent_formula_fragments,0.875Li6Si2S7-0.125Li6B4S9,unverified
+laskowski:csvline1358,"1357,1358,1359",concatenate_adjacent_formula_fragments,0.75Li6Si2S7-0.25Li6B4S9,unverified
+laskowski:csvline1361,"1360,1361,1362",concatenate_adjacent_formula_fragments,0.63Li6Si S -2 70.37Li6B4S9,unverified
+laskowski:csvline1365,"1364,1365,1366",concatenate_adjacent_formula_fragments,Li7La3Zr2O12–5 wt%LiPO3,unverified
+laskowski:csvline1368,"1367,1368,1369",concatenate_adjacent_formula_fragments,Li7La3Zr2O12–3 wt%65Li2O·27B2O3·8SiO2,unverified
+laskowski:csvline1380,"1379,1380,1381",concatenate_adjacent_formula_fragments,0.95(0.75Li2S-0.25P2S5)-0.05LiBH4,unverified
+laskowski:csvline1383,"1382,1383,1384",concatenate_adjacent_formula_fragments,0.89(0.75Li S-20.25P2S5)-0.11LiBH4,unverified
+laskowski:csvline1386,"1385,1386,1387",concatenate_adjacent_formula_fragments,0.67(0.75Li S-20.25P2S5)-0.33LiBH4,unverified
+laskowski:csvline1410,"1409,1410,1411",concatenate_adjacent_formula_fragments,Li3PS4 – 5 wt%Li6ZnNb4O14,unverified
+laskowski:csvline1413,"1412,1413,1414",concatenate_adjacent_formula_fragments,Li3PS4 – 10 wt%Li6ZnNb4O14,unverified
+laskowski:csvline1416,"1415,1416,1417",concatenate_adjacent_formula_fragments,Li3PS4 – 15 wt%Li6ZnNb4O14,unverified
+laskowski:csvline1419,"1418,1419,1420",concatenate_adjacent_formula_fragments,Li3PS4 – 20 wt%Li6ZnNb4O14,unverified
+laskowski:csvline1422,"1421,1422,1423",concatenate_adjacent_formula_fragments,Li PS  – 30 wt% 3 4Li6ZnNb4O14,unverified
+laskowski:csvline1425,"1424,1425,1426",concatenate_adjacent_formula_fragments,Li3PS4 – 50 wt%Li6ZnNb4O14,unverified
+laskowski:csvline1428,"1427,1428,1429",concatenate_adjacent_formula_fragments,Li3PS4 – 70 wt%Li6ZnNb4O14,unverified
+laskowski:csvline1431,"1430,1431,1432",concatenate_adjacent_formula_fragments,Li3PS4 – 90 wt%Li6ZnNb4O14,unverified
+laskowski:csvline1435,"1434,1435,1436",concatenate_adjacent_formula_fragments,Li PS3 4 – 10 wt%Li7La3Zr2O12,unverified
+laskowski:csvline1438,"1437,1438,1439",concatenate_adjacent_formula_fragments,Li3PS4 – 20 wt%Li7La3Zr2O12,unverified
+laskowski:csvline1441,"1440,1441,1442",concatenate_adjacent_formula_fragments,Li3PS4 – 25 wt%Li7La3Zr2O12,unverified
+laskowski:csvline1444,"1443,1444,1445",concatenate_adjacent_formula_fragments,Li3PS4 – 30 wt%Li7La3Zr2O12,unverified
+laskowski:csvline1447,"1446,1447,1448",concatenate_adjacent_formula_fragments,Li3PS4 – 35 wt%Li7La3Zr2O12,unverified
+laskowski:csvline1450,"1449,1450,1451",concatenate_adjacent_formula_fragments,Li PS 3 4 – 40 wt%Li7La3Zr2O12,unverified
+laskowski:csvline1453,"1452,1453,1454",concatenate_adjacent_formula_fragments,Li3PS4 – 60 wt%Li7La3Zr2O12,unverified
+laskowski:csvline1456,"1455,1456,1457",concatenate_adjacent_formula_fragments,Li3PS4 – 70 wt%Li7La3Zr2O12,unverified
+laskowski:csvline1459,"1458,1459,1460",concatenate_adjacent_formula_fragments,Li3PS4 – 90 wt%Li7La3Zr2O12,unverified
+laskowski:csvline1474,"1473,1474,1475",concatenate_adjacent_formula_fragments,0.05Li2S-0.75Li2O-0.2P2S5,unverified
+laskowski:csvline1477,"1476,1477,1478",concatenate_adjacent_formula_fragments,0.1Li2S-0.7Li2O-0.2P2S5,unverified
+laskowski:csvline1480,"1479,1480,1481",concatenate_adjacent_formula_fragments,0.15Li2S-0.65Li2O-0.2P2S5,unverified
+laskowski:csvline1483,"1482,1483,1484",concatenate_adjacent_formula_fragments,0.2Li2S-0.6Li2O-0.2P2S5,unverified
+laskowski:csvline1486,"1485,1486,1487",concatenate_adjacent_formula_fragments,0.25Li2S-0.55Li O-20.2P2S5,unverified
+laskowski:csvline1489,"1488,1489,1490",concatenate_adjacent_formula_fragments,0.3Li2S-0.5Li2O-0.2P2S5,unverified
+laskowski:csvline1492,"1491,1492,1493",concatenate_adjacent_formula_fragments,0.35Li2S-0.45Li2O-0.2P2S5,unverified
+laskowski:csvline1495,"1494,1495,1496",concatenate_adjacent_formula_fragments,0.4Li2S-0.4Li2O-0.2P2S5,unverified
+laskowski:csvline1498,"1497,1498,1499",concatenate_adjacent_formula_fragments,0.45Li2S-0.35Li2O-0.2P2S5,unverified
+laskowski:csvline1501,"1500,1501,1502",concatenate_adjacent_formula_fragments,0.5Li2S-0.3Li O-20.2P2S5,unverified
+laskowski:csvline1504,"1503,1504,1505",concatenate_adjacent_formula_fragments,0.55Li2S-0.25Li2O-0.2P2S5,unverified
+laskowski:csvline1507,"1506,1507,1508",concatenate_adjacent_formula_fragments,0.6Li2S-0.2Li O-20.2P2S5,unverified
+laskowski:csvline1510,"1509,1510,1511",concatenate_adjacent_formula_fragments,0.65Li S-0.15Li O-2 20.2P2S5,unverified
+laskowski:csvline1513,"1512,1513,1514",concatenate_adjacent_formula_fragments,0.7Li2S-0.1Li2O-0.2P2S5,unverified
+laskowski:csvline1516,"1515,1516,1517",concatenate_adjacent_formula_fragments,0.75Li2S-0.05Li O-20.2P2S5,unverified
+laskowski:csvline1521,"1520,1521,1522",concatenate_adjacent_formula_fragments,0.05Li2S-0.7Li2O-0.25P2S5,unverified
+laskowski:csvline1524,"1523,1524,1525",concatenate_adjacent_formula_fragments,0.1Li2S-0.65Li2O-0.25P2S5,unverified
+laskowski:csvline1527,"1526,1527,1528",concatenate_adjacent_formula_fragments,0.15Li2S-0.6Li O-20.25P2S5,unverified
+laskowski:csvline1530,"1529,1530,1531",concatenate_adjacent_formula_fragments,0.2Li S-0.55Li O-2 20.25P2S5,unverified
+laskowski:csvline1533,"1532,1533,1534",concatenate_adjacent_formula_fragments,0.25Li2S-0.5Li2O-0.25P2S5,unverified
+laskowski:csvline1536,"1535,1536,1537",concatenate_adjacent_formula_fragments,0.3Li2S-0.45Li2O-0.25P2S5,unverified
+laskowski:csvline1539,"1538,1539,1540",concatenate_adjacent_formula_fragments,0.35Li2S-0.4Li2O-0.25P2S5,unverified
+laskowski:csvline1542,"1541,1542,1543",concatenate_adjacent_formula_fragments,0.4Li2S-0.35Li2O-0.25P2S5,unverified
+laskowski:csvline1545,"1544,1545,1546",concatenate_adjacent_formula_fragments,0.45Li2S-0.3Li2O-0.25P2S5,unverified
+laskowski:csvline1548,"1547,1548,1549",concatenate_adjacent_formula_fragments,0.5Li2S-0.25Li2O-0.25P2S5,unverified
+laskowski:csvline1551,"1550,1551,1552",concatenate_adjacent_formula_fragments,0.55Li2S-0.2Li O-20.25P2S5,unverified
+laskowski:csvline1554,"1553,1554,1555",concatenate_adjacent_formula_fragments,0.6Li2S-0.15Li2O-0.25P2S5,unverified
+laskowski:csvline1557,"1556,1557,1558",concatenate_adjacent_formula_fragments,0.65Li S-0.1Li O-2 20.25P2S5,unverified
+laskowski:csvline1560,"1559,1560,1561",concatenate_adjacent_formula_fragments,0.7Li2S-0.05Li2O-0.25P2S5,unverified
+laskowski:csvline1565,"1564,1565,1566",concatenate_adjacent_formula_fragments,0.05Li2S-0.65Li O-20.3P2S5,unverified
+laskowski:csvline1568,"1567,1568,1569",concatenate_adjacent_formula_fragments,0.1Li2S-0.6Li O-20.3P2S5,unverified
+laskowski:csvline1571,"1570,1571,1572",concatenate_adjacent_formula_fragments,0.15Li2S-0.55Li2O-0.3P2S5,unverified
+laskowski:csvline1574,"1573,1574,1575",concatenate_adjacent_formula_fragments,0.2Li S-0.5Li O-2 20.3P2S5,unverified
+laskowski:csvline1577,"1576,1577,1578",concatenate_adjacent_formula_fragments,0.25Li2S-0.45Li2O-0.3P2S5,unverified
+laskowski:csvline1580,"1579,1580,1581",concatenate_adjacent_formula_fragments,0.3Li2S-0.4Li O-20.3P2S5,unverified
+laskowski:csvline1583,"1582,1583,1584",concatenate_adjacent_formula_fragments,0.35Li2S-0.35Li O-20.3P2S5,unverified
+laskowski:csvline1586,"1585,1586,1587",concatenate_adjacent_formula_fragments,0.4Li2S-0.3Li2O-0.3P2S5,unverified
+laskowski:csvline1589,"1588,1589,1590",concatenate_adjacent_formula_fragments,0.45Li2S-0.25Li2O-0.3P2S5,unverified
+laskowski:csvline1592,"1591,1592,1593",concatenate_adjacent_formula_fragments,0.5Li2S-0.2Li O-20.3P2S5,unverified
+laskowski:csvline1595,"1594,1595,1596",concatenate_adjacent_formula_fragments,0.55Li S-0.15Li O-2 20.3P2S5,unverified
+laskowski:csvline1598,"1597,1598,1599",concatenate_adjacent_formula_fragments,0.6Li S-0.1Li O-2 20.3P2S5,unverified
+laskowski:csvline1601,"1600,1601,1602",concatenate_adjacent_formula_fragments,0.65Li2S-0.05Li2O-0.3P2S5,unverified
+laskowski:csvline1607,"1606,1607,1608",concatenate_adjacent_formula_fragments,0.7Li2S-0.29P S -2 50.01Li3PO4,unverified
+laskowski:csvline1610,"1609,1610,1611",concatenate_adjacent_formula_fragments,0.7Li2S-0.28P2S5-0.02Li3PO4,unverified
+laskowski:csvline1613,"1612,1613,1614",concatenate_adjacent_formula_fragments,0.7Li2S-0.27P2S5-0.03Li3PO4,unverified
+laskowski:csvline1616,"1615,1616,1617",concatenate_adjacent_formula_fragments,0.7Li2S-0.25P2S -50.05Li3PO4,unverified
+laskowski:csvline1620,"1619,1620,1621",concatenate_adjacent_formula_fragments,0.99(0.7Li2S-0.3P2S5)-0.01Li2ZrO3,unverified
+laskowski:csvline1623,"1622,1623,1624",concatenate_adjacent_formula_fragments,0.98(0.7Li2S-0.3P2S5)-0.02Li2ZrO3,unverified
+laskowski:csvline1626,"1625,1626,1627",concatenate_adjacent_formula_fragments,0.95(0.7Li2S-0.3P2S5)-0.05Li2ZrO3,unverified
+laskowski:csvline1644,"1643,1644,1645",concatenate_adjacent_formula_fragments,0.815(0.45B S -2 30.55Li2S)-0.185LiI,unverified
+laskowski:csvline1647,"1646,1647,1648",concatenate_adjacent_formula_fragments,0.69(0.45B2S3-0.55Li2S)-0.31LiI,unverified
+laskowski:csvline1651,"1650,1651,1652",concatenate_adjacent_formula_fragments,0.95(0.33B2S3-0.67Li2S)-0.05LiI,unverified
+laskowski:csvline1654,"1653,1654,1655",concatenate_adjacent_formula_fragments,0.9(0.33B2S3-0.67Li2S)-0.1LiI,unverified
+laskowski:csvline1657,"1656,1657,1658",concatenate_adjacent_formula_fragments,0.85(0.33B S -2 30.67Li2S)-0.15LiI,unverified
+laskowski:csvline1660,"1659,1660,1661",concatenate_adjacent_formula_fragments,0.75(0.33B S2 3-0.67Li2S)-0.25LiI,unverified
+laskowski:csvline1663,"1662,1663,1664",concatenate_adjacent_formula_fragments,0.66(0.33B2S3-0.67Li2S)-0.34LiI,unverified
+laskowski:csvline1666,"1665,1666,1667",concatenate_adjacent_formula_fragments,0.6(0.33B2S3-0.67Li2S)-0.4LiI,unverified
+laskowski:csvline1670,"1669,1670,1671",concatenate_adjacent_formula_fragments,0.95(0.29B S -2 30.71Li2S)-0.05LiI,unverified
+laskowski:csvline1673,"1672,1673,1674",concatenate_adjacent_formula_fragments,0.875(0.29B S2 3-0.71Li2S)-0.125LiI,unverified
+laskowski:csvline1676,"1675,1676,1677",concatenate_adjacent_formula_fragments,0.78(0.29B2S3-0.71Li2S)-0.22LiI,unverified
+laskowski:csvline1679,"1678,1679,1680",concatenate_adjacent_formula_fragments,0.64(0.29B S -2 30.71Li2S)-0.36LiI,unverified
+laskowski:csvline1683,"1682,1683,1684",concatenate_adjacent_formula_fragments,0.92(0.25B2S3-0.75Li2S)-0.08LiI,unverified
+laskowski:csvline1686,"1685,1686,1687",concatenate_adjacent_formula_fragments,0.89(0.25B S -2 30.75Li2S)-0.11LiI,unverified
+laskowski:csvline1690,"1689,1690,1691",concatenate_adjacent_formula_fragments,0.985(0.5Li2S-0.5SiS )-20.015Li3PO4,unverified
+laskowski:csvline1693,"1692,1693,1694",concatenate_adjacent_formula_fragments,0.975(0.5Li2S-0.5SiS2)-0.025Li3PO4,unverified
+laskowski:csvline1696,"1695,1696,1697",concatenate_adjacent_formula_fragments,0.95(0.5Li S-0.5SiS )-2 20.05Li3PO4,unverified
+laskowski:csvline1699,"1698,1699,1700",concatenate_adjacent_formula_fragments,0.9(0.5Li2S-0.5SiS )-20.1Li3PO4,unverified
+laskowski:csvline1703,"1702,1703,1704",concatenate_adjacent_formula_fragments,0.99(0.6Li2S-0.4SiS )-20.01Li3PO4,unverified
+laskowski:csvline1706,"1705,1706,1707",concatenate_adjacent_formula_fragments,0.97(0.6Li2S-0.4SiS2)-0.03Li3PO4,unverified
+laskowski:csvline1709,"1708,1709,1710",concatenate_adjacent_formula_fragments,0.95(0.6Li2S-0.4SiS )-20.05Li3PO4,unverified
+laskowski:csvline1712,"1711,1712,1713",concatenate_adjacent_formula_fragments,0.9(0.6Li S-0.4SiS2 2)-0.1Li3PO4,unverified
+laskowski:csvline1716,"1715,1716,1717",concatenate_adjacent_formula_fragments,0.99(0.61Li2S-0.39SiS2)-0.01Li3PO4,unverified
+laskowski:csvline1719,"1718,1719,1720",concatenate_adjacent_formula_fragments,0.985(0.61Li2S-0.39SiS2)-0.015Li3PO4,unverified
+laskowski:csvline1722,"1721,1722,1723",concatenate_adjacent_formula_fragments,0.98(0.61Li S-20.39SiS2)-0.02Li3PO4,unverified
+laskowski:csvline1725,"1724,1725,1726",concatenate_adjacent_formula_fragments,0.975(0.61Li S-20.39SiS2)-0.025Li3PO4,unverified
+laskowski:csvline1728,"1727,1728,1729",concatenate_adjacent_formula_fragments,0.97(0.61Li S-20.39SiS2)-0.03Li3PO4,unverified
+laskowski:csvline1731,"1730,1731,1732",concatenate_adjacent_formula_fragments,0.95(0.61Li S-20.39SiS2)-0.05Li3PO4,unverified
+laskowski:csvline1734,"1733,1734,1735",concatenate_adjacent_formula_fragments,0.9(0.61Li2S-0.39SiS2)-0.1Li3PO4,unverified
+laskowski:csvline1737,"1736,1737,1738",concatenate_adjacent_formula_fragments,0.99(0.65Li S-20.35SiS2)-0.01Li3PO4,unverified
+laskowski:csvline1740,"1739,1740,1741",concatenate_adjacent_formula_fragments,0.97(0.65Li S-20.35SiS2)-0.03Li3PO4,unverified
+laskowski:csvline1743,"1742,1743,1744",concatenate_adjacent_formula_fragments,0.95(0.65Li2S-0.35SiS2)-0.05Li3PO4,unverified
+laskowski:csvline1746,"1745,1746,1747",concatenate_adjacent_formula_fragments,0.9(0.65Li S-0.35SiS )-2 20.1Li3PO4,unverified
+laskowski:csvline1772,"1771,1772,1773",concatenate_adjacent_formula_fragments,0.95LiTi2(PO4) -30.05Li3PO4,unverified
+laskowski:csvline1775,"1774,1775,1776",concatenate_adjacent_formula_fragments,0.9LiTi2(PO4)3-0.1Li3PO4,unverified
+laskowski:csvline1778,"1777,1778,1779",concatenate_adjacent_formula_fragments,0.8LiTi (PO2 4)3-0.2Li3PO4,unverified
+laskowski:csvline1781,"1780,1781,1782",concatenate_adjacent_formula_fragments,0.7LiTi (PO2 4)3-0.3Li3PO4,unverified
+laskowski:csvline1784,"1783,1784,1785",concatenate_adjacent_formula_fragments,0.95LiTi (PO )2 4 3-0.05Li3BO3,unverified
+laskowski:csvline1787,"1786,1787,1788",concatenate_adjacent_formula_fragments,0.9LiTi (PO ) -2 4 30.1Li3BO3,unverified
+laskowski:csvline1790,"1789,1790,1791",concatenate_adjacent_formula_fragments,0.8LiTi2(PO ) -4 30.2Li3BO3,unverified
+laskowski:csvline1793,"1792,1793,1794",concatenate_adjacent_formula_fragments,0.7LiTi (PO2 4)3-0.3Li3BO3,unverified
+laskowski:csvline1796,"1795,1796,1797",concatenate_adjacent_formula_fragments,0.5LiTi2(PO4)3-0.5Li3BO3,unverified
+laskowski:csvline1819,"1818,1819,1820",concatenate_adjacent_formula_fragments,(Li0.39La 0.54 ) 1.006 Al0.006Ti0.994O3,unverified
+laskowski:csvline1822,"1821,1822,1823",concatenate_adjacent_formula_fragments,(Li0.39La0.54)1.01Al0.02Ti0.98O3,unverified
+laskowski:csvline1825,"1824,1825,1826",concatenate_adjacent_formula_fragments,(Li0.39La0.54)1.03Al0.06Ti0.94O3,unverified
+laskowski:csvline1828,"1827,1828,1829",concatenate_adjacent_formula_fragments,(Li 0.39 La 0.54 ) 1.005 Cr 0.01 Ti0.99O3,unverified
+laskowski:csvline1831,"1830,1831,1832",concatenate_adjacent_formula_fragments,(Li0.39La0.54)1.01Cr0.02Ti0.98O3,unverified
+laskowski:csvline1834,"1833,1834,1835",concatenate_adjacent_formula_fragments,(Li0.39La0.54)1.025Cr0.05Ti0.95O3,unverified
+laskowski:csvline1874,"1873,1874,1875",concatenate_adjacent_formula_fragments,La0.54Li0.36Ti0.995W0.005O3,unverified
+laskowski:csvline1913,"1912,1913,1914",concatenate_adjacent_formula_fragments,14Li2O-9Al2O3-38TiO2-39P2O5,unverified
+laskowski:csvline1917,"1916,1917,1918",concatenate_adjacent_formula_fragments,Li 6.6 La2.875Y0.125Zr1.6Ta0.4O12,unverified
+laskowski:csvline1920,"1919,1920,1921",concatenate_adjacent_formula_fragments,Li 6.6 La 2.75 Y0.25Zr1.6Ta0.4O12,unverified
+laskowski:csvline1923,"1922,1923,1924",concatenate_adjacent_formula_fragments,Li6.6La2.5Y0.5Zr1.6Ta0.4O12,unverified

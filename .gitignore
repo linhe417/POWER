@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+experiments/vendor/
+.env
+.env.*
+*.pem
+*.key
+github_dataset_upload/
+releases/

@@ -1,0 +1,1707 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Liverpool Ionics Dataset</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div class="header">
+        <img class="leftImg headImg" src="./img/Liverpool.png"></img>
+        <img class="rightImg headImg" src="./img/Faraday.png"></img>
+    </div>
+
+    <main>
+        <div class="mainView">
+            <div class="container mt-5">
+
+        
+        <p class="title text-red">The Liverpool Ionics Dataset</p>  
+
+<p>Where a user wishes to use this Database for the purposes of any extraction or re-utilisation for commercial use, then such use may only be granted under licence by the University. To request such consent and the licence terms under which such consent is granted, please contact impactscience@liverpool.ac.uk and ipadmin@liverpool.ac.uk. Any use of the Database, whether for the purpose of illustration for teaching or academic research or under a commercial licence, should include an appropriate citation to acknowledge the source of the Database as the University of Liverpool.
+</p>
+
+<p>
+    This was first presented in the article, A Database of Experimentally Measured Lithium Solid Electrolyte Conductivities Evaluated with Machine Learning:
+    <br>
+    <br>
+    Cameron J. Hargreaves, Michael W. Gaultois, Luke M. Daniels, Emma J. Watts, Vitaliy A. Kurlin, Michael Moran, Yun Dang, Rhun Morris, Alexandra Morscher, Kate Thompson, Matthew A. Wright, Beluvalli-Eshwarappa Prasad, Frédéric Blanc, Chris M. Collins, Catriona A. Crawford, Benjamin B. Duff, Jae Evans, Jacinthe Gamon, Guopeng Han, Bernhard T. Leube, Hongjun Niu, Arnaud J. Perez, Aris Robinson, Oliver Rogan, Paul M. Sharp, Elvis Shoko, Manel Sonni, William J. Thomas, Andrij Vasylenko, Lu Wang, Matthew J. Rosseinsky, Matthew S. Dyer, <em>npj Computational Materials</em>, 2022
+</p>
+
+<p>18/10/2024: Entry 703 has been changed from Li<sub>6</sub>NiBr<sub>3</sub> in the original database to Li<sub>6</sub>NBr<sub>3</sub> and the conductivity and reference corrected.</p>
+
+<p style="text-align:center">
+    <a href="./LiIonDatabase.csv" class="download-btn" download>Download as csv</a>
+</p>
+
+<!-- </div> -->
+
+<table class="table table-striped table-hover">
+    <tr>
+        <th>ID</th>
+        <th>Composition</th>
+        <th>Source</th>
+        <th>Temperature (C)</th>
+        <th>Conductivity (S/cm)</th>
+        <th>Log10 Conductivity</th>
+        <th>Structural Family</th>
+        <th>Chemical Family</th>
+    </tr>
+
+    <tbody>
+        
+    <tr>
+        <td>1</td><td>Li2Ti0.75Ta0.25O3.125</td><td>10.1016/j.fusengdes.2010.04.003</td><td>300</td><td>9.00E-05</td><td>-4.045</td><td>Rocksalt</td><td>Oxides</tr></td>
+    <tr>
+        <td>2</td><td>Li2OHBr</td><td>10.1002/aenm.201700971</td><td>22.06</td><td>5.40E-07</td><td>-6.267</td><td>Anti-Perovskite</td><td>Oxides and Other Anions</tr></td>
+    <tr>
+        <td>3</td><td>Li2.4OH0.6Cl</td><td>10.1002/aenm.201700971</td><td>26</td><td>8.90E-08</td><td>-7.050</td><td>Anti-Perovskite</td><td>Oxides and Other Anions</tr></td>
+    <tr>
+        <td>4</td><td>Li2.1OH0.9Cl</td><td>10.1002/aenm.201700971</td><td>26</td><td>8.05E-08</td><td>-7.094</td><td>Anti-Perovskite</td><td>Oxides and Other Anions</tr></td>
+    <tr>
+        <td>5</td><td>Li2OHCl</td><td>10.1002/aenm.201700971</td><td>26</td><td>7.11E-08</td><td>-7.148</td><td>Anti-Perovskite</td><td>Oxides and Other Anions</tr></td>
+    <tr>
+        <td>6</td><td>Li2.7OH0.3Cl</td><td>10.1002/aenm.201700971</td><td>26</td><td>7.30E-09</td><td>-8.136</td><td>Anti-Perovskite</td><td>Oxides and Other Anions</tr></td>
+    <tr>
+        <td>8</td><td>Li6PO5Cl</td><td>10.1002/zaac.201000121</td><td>25</td><td>1.00E-09</td><td>-9.000</td><td>Argyrodite</td><td>Oxides and Other Anions</tr></td>
+    <tr>
+        <td>14</td><td>Li14ZnGe4O16</td><td>10.1016/0025-5408(78)90075-2</td><td>300</td><td>1.25E-01</td><td>-0.903</td><td>LISICON</td><td></tr></td>
+    <tr>
+        <td>15</td><td>(YPO4)0.8(Li3PO4)0.2</td><td>10.1016/0167-2738(89)90457-8</td><td>600</td><td>3.70E-02</td><td>-1.431</td><td>Zircon</td><td></tr></td>
+    <tr>
+        <td>16</td><td>(YPO4)0.8(Li3PO4)0.2</td><td>10.1016/0167-2738(89)90457-8</td><td>400</td><td>5.40E-04</td><td>-3.267</td><td>Zircon</td><td></tr></td>
+    <tr>
+        <td>17</td><td>Li7La3Zr2O12</td><td>10.1002/anie.200701144</td><td>24.85</td><td>5.11E-04</td><td>-3.291</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>18</td><td>Li3.4Si0.4P0.6S4</td><td>10.1006/jssc.2002.9701</td><td>27</td><td>6.40E-04</td><td>-3.193</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>19</td><td>Li6.4La3Zr1.4Ta0.6O12</td><td>10.1039/C2JM31413D</td><td>34</td><td>2.06E-03</td><td>-2.686</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>20</td><td>Li7.06La3Zr1.94Y0.06O12</td><td>10.1016/j.elecom.2011.08.014</td><td>25</td><td>9.56E-04</td><td>-3.019</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>21</td><td> Li6.4Al0.19La3Zr2O11.8</td><td>10.1016/j.jpowsour.2012.02.100</td><td>24.85</td><td>3.10E-04</td><td>-3.508</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>22</td><td>La0.57Li0.29TiO3</td><td>10.1016/j.jpowsour.2012.11.098</td><td>26.85</td><td>1.60E-03</td><td>-2.795</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>23</td><td>Li6.5La3Zr1.75Te0.25O12</td><td>10.1016/j.jpowsour.2013.03.166</td><td>29.85</td><td>1.07E-04</td><td>-3.972</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>24</td><td>Li7La3Zr2O12</td><td>10.1016/j.jssc.2009.05.020</td><td>24.85</td><td>1.63E-06</td><td>-5.787</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>25</td><td>Li9.6P3S12</td><td>10.1038/nenergy.2016.30</td><td>24.85</td><td>1.58E-03</td><td>-2.801</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>26</td><td>Li1.3Al0.3Ti1.7(PO4)3</td><td>10.1016/j.ssi.2014.07.018</td><td>24.85</td><td>6.20E-03</td><td>-2.207</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>27</td><td>Li1.3Al0.3Ti1.7(PO4)3</td><td>10.1016/j.ssi.2016.07.010</td><td>24.85</td><td>1.21E-03</td><td>-2.917</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>29</td><td>Li1.2Ti1.8Sc0.2(PO4)3</td><td>10.1021/acs.inorgchem.6b02274</td><td>25</td><td>2.31E-04</td><td>-3.636</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>30</td><td>Li1.6Al0.6Ge0.8(PO4)3</td><td>10.1021/cm021717j</td><td>24.85</td><td>7.00E-04</td><td>-3.154</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>31</td><td>Li6.55La3Zr2Ga0.9O12</td><td>10.1021/cm5008069</td><td>24.85</td><td>1.30E-03</td><td>-2.886</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>34</td><td>Li2OHCl</td><td>10.1021/jacs.5b11851</td><td>195</td><td>2.80E-03</td><td>-2.552</td><td>Anti-Perovskite</td><td></tr></td>
+    <tr>
+        <td>35</td><td>LiTi2(PO4)3</td><td>10.1021/jp973296c</td><td>24.85</td><td>3.83E-07</td><td>-6.416</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>36</td><td>Li9.54Si1.74P1.44S11.7Cl0.3</td><td>10.1038/nenergy.2016.30</td><td>24.85</td><td>2.50E-02</td><td>-1.602</td><td>Thio-LISICON</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>37</td><td>Li10GeP2S12</td><td>10.1016/j.ssi.2015.02.014</td><td>25</td><td>2.03E-03</td><td>-2.692</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>39</td><td>Li7P3S11</td><td>10.1039/C3EE41655K</td><td>24.85</td><td>3.20E-03</td><td>-2.494</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>40</td><td>Li1.4Al0.4Ti1.6(PO4)3</td><td>10.1039/C5TA08545D</td><td>24.85</td><td>5.63E-03</td><td>-2.249</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>41</td><td>Li6.46Al0.15La3Zr1.95O11.86</td><td>10.1016/j.ensm.2019.08.017</td><td>25</td><td>8.30E-05</td><td>-4.080</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>42</td><td>Li6.4La3Zr1.7W0.3O12</td><td>10.1063/1.4818971</td><td>303</td><td>7.89E-04</td><td>-3.102</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>44</td><td>Li3.25Ge0.25P0.75S4</td><td>10.1016/j.ssi.2015.02.014</td><td>25</td><td>2.03E-03</td><td>-2.692</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>45</td><td>Li6.5La2.9Ba0.1Zr1.4Ta0.6O12</td><td>10.3389/fenrg.2016.00028</td><td>26.85</td><td>8.30E-04</td><td>-3.080</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>46</td><td>Li6.5La3Zr1.5Ta0.5O12</td><td>10.3389/fenrg.2016.00028</td><td>26.85</td><td>7.94E-04</td><td>-3.100</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>52</td><td>La0.55Li0.361Ti0.995Al0.005O3</td><td>10.1007/BF02375549</td><td>100</td><td>1.00E-02</td><td>-2.000</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>53</td><td>La0.56Li0.36Ti0.95Al0.05O3</td><td>10.1007/BF02375549</td><td>119</td><td>6.30E-03</td><td>-2.200</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>54</td><td>La0.55Li0.36Ti0.992Al0.008O3</td><td>10.1007/BF02375549</td><td>100</td><td>5.85E-03</td><td>-2.232</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>55</td><td>La0.56Li0.36Ti0.95Al0.05O3</td><td>10.1007/BF02375549</td><td>100</td><td>3.98E-03</td><td>-2.400</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>56</td><td>La0.55Li0.361Ti0.995Al0.005O3</td><td>10.1007/BF02375549</td><td>65</td><td>3.96E-03</td><td>-2.402</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>57</td><td>La0.56Li0.36Ti0.95Al0.05O3</td><td>10.1007/BF02375549</td><td>70</td><td>2.11E-03</td><td>-2.675</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>58</td><td>La0.55Li0.36Ti0.992Al0.008O3</td><td>10.1007/BF02375549</td><td>60</td><td>2.08E-03</td><td>-2.681</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>59</td><td>La0.55Li0.361Ti0.995Al0.005O3</td><td>10.1007/BF02375549</td><td>35</td><td>1.10E-03</td><td>-2.958</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>60</td><td>La0.55Li0.36Ti0.992Al0.008O3</td><td>10.1007/BF02375549</td><td>25</td><td>6.54E-04</td><td>-3.184</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>61</td><td>La0.56Li0.36Ti0.95Al0.05O3</td><td>10.1007/BF02375549</td><td>79.36</td><td>3.54E-03</td><td>-2.450</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>62</td><td>Li0.022 La0.117 Ti0.208 Al0.001 O0.626</td><td>10.1007/BF02378009</td><td>112</td><td>1.63E-02</td><td>-1.787</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>63</td><td>Li0.022 La0.117 Ti0.208 Al0.001 O0.626</td><td>10.1007/BF02378009</td><td>72</td><td>5.74E-03</td><td>-2.241</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>64</td><td>Li0.022 La0.117 Ti0.208 Al0.001 O0.626</td><td>10.1007/BF02378009</td><td>30</td><td>1.26E-03</td><td>-2.899</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>66</td><td>LiPO3</td><td>10.1007/s00339-007-4020-y</td><td>255</td><td>9.80E-09</td><td>-8.008</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>67</td><td>LiPO3</td><td>10.1007/s00339-007-4020-y</td><td>300</td><td>1.16E-07</td><td>-6.935</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>68</td><td>LiPO3</td><td>10.1007/s00339-007-4020-y</td><td>280</td><td>2.50E-08</td><td>-7.602</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>69</td><td>LiPO3</td><td>10.1007/s00339-007-4020-y</td><td>322</td><td>4.50E-07</td><td>-6.346</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>70</td><td>Li6BaLa2Ta2O12 </td><td>10.1007/s00339-008-4494-2</td><td>200</td><td>1.35E-02</td><td>-1.869</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>71</td><td>Li6BaLa2Ta2O12 </td><td>10.1007/s00339-008-4494-2</td><td>150</td><td>4.73E-03</td><td>-2.325</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>72</td><td>Li6BaLa2Ta2O12 </td><td>10.1007/s00339-008-4494-2</td><td>100</td><td>1.13E-03</td><td>-2.946</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>73</td><td>Li6BaLa2Ta2O12 </td><td>10.1007/s00339-008-4494-2</td><td>50</td><td>1.38E-04</td><td>-3.860</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>74</td><td>Li0.228La0.59TiO3</td><td>10.1007/s10717-007-0032-5</td><td>214</td><td>1.06E-04</td><td>-3.974</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>75</td><td>Li0.24La0.59TiO3</td><td>10.1007/s10717-007-0032-5</td><td>89</td><td>2.27E-04</td><td>-3.643</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>76</td><td>Li0.24La0.59TiO3</td><td>10.1007/s10717-007-0032-5</td><td>124</td><td>2.52E-04</td><td>-3.598</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>78</td><td>Li0.24La0.59TiO3</td><td>10.1007/s10717-007-0032-5</td><td>55</td><td>2.26E-04</td><td>-3.645</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>79</td><td>Li0.24La0.59TiO3</td><td>10.1007/s10717-007-0032-5</td><td>23</td><td>1.66E-04</td><td>-3.779</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>80</td><td>Li0.33La0.56Ti0.96Al0.04O2.96F0.04</td><td>10.1007/s11581-006-0011-9</td><td>200</td><td>9.50E-03</td><td>-2.022</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>82</td><td>Li0.33La0.56Ti0.96Al0.04O2.96F0.04</td><td>10.1007/s11581-006-0011-9</td><td>100</td><td>2.74E-03</td><td>-2.562</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>83</td><td>Li0.33La0.56Ti0.96Al0.04O2.96F0.04</td><td>10.1007/s11581-006-0011-9</td><td>25</td><td>6.22E-04</td><td>-3.206</td><td>Perovskite</td><td>Oxides and Other Anions</tr></td>
+    <tr>
+        <td>84</td><td>"(Li2S)0.5 ((P2S5)0.4 (Sb2S3)0.6)0.5"</td><td>10.1007/s11581-006-0054-y</td><td>34</td><td>2.26E-07</td><td>-6.645</td><td>Glass</td><td>Sulphides</tr></td>
+    <tr>
+        <td>85</td><td>"(Li2S)0.3 ((P2S5)0.4 (Sb2S3)0.6)0.7"</td><td>10.1007/s11581-006-0054-y</td><td>31</td><td>2.98E-08</td><td>-7.525</td><td>Glass</td><td>Sulphides</tr></td>
+    <tr>
+        <td>86</td><td>"(Li2S)0.4 ((P2S5)0.4 (Sb2S3)0.6)0.6"</td><td>10.1007/s11581-006-0054-y</td><td>25</td><td>1.60E-07</td><td>-6.795</td><td>Glass</td><td>Sulphides</tr></td>
+    <tr>
+        <td>87</td><td>Li6.25Ba1.25La1.75Ta2O12</td><td>10.1007/s11581-007-0097-8</td><td>200</td><td>7.61E-03</td><td>-2.118</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>88</td><td>Li5La3Ta2O12</td><td>10.1007/s11581-007-0097-8</td><td>199</td><td>2.72E-03</td><td>-2.565</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>89</td><td>Li6.25Ba1.25La1.75Ta2O12</td><td>10.1007/s11581-007-0097-8</td><td>127</td><td>1.40E-03</td><td>-2.853</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>90</td><td>Li5La3Ta2O12</td><td>10.1007/s11581-007-0097-8</td><td>129</td><td>3.43E-04</td><td>-3.464</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>91</td><td>Li6.25Ba1.25La1.75Ta2O12</td><td>10.1007/s11581-007-0097-8</td><td>100</td><td>6.24E-04</td><td>-3.204</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>92</td><td>Li6.25Ba1.25La1.75Ta2O12</td><td>10.1007/s11581-007-0097-8</td><td>34</td><td>1.29E-04</td><td>-3.889</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>93</td><td>Li5La3Ta2O12</td><td>10.1007/s11581-007-0097-8</td><td>79</td><td>5.00E-05</td><td>-4.301</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>94</td><td>Li6.25Ba1.25La1.75Ta2O12</td><td>10.1007/s11581-007-0097-8</td><td>18</td><td>2.70E-05</td><td>-4.568</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>95</td><td>Li5La3Ta2O12</td><td>10.1007/s11581-007-0097-8</td><td>32</td><td>2.91E-06</td><td>-5.536</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>96</td><td>Li5La3Ta2O12</td><td>10.1007/s11581-007-0097-8</td><td>15</td><td>1.31E-06</td><td>-5.882</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>97</td><td>Li1.3Al0.3Ti1.7(PO4)3</td><td>10.1007/s11581-007-0197-5</td><td>58.17</td><td>2.40E-04</td><td>-3.619</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>98</td><td>Li1.3Al0.3Ti1.7(PO4)3</td><td>10.1007/s11581-007-0197-5</td><td>25</td><td>5.20E-07</td><td>-6.283</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>99</td><td>Li1.3Al0.3Ti1.7(PO4)3</td><td>10.1007/s11581-007-0197-5</td><td>21.42</td><td>3.33E-07</td><td>-6.477</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>100</td><td>LiP0.65I0.35O1.95</td><td>10.1007/s11581-008-0252-x</td><td>110.18</td><td>1.58E-03</td><td>-2.801</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>101</td><td>LiP0.75I0.25O2.25</td><td>10.1007/s11581-008-0252-x</td><td>110</td><td>7.94E-04</td><td>-3.100</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>103</td><td>LiP0.9I0.1O2.7</td><td>10.1007/s11581-008-0252-x</td><td>25</td><td>3.98E-04</td><td>-3.400</td><td>Glass</td><td>Oxides and Other Anions</tr></td>
+    <tr>
+        <td>104</td><td>"(LiCl)0.5 (P2O5)0.5"</td><td>10.1007/s11581-008-0276-2</td><td>192</td><td>9.12E-06</td><td>-5.040</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>105</td><td>"(LiCl)0.5 (P2O5)0.5"</td><td>10.1007/s11581-008-0276-2</td><td>149.87</td><td>1.23E-06</td><td>-5.910</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>106</td><td>"(LiCl)0.5 (P2O5)0.5"</td><td>10.1007/s11581-008-0276-2</td><td>30</td><td>6.83E-08</td><td>-7.165</td><td>Glass</td><td>Oxides and Other Anions</tr></td>
+    <tr>
+        <td>107</td><td> Li0.8La0.066Zr2(PO4)3</td><td>10.1007/s11581-009-0332-6</td><td>225.81</td><td>3.17E-03</td><td>-2.498</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>108</td><td> Li0.8La0.066Zr2(PO4)3</td><td>10.1007/s11581-009-0332-6</td><td>176.37</td><td>8.86E-04</td><td>-3.052</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>109</td><td> Li0.8La0.066Zr2(PO4)3</td><td>10.1007/s11581-009-0332-6</td><td>126.37</td><td>1.76E-04</td><td>-3.754</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>110</td><td> Li0.8La0.066Zr2(PO4)3</td><td>10.1007/s11581-009-0332-6</td><td>77.03</td><td>3.73E-05</td><td>-4.428</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>111</td><td>Li0.5La0.5TiO3</td><td>10.1016/j.jallcom.2009.07.091</td><td>131</td><td>1.25E-04</td><td>-3.903</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>112</td><td>Li0.5La0.5TiO3</td><td>10.1016/j.jallcom.2009.07.091</td><td>110</td><td>9.33E-05</td><td>-4.030</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>113</td><td>Li0.5La0.5TiO3</td><td>10.1016/j.jallcom.2009.07.091</td><td>70</td><td>2.65E-05</td><td>-4.576</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>114</td><td>Li0.5La0.5TiO3</td><td>10.1016/j.jallcom.2009.07.091</td><td>50</td><td>1.17E-05</td><td>-4.931</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>115</td><td>Li0.5La0.5TiO3</td><td>10.1016/j.jallcom.2009.07.091</td><td>30</td><td>5.80E-06</td><td>-5.236</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>116</td><td>Li0.5La0.5TiO3</td><td>10.1016/j.jallcom.2009.07.091</td><td>10</td><td>2.07E-06</td><td>-5.684</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>117</td><td>"(Li2O)50 (Al2O3)2 (P2O5)48"</td><td>10.1016/j.jeurceramsoc.2008.12.016</td><td>60</td><td>5.01E-08</td><td>-7.299</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>118</td><td>"(Li2O)50 (Al2O3)2 (P2O5)48"</td><td>10.1016/j.jeurceramsoc.2008.12.016</td><td>75</td><td>1.99E-07</td><td>-6.701</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>119</td><td>"(Li2O)50 (Al2O3)2 (P2O5)48"</td><td>10.1016/j.jeurceramsoc.2008.12.016</td><td>95</td><td>6.31E-07</td><td>-6.199</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>120</td><td>"(Li2O)50 (Al2O3)2 (P2O5)48"</td><td>10.1016/j.jeurceramsoc.2008.12.016</td><td>121</td><td>4.47E-06</td><td>-5.349</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>121</td><td>"(Li2O)50 (Al2O3)2 (P2O5)48"</td><td>10.1016/j.jeurceramsoc.2008.12.016</td><td>130</td><td>7.94E-06</td><td>-5.100</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>122</td><td>"(Li2O)50 (Al2O3)2 (P2O5)48"</td><td>10.1016/j.jeurceramsoc.2008.12.016</td><td>25</td><td>3.16E-09</td><td>-8.500</td><td>Glass</td><td>Oxides</tr></td>
+    <tr>
+        <td>123</td><td>"(Li2O)50 (Al2O3)3 (P2O5)47"</td><td>10.1016/j.jeurceramsoc.2008.12.016</td><td>52</td><td>5.25E-08</td><td>-7.279</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>124</td><td>"(Li2O)50 (Al2O3)3 (P2O5)47"</td><td>10.1016/j.jeurceramsoc.2008.12.016</td><td>65</td><td>1.12E-07</td><td>-6.950</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>125</td><td>"(Li2O)50 (Al2O3)3 (P2O5)47"</td><td>10.1016/j.jeurceramsoc.2008.12.016</td><td>85</td><td>5.00E-07</td><td>-6.301</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>126</td><td>"(Li2O)50 (Al2O3)3 (P2O5)47"</td><td>10.1016/j.jeurceramsoc.2008.12.016</td><td>105</td><td>1.78E-06</td><td>-5.749</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>127</td><td>"(Li2O)50 (Al2O3)3 (P2O5)47"</td><td>10.1016/j.jeurceramsoc.2008.12.016</td><td>130</td><td>1.12E-05</td><td>-4.950</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>128</td><td>"(Li2O)50 (Al2O3)3 (P2O5)47"</td><td>10.1016/j.jeurceramsoc.2008.12.016</td><td>25</td><td>5.75E-09</td><td>-8.240</td><td>Glass</td><td>Oxides</tr></td>
+    <tr>
+        <td>129</td><td>"(Li2O)50 (Al2O3)4 (P2O5)46"</td><td>10.1016/j.jeurceramsoc.2008.12.016</td><td>25</td><td>9.12E-09</td><td>-8.040</td><td>Glass</td><td>Oxides</tr></td>
+    <tr>
+        <td>134</td><td>"(LiI)0.3 ((Li2S)0.3 ((Ga2S3)0.1 (GeS2)0.9)0.7)0.7"</td><td>10.1016/j.ssi.2007.10.011</td><td>25</td><td>2.91E-04</td><td>-3.536</td><td>Glass</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>135</td><td>"(Li2S)0.3 ((Ga2S3)0.1 (GeS2)0.9)0.7"</td><td>10.1016/j.ssi.2007.10.011</td><td>25</td><td>1.89E-06</td><td>-5.724</td><td>Glass</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>136</td><td>"((Li2S)0.6 (SiS2)0.4 )95 (Li4SiO4)5"</td><td>10.1016/j.jpowsour.2006.04.037</td><td>193</td><td>4.40E-02</td><td>-1.356</td><td>Glass</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>139</td><td>"((Li2S)0.6 (SiS2)0.4 )95 (Li4SiO4)5"</td><td>10.1016/j.jpowsour.2006.04.037</td><td>130</td><td>1.32E-02</td><td>-1.879</td><td>Glass</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>142</td><td>"((Li2S)0.6 (SiS2)0.4 )95 (Li4SiO4)5"</td><td>10.1016/j.jpowsour.2006.04.037</td><td>109</td><td>9.00E-03</td><td>-2.045</td><td>Glass</td><td>Sulphides</tr></td>
+    <tr>
+        <td>143</td><td>"((Li2S)0.6 (SiS2)0.4 )95 (Li4SiO4)5"</td><td>10.1016/j.jpowsour.2006.04.037</td><td>84</td><td>4.09E-03</td><td>-2.388</td><td>Glass</td><td>Sulphides</tr></td>
+    <tr>
+        <td>144</td><td>"(Li2S)0.8 (P2S5)0.2"</td><td>10.1016/j.jpowsour.2006.04.037</td><td>105</td><td>4.03E-03</td><td>-2.394</td><td>Glass</td><td>Sulphides</tr></td>
+    <tr>
+        <td>145</td><td>"((Li2S)0.6 (SiS2)0.4 )95 (Li4SiO4)5"</td><td>10.1016/j.jpowsour.2006.04.037</td><td>68</td><td>2.30E-03</td><td>-2.638</td><td>Glass</td><td>Sulphides</tr></td>
+    <tr>
+        <td>146</td><td>"(Li2S)0.8 (P2S5)0.2"</td><td>10.1016/j.jpowsour.2006.04.037</td><td>40.25</td><td>2.54E-03</td><td>-2.595</td><td>Glass</td><td>Sulphides</tr></td>
+    <tr>
+        <td>147</td><td>"(Li2S)0.7 (P2S5)0.3"</td><td>10.1016/j.jpowsour.2006.04.037</td><td>25</td><td>3.20E-03</td><td>-2.494</td><td>Glass</td><td>Sulphides</tr></td>
+    <tr>
+        <td>148</td><td>"(Li2S)0.8 (P2S5)0.2"</td><td>10.1016/j.jpowsour.2006.04.037</td><td>68</td><td>1.18E-03</td><td>-2.928</td><td>Glass</td><td>Sulphides</tr></td>
+    <tr>
+        <td>149</td><td>"(Li2S)0.8 (P2S5)0.2"</td><td>10.1016/j.jpowsour.2006.04.037</td><td>25</td><td>1.12E-03</td><td>-2.950</td><td>Glass</td><td>Sulphides</tr></td>
+    <tr>
+        <td>150</td><td>"(Li2S)0.875 (P2S5)0.125"</td><td>10.1016/j.jpowsour.2006.04.037</td><td>25</td><td>2.10E-04</td><td>-3.677</td><td>Glass</td><td>Sulphides</tr></td>
+    <tr>
+        <td>152</td><td>"(LiCl)0.25 ((Li2O)0.6 (P2O5)0.4)0.75"</td><td>10.1016/j.jpowsour.2008.07.089</td><td>53.63</td><td>2.49E-05</td><td>-4.603</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>153</td><td>"(LiCl)0.25 ((Li2O)0.6 (P2O5)0.4)0.75"</td><td>10.1016/j.jpowsour.2008.07.089</td><td>23.66</td><td>2.45E-06</td><td>-5.610</td><td>Glass</td><td>Oxides and Other Anions</tr></td>
+    <tr>
+        <td>155</td><td>Li0.7Al0.3Ti1.7(PO4)3</td><td>10.1016/j.jpowsour.2008.08.009</td><td>60.08</td><td>4.01E-04</td><td>-3.396</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>156</td><td>Li0.7Al0.3Ti1.7(PO4)3</td><td>10.1016/j.jpowsour.2008.08.009</td><td>40.2</td><td>2.02E-04</td><td>-3.694</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>157</td><td>Li0.7Al0.3Ti1.7(PO4)3</td><td>10.1016/j.jpowsour.2008.08.009</td><td>19.74</td><td>7.73E-05</td><td>-4.111</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>158</td><td>Li1.4S2.2P0.6</td><td>10.1016/j.jpowsour.2008.09.044</td><td>25</td><td>2.00E-03</td><td>-2.698</td><td>Glass</td><td>Sulphides</tr></td>
+    <tr>
+        <td>159</td><td>Li1.4S2.2P0.6</td><td>10.1016/j.jpowsour.2008.09.044</td><td>60</td><td>2.19E-04</td><td>-3.659</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>160</td><td>Li1.4S2.2P0.6</td><td>10.1016/j.jpowsour.2008.09.044</td><td>25</td><td>4.33E-05</td><td>-4.363</td><td>Glass</td><td>Sulphides</tr></td>
+    <tr>
+        <td>161</td><td>Li3.09BO2.53N0.52</td><td>10.1016/j.jpowsour.2008.09.089</td><td>110</td><td>3.86E-05</td><td>-4.413</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>162</td><td>Li3.09BO2.53N0.52</td><td>10.1016/j.jpowsour.2008.09.089</td><td>69</td><td>1.19E-05</td><td>-4.924</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>163</td><td>Li3.09BO2.53N0.52</td><td>10.1016/j.jpowsour.2008.09.089</td><td>39</td><td>1.85E-06</td><td>-5.732</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>164</td><td>Li3.09BO2.53N0.52</td><td>10.1016/j.jpowsour.2008.09.089</td><td>9</td><td>3.08E-07</td><td>-6.511</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>166</td><td>Li1.4Al0.4(Ge0.67Ti0.33)1.6(PO4)3</td><td>10.1016/j.ssi.2004.05.009</td><td>143</td><td>4.12E-03</td><td>-2.385</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>167</td><td>Li1.4Al0.4(Ge0.67Ti0.33)1.6(PO4)3</td><td>10.1016/j.ssi.2004.05.009</td><td>97</td><td>2.04E-03</td><td>-2.690</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>168</td><td>Li1.4Al0.4(Ge0.67Ti0.33)1.6(PO4)3</td><td>10.1016/j.ssi.2004.05.009</td><td>60</td><td>1.17E-03</td><td>-2.931</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>169</td><td>Li1.4Al0.4(Ge0.67Ti0.33)1.6(PO4)3</td><td>10.1016/j.ssi.2004.05.009</td><td>21</td><td>6.76E-04</td><td>-3.170</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>170</td><td>Li1.4Al0.4Ti1.6(PO4)3</td><td>10.1016/j.ssi.2006.04.010</td><td>203</td><td>1.04E-02</td><td>-1.982</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>171</td><td>Li1.4Al0.4Ti1.6(PO4)3</td><td>10.1016/j.ssi.2006.04.010</td><td>143</td><td>7.07E-03</td><td>-2.150</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>172</td><td>Li1.4Al0.4Ti1.6(PO4)3</td><td>10.1016/j.ssi.2006.04.010</td><td>21</td><td>9.17E-04</td><td>-3.037</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>173</td><td>Li1.4S2.2P0.6</td><td>10.1016/j.ssi.2006.07.017</td><td>220.68</td><td>2.18E-02</td><td>-1.661</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>174</td><td>Li1.4S2.2P0.6</td><td>10.1016/j.ssi.2006.07.017</td><td>177.3</td><td>1.57E-02</td><td>-1.804</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>175</td><td>Li1.4S2.2P0.6</td><td>10.1016/j.ssi.2006.07.017</td><td>137.02</td><td>9.70E-03</td><td>-2.013</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>176</td><td>Li1.4S2.2P0.6</td><td>10.1016/j.ssi.2006.07.017</td><td>76.75</td><td>6.68E-03</td><td>-2.175</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>177</td><td>"((Li2S)0.6 (SiS2)0.4)95 (Li4SiO4)5"</td><td>10.1016/j.ssi.2006.07.017</td><td>121</td><td>3.00E-03</td><td>-2.522</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>178</td><td>"((Li2S)0.6 (SiS2)0.4)95 (Li4SiO4)5"</td><td>10.1016/j.ssi.2006.07.017</td><td>90</td><td>1.63E-03</td><td>-2.787</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>179</td><td>"((Li2S)0.6 (SiS2)0.4)95 (Li4SiO4)5"</td><td>10.1016/j.ssi.2006.07.017</td><td>73</td><td>7.57E-04</td><td>-3.120</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>180</td><td>"((Li2S)0.6 (SiS2)0.4)95 (Li4SiO4)5"</td><td>10.1016/j.ssi.2006.07.017</td><td>47</td><td>3.03E-04</td><td>-3.518</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>181</td><td>Li1.4S2.2P0.6</td><td>10.1016/j.ssi.2006.07.017</td><td>25</td><td>4.64E-05</td><td>-4.333</td><td>Glass</td><td>Sulphides</tr></td>
+    <tr>
+        <td>182</td><td>"(Li2S)0.3 ((Ga2S3)0.1 (GeS2)0.9)0.7"</td><td>10.1016/j.ssi.2007.10.011</td><td>215</td><td>4.22E-03</td><td>-2.374</td><td>Glass</td><td>Sulphides</tr></td>
+    <tr>
+        <td>185</td><td>"(Li2S)0.5 ((Ga2S3)0.1 (GeS2)0.9)0.5"</td><td>10.1016/j.ssi.2007.10.011</td><td>28</td><td>6.70E-05</td><td>-4.173</td><td>Glass</td><td>Sulphides</tr></td>
+    <tr>
+        <td>188</td><td>"(Li2S)0.5 ((Ga2S3)0.1 (GeS2)0.9)0.5"</td><td>10.1016/j.ssi.2007.10.011</td><td>215</td><td>3.35E-02</td><td>-1.474</td><td>Glass</td><td>Sulphides</tr></td>
+    <tr>
+        <td>189</td><td>"(Li2S)0.4 ((Ga2S3)0.1 (GeS2)0.9)0.6"</td><td>10.1016/j.ssi.2007.10.011</td><td>21</td><td>2.87E-06</td><td>-5.542</td><td>Glass</td><td>Sulphides</tr></td>
+    <tr>
+        <td>190</td><td>"(Li2S)0.4 ((Ga2S3)0.1 (GeS2)0.9)0.6"</td><td>10.1016/j.ssi.2007.10.011</td><td>205</td><td>1.19E-02</td><td>-1.924</td><td>Glass</td><td>Sulphides</tr></td>
+    <tr>
+        <td>191</td><td>Li5Nd3Sb2O12</td><td>10.1016/j.ssi.2008.01.002</td><td>207</td><td>1.39E-03</td><td>-2.856</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>192</td><td>Li5La3Sb2O12</td><td>10.1016/j.ssi.2008.01.002</td><td>207</td><td>1.16E-03</td><td>-2.935</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>193</td><td>Li5La3Sb2O12</td><td>10.1016/j.ssi.2008.01.002</td><td>131</td><td>1.95E-04</td><td>-3.709</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>194</td><td>Li5Nd3Sb2O12</td><td>10.1016/j.ssi.2008.01.002</td><td>133</td><td>1.23E-04</td><td>-3.910</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>195</td><td>Li5La3Sb2O12</td><td>10.1016/j.ssi.2008.01.002</td><td>89</td><td>1.32E-05</td><td>-4.879</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>196</td><td>Li5Nd3Sb2O12</td><td>10.1016/j.ssi.2008.01.002</td><td>68</td><td>2.76E-06</td><td>-5.559</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>197</td><td>Li6La2SrNb2O12</td><td>10.1016/j.ssi.2008.01.047</td><td>25</td><td>6.21E-07</td><td>-6.206</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>198</td><td>Li6La2SrNb2O12</td><td>10.1016/j.ssi.2008.01.047</td><td>100</td><td>2.68E-03</td><td>-2.571</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>199</td><td>Li6La2CaNb2O12</td><td>10.1016/j.ssi.2008.01.047</td><td>154</td><td>7.82E-05</td><td>-4.106</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>200</td><td>Li6La2CaNb2O12</td><td>10.1016/j.ssi.2008.01.047</td><td>99</td><td>3.00E-05</td><td>-4.522</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>201</td><td>Li6La2SrNb2O12</td><td>10.1016/j.ssi.2008.01.047</td><td>47</td><td>3.13E-05</td><td>-4.504</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>207</td><td>Li0.1Na0.1La0.6TiO3</td><td>10.1016/j.ssi.2008.03.015</td><td>223</td><td>4.16E-03</td><td>-2.380</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>208</td><td>Li0.1Na0.1La0.6TiO3</td><td>10.1016/j.ssi.2008.03.015</td><td>184</td><td>2.76E-03</td><td>-2.559</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>209</td><td>Li0.1Na0.1La0.6TiO3</td><td>10.1016/j.ssi.2008.03.015</td><td>135</td><td>1.17E-03</td><td>-2.931</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>210</td><td>Li0.1Na0.1La0.6TiO3</td><td>10.1016/j.ssi.2008.03.015</td><td>75</td><td>2.78E-04</td><td>-3.555</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>211</td><td>Li0.1Na0.1La0.6TiO3</td><td>10.1016/j.ssi.2008.03.015</td><td>34</td><td>6.15E-05</td><td>-4.211</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>212</td><td>LiPO3</td><td>10.1016/j.ssi.2008.04.015</td><td>170</td><td>5.89E-06</td><td>-5.229</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>213</td><td>Li0.5La0.5TiO3</td><td>10.1016/j.ssi.2008.08.013</td><td>90</td><td>3.10E-04</td><td>-3.508</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>214</td><td>Li0.5La0.5TiO3</td><td>10.1016/j.ssi.2008.08.013</td><td>55</td><td>1.46E-04</td><td>-3.835</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>215</td><td>Li0.5La0.5TiO3</td><td>10.1016/j.ssi.2008.08.013</td><td>15</td><td>2.78E-05</td><td>-4.555</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>216</td><td>Li6BaLa2Ta2O12 </td><td>10.1016/j.ssi.2008.10.022</td><td>168</td><td>2.27E-03</td><td>-2.643</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>217</td><td>Li6CaLa2Ta2O12</td><td>10.1016/j.ssi.2008.10.022</td><td>175</td><td>1.05E-03</td><td>-2.978</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>218</td><td>Li6BaLa2Ta2O12 </td><td>10.1016/j.ssi.2008.10.022</td><td>85</td><td>2.25E-04</td><td>-3.647</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>219</td><td>Li6CaLa2Ta2O12</td><td>10.1016/j.ssi.2008.10.022</td><td>87</td><td>6.61E-05</td><td>-4.179</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>220</td><td>Li6BaLa2Ta2O12 </td><td>10.1016/j.ssi.2008.10.022</td><td>25</td><td>1.28E-05</td><td>-4.892</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>221</td><td>Li6CaLa2Ta2O12</td><td>10.1016/j.ssi.2008.10.022</td><td>27</td><td>2.24E-06</td><td>-5.649</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>222</td><td>LiAlSi2O6</td><td>10.1016/j.ssi.2009.02.028</td><td>174</td><td>6.67E-06</td><td>-5.175</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>223</td><td>LiAlSi2O6</td><td>10.1016/j.ssi.2009.02.028</td><td>128</td><td>1.08E-06</td><td>-5.966</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>224</td><td>LiAlSi2O6</td><td>10.1016/j.ssi.2009.02.028</td><td>58</td><td>1.69E-08</td><td>-7.772</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>225</td><td>Li7La3Ta2O13</td><td>10.1016/j.ssi.2009.07.002</td><td>121</td><td>6.85E-05</td><td>-4.164</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>226</td><td>Li7La3Ta2O13</td><td>10.1016/j.ssi.2009.07.002</td><td>90</td><td>2.76E-05</td><td>-4.559</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>227</td><td>Li7La3Ta2O13</td><td>10.1016/j.ssi.2009.07.002</td><td>60</td><td>9.33E-06</td><td>-5.030</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>228</td><td>Li7La3Ta2O13</td><td>10.1016/j.ssi.2009.07.002</td><td>30</td><td>2.65E-06</td><td>-5.576</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>230</td><td>Li0.5La0.5TiO3</td><td>10.1016/j.ssi.2009.08.002</td><td>134</td><td>3.76E-03</td><td>-2.424</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>231</td><td>Li0.5La0.5TiO3</td><td>10.1016/j.ssi.2009.08.002</td><td>118</td><td>2.80E-03</td><td>-2.552</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>232</td><td>Li0.5La0.5TiO3</td><td>10.1016/j.ssi.2009.08.002</td><td>102</td><td>1.93E-03</td><td>-2.714</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>233</td><td>Li0.5La0.5TiO3</td><td>10.1016/j.ssi.2009.08.002</td><td>72</td><td>6.02E-04</td><td>-3.220</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>234</td><td>Li0.5La0.5TiO3</td><td>10.1016/j.ssi.2009.08.002</td><td>44</td><td>1.59E-04</td><td>-3.798</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>235</td><td>Li0.24La0.59TiO3</td><td>10.1016/j.ssi.2009.08.002</td><td>29</td><td>7.60E-05</td><td>-4.119</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>236</td><td>Li0.5La0.5TiO3</td><td>10.1016/j.ssi.2009.08.002</td><td>19</td><td>5.61E-05</td><td>-4.251</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>237</td><td>Li5La3Ta2O12</td><td>10.1016/j.ssi.2009.11.015</td><td>60</td><td>1.52E-05</td><td>-4.818</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>238</td><td>Li5La3Ta2O12</td><td>10.1016/j.ssi.2009.11.015</td><td>50</td><td>8.39E-06</td><td>-5.076</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>239</td><td>Li5La3Ta2O12</td><td>10.1016/j.ssi.2009.11.015</td><td>25</td><td>1.51E-06</td><td>-5.821</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>240</td><td>"(Li2O)16.6 (SiO2)83.4"</td><td>10.1016/S0022-3093(99)00688-2</td><td>179</td><td>2.77E-06</td><td>-5.557</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>241</td><td>"(Li2O)16.6 (SiO2)83.4"</td><td>10.1016/S0022-3093(99)00688-2</td><td>135</td><td>3.53E-07</td><td>-6.452</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>242</td><td>"(Li2O)16.6 (SiO2)83.4"</td><td>10.1016/S0022-3093(99)00688-2</td><td>90</td><td>3.21E-08</td><td>-7.493</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>243</td><td>Li4.2Ge0.8Ga0.2S4</td><td>10.1016/S0167-2738(00)00277-0</td><td>202</td><td>5.39E-03</td><td>-2.268</td><td>Thio-LISICON</td><td></tr></td>
+    <tr>
+        <td>244</td><td>Li4.2Ge0.8Ga0.2S4</td><td>10.1016/S0167-2738(00)00277-0</td><td>125</td><td>1.79E-03</td><td>-2.747</td><td>Thio-LISICON</td><td></tr></td>
+    <tr>
+        <td>245</td><td>Li4.2Ge0.8Ga0.2S4</td><td>10.1016/S0167-2738(00)00277-0</td><td>74</td><td>4.15E-04</td><td>-3.381</td><td>Thio-LISICON</td><td></tr></td>
+    <tr>
+        <td>246</td><td>Li4.2Ge0.8Ga0.2S4</td><td>10.1016/S0167-2738(00)00277-0</td><td>25</td><td>6.50E-05</td><td>-4.187</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>247</td><td>Li1.076Al0.6923Ti1.462(PO4)3</td><td>10.1016/S0167-2738(97)00018-0</td><td>58</td><td>3.74E-03</td><td>-2.427</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>248</td><td>Li1.076Al0.6923Ti1.462(PO4)3</td><td>10.1016/S0167-2738(97)00018-0</td><td>21</td><td>8.25E-04</td><td>-3.083</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>249</td><td>Li1.5Al0.5Ge1.5(PO4)3</td><td>10.1016/S0167-2738(97)00434-7</td><td>25</td><td>2.18E-04</td><td>-3.661</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>250</td><td>LiGe2(PO4)3</td><td>10.1016/S0167-2738(97)00434-7</td><td>21.23</td><td>1.00E-06</td><td>-6.000</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>251</td><td>Li4Nd3TeSbO12</td><td>10.1021/cm703677q</td><td>200</td><td>2.64E-05</td><td>-4.578</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>252</td><td>Li4Nd3TeSbO12</td><td>10.1021/cm703677q</td><td>25</td><td>8.70E-09</td><td>-8.060</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>253</td><td>"(Li2O)50 (LiF)20 (P2O5)30"</td><td>10.1134/S1023193509050048</td><td>106</td><td>7.99E-05</td><td>-4.097</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>254</td><td>"(Li2O)50 (LiF)20 (P2O5)30"</td><td>10.1134/S1023193509050048</td><td>53</td><td>4.52E-06</td><td>-5.344</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>255</td><td>"(Li2O)50 (LiF)20 (P2O5)30"</td><td>10.1134/S1023193509050048</td><td>25</td><td>4.40E-07</td><td>-6.356</td><td>Glass</td><td>Oxides and Other Anions</tr></td>
+    <tr>
+        <td>256</td><td>"(Li2O)50 (LiF)20 (P2O5)30"</td><td>10.1134/S1023193509050048</td><td>88</td><td>2.24E-05</td><td>-4.649</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>265</td><td>Li3.2Ge0.2P0.8S4</td><td>10.1149/1.1379028</td><td>290</td><td>1.00E-01</td><td>-1.000</td><td>Thio-LISICON</td><td></tr></td>
+    <tr>
+        <td>266</td><td>Li3.6Ge0.6P0.4S4</td><td>10.1149/1.1379028</td><td>290</td><td>6.31E-02</td><td>-1.199</td><td>Thio-LISICON</td><td></tr></td>
+    <tr>
+        <td>267</td><td>Li3.8Ge0.8P0.2S4</td><td>10.1149/1.1379028</td><td>290</td><td>1.26E-02</td><td>-1.899</td><td>Thio-LISICON</td><td></tr></td>
+    <tr>
+        <td>268</td><td>Li9SiAlO8</td><td>10.1149/1.1836980</td><td>30</td><td>2.30E-07</td><td>-6.638</td><td>Glass</td><td>Oxides</tr></td>
+    <tr>
+        <td>269</td><td>Li6Sr0.5Ba0.5La2Ta2O12</td><td>10.1149/1.2800764</td><td>200</td><td>5.70E-03</td><td>-2.244</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>270</td><td>Li6SrLa2Ta2O12</td><td>10.1149/1.2800764</td><td>200</td><td>5.89E-03</td><td>-2.229</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>271</td><td>Li6Sr0.5Ba0.5La2Ta2O12</td><td>10.1149/1.2800764</td><td>150</td><td>1.63E-03</td><td>-2.787</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>272</td><td>Li6SrLa2Ta2O12</td><td>10.1149/1.2800764</td><td>149</td><td>1.50E-03</td><td>-2.823</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>273</td><td>Li6Sr0.5Ba0.5La2Ta2O12</td><td>10.1149/1.2800764</td><td>100</td><td>3.33E-04</td><td>-3.477</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>274</td><td>Li6SrLa2Ta2O12</td><td>10.1149/1.2800764</td><td>100</td><td>2.68E-04</td><td>-3.571</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>275</td><td>Li6BaLa2Ta2O12</td><td>10.1149/1.2800764</td><td>50</td><td>1.30E-04</td><td>-3.886</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>277</td><td>Li6Sr0.5Ba0.5La2Ta2O12</td><td>10.1149/1.2800764</td><td>50</td><td>4.96E-05</td><td>-4.304</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>278</td><td>Li6MgLa2Ta2O12</td><td>10.1149/1.2800764</td><td>100</td><td>2.45E-05</td><td>-4.610</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>281</td><td>Li6SrLa2Ta2O12</td><td>10.1149/1.2800764</td><td>50</td><td>3.66E-05</td><td>-4.436</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>282</td><td>Li6CaLa2Ta2O12</td><td>10.1149/1.2800764</td><td>100</td><td>3.58E-05</td><td>-4.446</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>285</td><td>Li6BaLa2Ta2O12</td><td>10.1149/1.2800764</td><td>17</td><td>2.25E-05</td><td>-4.647</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>288</td><td>Li6SrLa2Ta2O12</td><td>10.1149/1.2800764</td><td>33</td><td>1.38E-05</td><td>-4.860</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>289</td><td>Li6Sr0.5Ba0.5La2Ta2O12</td><td>10.1149/1.2800764</td><td>20</td><td>8.08E-06</td><td>-5.092</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>290</td><td>Li6Sr0.5Ba0.5La2Ta2O12</td><td>10.1149/1.2800764</td><td>33</td><td>6.46E-06</td><td>-5.189</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>291</td><td>Li6CaLa2Ta2O12</td><td>10.1149/1.2800764</td><td>50</td><td>3.59E-06</td><td>-5.444</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>292</td><td>Li6MgLa2Ta2O12</td><td>10.1149/1.2800764</td><td>50</td><td>2.74E-06</td><td>-5.562</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>300</td><td>Li3.2Ge0.2P0.8S4</td><td>10.1149/1.1379028</td><td>27</td><td>5.40E-04</td><td>-3.267</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>301</td><td>Li6.75La3Zr1.75Ta0.25O12</td><td>10.1016/j.jpowsour.2012.01.131</td><td>25</td><td>8.96E-04</td><td>-3.047</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>302</td><td>"(Li2S)50 (P2S5)17 (LiBH4)33"</td><td>10.1016/j.jpowsour.2012.12.001</td><td>25</td><td>1.43E-03</td><td>-2.844</td><td>Glass</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>303</td><td>Li2.7Cr1.7Hf0.3(PO4)3</td><td>10.1016/S0167-2738(98)00207-0</td><td>171</td><td>2.25E-05</td><td>-4.647</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>304</td><td>Li2.5Cr1.5Hf0.5(PO4)3</td><td>10.1016/S0167-2738(98)00207-0</td><td>300</td><td>3.55E-04</td><td>-3.449</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>305</td><td>Li1.7Cr0.7Hf1.3(PO4)3</td><td>10.1016/S0167-2738(98)00207-0</td><td>300</td><td>5.28E-04</td><td>-3.277</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>306</td><td>Li2.3Cr1.3Hf0.7(PO4)3</td><td>10.1006/jssc.2000.8658</td><td>300</td><td>1.81E-04</td><td>-3.742</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>307</td><td>Li2CrHf(PO4)3</td><td>10.1016/S0167-2738(96)00565-6</td><td>300</td><td>3.35E-04</td><td>-3.474</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>308</td><td>Li1.3Fe0.3Ti1.7(PO4)3</td><td>10.1007/s10008-002-0314-3</td><td>300</td><td>8.58E-03</td><td>-2.066</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>309</td><td>Li2AlZr(PO4)3</td><td>10.1007/s10008-008-0520-8</td><td>300</td><td>3.40E-06</td><td>-5.468</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>310</td><td>Li1.3Al0.1Sc0.2Ti1.7(PO4)3</td><td>10.1007/s10008-012-1780-x</td><td>25</td><td>4.26E-04</td><td>-3.370</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>311</td><td>Li1.3Al0.2Sc0.1Ti1.7(PO4)3</td><td>10.1007/s10008-012-1780-x</td><td>25</td><td>2.69E-04</td><td>-3.570</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>312</td><td>Li1.15Fe0.15Ti1.85(PO4)3</td><td>10.1007/s11164-013-1348-0</td><td>25</td><td>5.22E-04</td><td>-3.282</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>313</td><td>LiTi2(PO4)3</td><td>10.1007/s11164-013-1348-0</td><td>25</td><td>7.20E-05</td><td>-4.142</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>314</td><td>Li0.95Hf1.95Ta0.05(PO4)3</td><td>10.1016/0025-5408(77)90161-1</td><td>300</td><td>6.60E-04</td><td>-3.180</td><td>Lysonite</td><td></tr></td>
+    <tr>
+        <td>315</td><td>Li0.95Zr1.95Ta0.05(PO4)3</td><td>10.1016/0025-5408(77)90161-1</td><td>300</td><td>7.30E-04</td><td>-3.136</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>316</td><td>Li0.9Zr1.9Ta0.1(PO4)3</td><td>10.1016/0025-5408(77)90161-1</td><td>300</td><td>9.50E-04</td><td>-3.022</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>317</td><td>Li0.5Hf1.5Ta0.5(PO4)3</td><td>10.1016/0025-5408(77)90161-1</td><td>200</td><td>9.30E-04</td><td>-3.031</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>318</td><td>Li0.8Zr1.8Nb0.2(PO4)3</td><td>10.1016/0025-5408(77)90161-1</td><td>200</td><td>7.40E-05</td><td>-4.130</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>320</td><td>Li0.5Zr1.5Ta0.5(PO4)3</td><td>10.1016/0025-5408(77)90161-1</td><td>200</td><td>9.00E-04</td><td>-3.045</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>321</td><td>Li0.85Hf1.85Ta0.15(PO4)3</td><td>10.1016/0025-5408(77)90161-1</td><td>200</td><td>5.10E-04</td><td>-3.292</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>322</td><td>Li0.5Zr1.5Nb0.5(PO4)3</td><td>10.1016/0025-5408(89)90129-3</td><td>200</td><td>1.97E-03</td><td>-2.705</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>323</td><td>Li0.6Zr1.6Nb0.4(PO4)3</td><td>10.1016/0025-5408(89)90129-3</td><td>200</td><td>2.92E-04</td><td>-3.534</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>324</td><td>Li0.8Hf1.8Nb0.2(PO4)3</td><td>10.1016/0025-5408(89)90129-3</td><td>200</td><td>2.13E-04</td><td>-3.671</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>325</td><td>Li0.1Zr1.1Nb0.9(PO4)3</td><td>10.1016/0025-5408(89)90129-3</td><td>200</td><td>1.97E-03</td><td>-2.705</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>326</td><td>LiHfTi(PO4)3</td><td>10.1016/0025-5408(89)90129-3</td><td>23</td><td>5.63E-07</td><td>-6.249</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>327</td><td>Li0.2Zr1.2Nb0.8(PO4)3</td><td>10.1016/0025-5408(89)90129-3</td><td>25</td><td>2.38E-07</td><td>-6.623</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>328</td><td>Li3Fe2(PO4)3</td><td>10.1016/0167-2738(83)90101-7</td><td>50</td><td>5.60E-08</td><td>-7.251</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>329</td><td>Li3Cr2(PO4)3</td><td>10.1016/0167-2738(83)90101-7</td><td>50</td><td>2.50E-08</td><td>-7.602</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>332</td><td>Li1.6Ga0.6Ti1.4(PO4)3</td><td>10.1016/0167-2738(86)90176-1</td><td>25</td><td>1.30E-05</td><td>-4.886</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>333</td><td>Li1.2Sc0.2Ti1.8(PO4)3</td><td>10.1016/0167-2738(86)90179-7</td><td>25</td><td>2.46E-04</td><td>-3.609</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>334</td><td>Li1.8Sc0.8Ti1.2(PO4)3</td><td>10.1016/0167-2738(86)90179-7</td><td>25</td><td>8.80E-04</td><td>-3.055</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>335</td><td>Li1.3Sc0.3Ti1.7(PO4)3</td><td>10.1016/0167-2738(86)90179-7</td><td>25</td><td>5.68E-04</td><td>-3.245</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>336</td><td>Li1.1Sc0.1Ti1.9(PO4)3</td><td>10.1016/0167-2738(86)90179-7</td><td>25</td><td>1.58E-04</td><td>-3.801</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>337</td><td>Li1.2Sc0.2Ti1.6Zr0.2(PO4)3</td><td>10.1016/0167-2738(86)90179-7</td><td>25</td><td>1.20E-04</td><td>-3.920</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>338</td><td>LiTi1.75Zr0.25(PO4)3</td><td>10.1016/0167-2738(90)90188-W</td><td>154</td><td>7.35E-05</td><td>-4.133</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>339</td><td>Li1.3In0.3Hf1.7(PO4)3</td><td>10.1016/0167-2738(86)90179-7</td><td>25</td><td>1.00E-05</td><td>-5.000</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>340</td><td>LiTi0.2Zr1.8(PO4)3</td><td>10.1016/0167-2738(86)90179-7</td><td>25</td><td>5.60E-08</td><td>-7.251</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>341</td><td>Li1.2Sc0.2Ti0.2Zr1.5(PO4)3</td><td>10.1016/0167-2738(86)90179-7</td><td>25</td><td>3.10E-07</td><td>-6.508</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>342</td><td>LiTi1.8Zr0.2(PO4)3</td><td>10.1016/0167-2738(86)90179-7</td><td>25</td><td>8.50E-08</td><td>-7.070</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>343</td><td>LiTi0.5Zr1.5(PO4)3</td><td>10.1016/0167-2738(86)90179-7</td><td>25</td><td>6.20E-08</td><td>-7.207</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>344</td><td>LiTi0.5Zr1.5(PO4)3</td><td>10.1016/0167-2738(86)90179-7</td><td>300</td><td>5.20E-04</td><td>-3.283</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>346</td><td>LiTiZr(PO4)3</td><td>10.1016/0167-2738(86)90179-7</td><td>25</td><td>4.00E-08</td><td>-7.397</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>348</td><td>LiTi0.1Zr1.9(PO4)3</td><td>10.1016/0167-2738(86)90179-7</td><td>25</td><td>3.20E-08</td><td>-7.494</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>349</td><td>Li1.35In0.35Ti1.65(PO4)3</td><td>10.1016/0167-2738(86)90183-9</td><td>300</td><td>2.10E-02</td><td>-1.677</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>350</td><td>Li1.2Al1.1Ta0.9(PO4)3</td><td>10.1039/A807007E</td><td>30</td><td>6.50E-07</td><td>-6.187</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>351</td><td>LiAlTa(PO4)3</td><td>10.1039/A807007E</td><td>30</td><td>6.50E-07</td><td>-6.187</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>352</td><td>Li2.8In1.8Ti0.2(PO4)3</td><td>10.1016/0167-2738(86)90183-9</td><td>300</td><td>8.24E-03</td><td>-2.084</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>353</td><td>LiFeTa(PO4)3</td><td>10.1039/A807007E</td><td>350</td><td>3.35E-04</td><td>-3.474</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>354</td><td>LiCrTa(PO4)3</td><td>10.1039/A807007E</td><td>61</td><td>3.16E-07</td><td>-6.500</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>355</td><td>Li1.8Cr0.8Ti1.2(PO4)3</td><td>10.1016/0167-2738(88)90291-3</td><td>300</td><td>4.80E-03</td><td>-2.318</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>358</td><td>Li1.5Cr0.5Ti1.5(PO4)3</td><td>10.1149/1.2086597</td><td>25</td><td>3.91E-04</td><td>-3.407</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>359</td><td>Li1.6Cr0.6Ti1.4(PO4)3</td><td>10.1149/1.2086597</td><td>25</td><td>1.47E-04</td><td>-3.832</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>360</td><td>Li1.3Cr0.3Ti1.7 (PO4)3</td><td>10.1149/1.2086597</td><td>25</td><td>3.53E-05</td><td>-4.452</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>361</td><td>Li1.3Cr0.3Ge1.7(PO4)3</td><td>10.1016/0167-2738(88)90368-2</td><td>25</td><td>3.69E-05</td><td>-4.432</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>362</td><td>Li3Al0.4Sc1.6(PO4)3</td><td>10.1016/0167-2738(93)90015-U</td><td>25</td><td>1.28E-05</td><td>-4.892</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>363</td><td>Li1.2Fe0.2Hf1.8(PO4)3</td><td>10.1016/0167-2738(93)90387-I</td><td>25</td><td>1.70E-04</td><td>-3.769</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>364</td><td>Li1.2In0.2Hf1.8(PO4)3</td><td>10.1016/0167-2738(93)90387-I</td><td>25</td><td>1.32E-04</td><td>-3.879</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>365</td><td>Li1.3In0.3Hf1.7(PO4)3</td><td>10.1016/0167-2738(93)90387-I</td><td>25</td><td>1.42E-04</td><td>-3.847</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>366</td><td>Li1.4In0.4Hf1.6(PO4)3</td><td>10.1016/0167-2738(93)90387-I</td><td>25</td><td>1.42E-04</td><td>-3.847</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>367</td><td>Li1.1Fe0.1Hf1.9(PO4)3</td><td>10.1016/0167-2738(93)90387-I</td><td>25</td><td>1.07E-04</td><td>-3.970</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>368</td><td>Li1.2Lu0.2Hf1.8(PO4)3</td><td>10.1016/0167-2738(93)90387-I</td><td>25</td><td>9.79E-05</td><td>-4.009</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>369</td><td>Li1.2Y0.2Hf1.8(PO4)3</td><td>10.1016/0167-2738(93)90387-I</td><td>25</td><td>3.19E-05</td><td>-4.496</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>370</td><td>Li1.1Y0.1Hf1.9(PO4)3</td><td>10.1016/0167-2738(93)90387-I</td><td>25</td><td>9.18E-05</td><td>-4.037</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>371</td><td>Li1.2Sc0.2Hf1.8(PO4)3</td><td>10.1016/0167-2738(93)90387-I</td><td>25</td><td>5.86E-05</td><td>-4.232</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>372</td><td>Li1.3Sc0.3Hf1.7(PO4)3</td><td>10.1016/0167-2738(93)90387-I</td><td>25</td><td>8.32E-05</td><td>-4.079</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>373</td><td>Li1.1Lu0.1Hf1.9(PO4)3</td><td>10.1016/0167-2738(93)90387-I</td><td>25</td><td>5.88E-05</td><td>-4.230</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>374</td><td>Li1.4Y0.4Hf1.6(PO4)3</td><td>10.1016/0167-2738(93)90387-I</td><td>25</td><td>2.09E-05</td><td>-4.679</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>375</td><td>Li1.4Sc0.4Hf1.6(PO4)3</td><td>10.1016/0167-2738(93)90387-I</td><td>25</td><td>6.17E-05</td><td>-4.209</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>376</td><td>Li1.3Fe0.3Hf1.7(PO4)3</td><td>10.1016/0167-2738(93)90387-I</td><td>25</td><td>5.40E-05</td><td>-4.267</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>377</td><td>Li1.3Lu0.3Hf1.7(PO4)3</td><td>10.1016/0167-2738(93)90387-I</td><td>25</td><td>3.56E-05</td><td>-4.448</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>378</td><td>Li1.3Y0.3Hf1.7(PO4)3</td><td>10.1016/0167-2738(93)90387-I</td><td>25</td><td>3.19E-05</td><td>-4.496</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>379</td><td>Li1.1Sc0.1Hf1.9(PO4)3</td><td>10.1016/0167-2738(93)90387-I</td><td>25</td><td>2.45E-05</td><td>-4.610</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>380</td><td>Li1.4Lu0.4Hf1.6(PO4)3</td><td>10.1016/0167-2738(93)90387-I</td><td>25</td><td>2.06E-05</td><td>-4.686</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>381</td><td>Li1.1In0.1Hf1.9(PO4)3</td><td>10.1016/0167-2738(93)90387-I</td><td>25</td><td>1.00E-06</td><td>-6.000</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>382</td><td>Li1.3Cr0.3Hf1.7(PO4)3</td><td>10.1016/0167-2738(93)90387-I</td><td>25</td><td>5.26E-07</td><td>-6.279</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>383</td><td>Li1.2Cr0.2Hf1.8(PO4)3</td><td>10.1016/0167-2738(93)90387-I</td><td>25</td><td>2.54E-07</td><td>-6.595</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>384</td><td>Li1.5Cr0.5Hf1.5(PO4)3</td><td>10.1016/0167-2738(93)90387-I</td><td>25</td><td>1.18E-07</td><td>-6.928</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>385</td><td>Li1.1Cr0.1Hf1.9(PO4)3</td><td>10.1016/0167-2738(93)90387-I</td><td>25</td><td>9.35E-08</td><td>-7.029</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>386</td><td>Li1.3Eu0.3Ti1.7(PO4)3</td><td>10.1016/0167-2738(94)90299-2</td><td>25</td><td>6.00E-05</td><td>-4.221</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>387</td><td>LiZr2(PO4)3</td><td>10.1016/0167-2738(90)90188-W</td><td>25</td><td>3.30E-06</td><td>-5.481</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>388</td><td>LiHf2(PO4)3</td><td>10.1016/B978-0-08-021592-1.500-6</td><td>25</td><td>3.80E-06</td><td>-5.420</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>389</td><td>Li1.3Al0.3Ge1.4Ti0.3(PO4)3</td><td>10.1016/j.electacta.2005.12.055</td><td>227</td><td>1.10E-03</td><td>-2.958</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>390</td><td>Li1.15Y0.15Zr1.85(PO4)3</td><td>10.1016/j.jpowsour.2013.03.175</td><td>25</td><td>7.10E-05</td><td>-4.148</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>391</td><td>LiZr2(PO4)3</td><td>10.1016/j.jpowsour.2013.03.175</td><td>25</td><td>5.00E-08</td><td>-7.301</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>392</td><td>Li0.8Zr1.8Ta0.2(PO4)3</td><td>10.1016/0025-5408(77)90161-1</td><td>200</td><td>7.40E-05</td><td>-4.130</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>393</td><td>Li1.3Al0.29Sc0.01Ti1.7(PO4)3</td><td>10.1016/j.physb.2016.04.027</td><td>140</td><td>1.19E-04</td><td>-3.924</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>394</td><td>Li1.3Al0.25Sc0.05Ti1.7(PO4)3</td><td>10.1016/j.physb.2016.04.027</td><td>140</td><td>1.08E-04</td><td>-3.966</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>395</td><td>Li1.3Al0.27Sc0.03Ti1.7(PO4)3</td><td>10.1016/j.physb.2016.04.027</td><td>140</td><td>8.47E-05</td><td>-4.072</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>396</td><td>Li1.3Al0.23Sc0.07Ti1.7(PO4)3</td><td>10.1016/j.physb.2016.04.027</td><td>140</td><td>7.00E-05</td><td>-4.154</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>397</td><td>Li1.02Zr1.98Y0.02(PO4)3</td><td>10.1016/j.ssi.2003.12.037</td><td>25</td><td>1.15E-07</td><td>-6.939</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>398</td><td>Li0.9Zr1.9Nb0.1(PO4)3</td><td>10.1016/j.ssi.2003.12.037</td><td>25</td><td>1.35E-06</td><td>-5.869</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>399</td><td>Li0.98Zr1.98Nb0.02(PO4)3</td><td>10.1016/j.ssi.2003.12.037</td><td>25</td><td>2.50E-07</td><td>-6.602</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>401</td><td>Li1.3Al0.2Y0.1Ti1.7(PO4)3</td><td>10.1016/j.ssi.2012.05.011</td><td>25</td><td>1.20E-04</td><td>-3.920</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>402</td><td>Li1.3Al0.1Y0.2Ti1.7(PO4)3</td><td>10.1016/j.ssi.2012.05.011</td><td>25</td><td>7.30E-05</td><td>-4.136</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>403</td><td>Li1.3Al0.15Y0.15Ti1.7(PO4)3</td><td>10.1016/j.ssi.2012.05.011</td><td>25</td><td>1.90E-05</td><td>-4.721</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>404</td><td>Li1.4Al0.4Ge0.2Ti1.4(PO4)3</td><td>10.1016/j.ssi.2013.09.022</td><td>25</td><td>1.29E-03</td><td>-2.889</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>405</td><td>Li1.4Al0.4Ge1.2Ti0.4(PO4)3</td><td>10.1016/j.ssi.2013.09.022</td><td>25</td><td>3.43E-04</td><td>-3.464</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>406</td><td>Li1.4Al0.4Ge1.6(PO4)3</td><td>10.1016/j.ssi.2013.09.022</td><td>25</td><td>1.77E-04</td><td>-3.752</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>407</td><td>Li2InTi(PO4)3</td><td>10.1016/S0167-2738(96)00565-6</td><td>25</td><td>8.30E-06</td><td>-5.080</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>408</td><td>Li2CrZr(PO4)3</td><td>10.1016/S0167-2738(96)00565-6</td><td>25</td><td>5.91E-07</td><td>-6.228</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>409</td><td>Li2CrTi(PO4)3</td><td>10.1016/S0167-2738(96)00565-6</td><td>25</td><td>4.41E-07</td><td>-6.355</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>410</td><td>Li2FeTi(PO4)3</td><td>10.1016/S0167-2738(96)00565-6</td><td>25</td><td>3.34E-07</td><td>-6.476</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>411</td><td>Li2FeZr(PO4)3</td><td>10.1016/S0167-2738(96)00565-6</td><td>25</td><td>1.44E-07</td><td>-6.841</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>412</td><td>Li2InZr(PO4)3</td><td>10.1016/S0167-2738(96)00565-6</td><td>25</td><td>8.22E-08</td><td>-7.085</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>413</td><td>Li2InHf(PO4)3</td><td>10.1016/S0167-2738(96)00565-6</td><td>25</td><td>2.74E-08</td><td>-7.562</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>414</td><td>Li1.7Fe0.7Hf1.3(PO4)3</td><td>10.1016/S0167-2738(98)00207-0</td><td>171</td><td>2.68E-05</td><td>-4.571</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>418</td><td>Li2.9Sc1.9Zr0.1(PO4)3</td><td>10.1016/S0925-8388(96)02746-6</td><td>150</td><td>1.06E-03</td><td>-2.974</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>419</td><td>Li2.9Sc1.9Zr0.1(PO4)3</td><td>10.1016/S0925-8388(96)02746-6</td><td>273</td><td>1.44E-02</td><td>-1.841</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>420</td><td>Li3Sc2(PO4)3</td><td>10.1016/S0925-8388(96)02746-6</td><td>150</td><td>3.49E-06</td><td>-5.457</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>421</td><td>Li1.7Al0.7Ge1.3(PO4)3</td><td>10.1016/S0955-2219(99)00055-2</td><td>25</td><td>1.50E-04</td><td>-3.823</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>422</td><td>Li1.5Al0.5Ge1.5(PO4)3</td><td>10.1016/S0955-2219(99)00055-2</td><td>25</td><td>2.80E-04</td><td>-3.552</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>423</td><td>Li1.6Al0.6Ge1.4(PO4)3</td><td>10.1016/S0955-2219(99)00055-2</td><td>25</td><td>1.40E-04</td><td>-3.853</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>424</td><td>Li1.3Al0.3Ge1.7(PO4)3</td><td>10.1016/S0955-2219(99)00055-2</td><td>25</td><td>3.90E-05</td><td>-4.408</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>425</td><td>Li1.7Al0.7Ti1.3(PO4)3</td><td>10.1016/S0955-2219(99)00055-2</td><td>25</td><td>3.70E-05</td><td>-4.431</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>426</td><td>Li1.1Al0.1Ti1.9(PO4)3</td><td>10.1016/S0955-2219(99)00055-2</td><td>25</td><td>3.00E-05</td><td>-4.522</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>427</td><td>Li1.1Al0.1Ge1.9(PO4)3</td><td>10.1016/S0955-2219(99)00055-2</td><td>25</td><td>2.90E-06</td><td>-5.537</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>430</td><td>Li1.5Al0.5Ti1.5(PO4)3</td><td>10.1021/cm010528i</td><td>25</td><td>1.10E-05</td><td>-4.958</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>431</td><td>Li1.05Al0.05Ti1.95(PO4)</td><td>10.1021/cm010528i</td><td>25</td><td>1.40E-06</td><td>-5.853</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>432</td><td>Li1.6Al0.6Ge0.8Ti0.6(PO4)3</td><td>10.1021/cm021717j</td><td>25</td><td>1.10E-04</td><td>-3.958</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>433</td><td>Li1.4Al0.4Ge1.0Ti0.6(PO4)3</td><td>10.1021/cm021717j</td><td>25</td><td>8.00E-05</td><td>-4.096</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>434</td><td>Li1.8Al0.8Ge0.8Ti0.4(PO4)3</td><td>10.1021/cm021717j</td><td>25</td><td>7.00E-05</td><td>-4.154</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>435</td><td>Li1.4Al0.4Ge0.8Ti0.8(PO4)3</td><td>10.1021/cm021717j</td><td>25</td><td>6.00E-05</td><td>-4.221</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>436</td><td>Li1.6Al0.6Ge1.0Ti0.4(PO4)3</td><td>10.1021/cm021717j</td><td>25</td><td>5.00E-05</td><td>-4.301</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>437</td><td>Li1.2Al0.2Ge0.8Ti(PO4)3</td><td>10.1021/cm021717j</td><td>25</td><td>3.00E-05</td><td>-4.522</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>438</td><td>Li1.2Al0.2Ge1.0Ti0.8(PO4)3</td><td>10.1021/cm021717j</td><td>25</td><td>3.00E-05</td><td>-4.522</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>439</td><td>Li1.8Al0.8Ge1.0Ti0.2(PO4)3</td><td>10.1021/cm021717j</td><td>25</td><td>3.00E-05</td><td>-4.522</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>440</td><td>Li1.2Ga0.2Ti1.8(PO4)3</td><td>10.1021/cm030422i</td><td>250</td><td>6.60E-07</td><td>-6.180</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>441</td><td>LiGe2(PO4)3</td><td>10.1021/jp9085602</td><td>25</td><td>7.20E-07</td><td>-6.142</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>446</td><td>LiCrSb(PO4)3</td><td>10.1063/1.2357843</td><td>30</td><td>3.57E-10</td><td>-9.447</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>448</td><td>LiAlSb(PO4)3</td><td>10.1063/1.2357843</td><td>30</td><td>3.17E-08</td><td>-7.498</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>449</td><td>LiFeSb(PO4)3</td><td>10.1063/1.2357843</td><td>30</td><td>1.37E-06</td><td>-5.863</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>451</td><td>Li1.3Al0.3Ti1.7(PO4)3</td><td>10.1149/1.2086597</td><td>25</td><td>2.16E-03</td><td>-2.665</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>452</td><td>Li1.3Sc0.3Ti1.7(PO4)3</td><td>10.1149/1.2086597</td><td>25</td><td>7.94E-04</td><td>-3.100</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>453</td><td>Li1.2Y0.2Ti1.8(PO4)3</td><td>10.1149/1.2086597</td><td>25</td><td>5.04E-04</td><td>-3.297</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>454</td><td>Li1.4Y0.4Ti1.6(PO4)3</td><td>10.1149/1.2096693</td><td>25</td><td>6.10E-04</td><td>-3.214</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>455</td><td>Li0.7Al0.3Ti1.7(PO4)3</td><td>10.1149/1.2086597</td><td>25</td><td>5.88E-04</td><td>-3.230</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>456</td><td>Li1.3Y0.3Ti1.7(PO4)3</td><td>10.1149/1.2086597</td><td>25</td><td>5.54E-04</td><td>-3.256</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>457</td><td>Li1.2Fe0.2Ti1.8(PO4)3</td><td>10.1149/1.2086597</td><td>25</td><td>3.51E-04</td><td>-3.454</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>458</td><td>Li1.4Sc0.4Ti1.6(PO4)3</td><td>10.1149/1.2086597</td><td>25</td><td>5.15E-04</td><td>-3.288</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>459</td><td>Li1.2In0.2Ti1.8(PO4)3</td><td>10.1149/1.2086597</td><td>25</td><td>4.01E-04</td><td>-3.396</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>460</td><td>Li1.4Fe0.4Ti1.6(PO4)3</td><td>10.1149/1.2086597</td><td>25</td><td>3.86E-04</td><td>-3.413</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>461</td><td>Li1.4In0.4Ti1.6(PO4)3</td><td>10.1149/1.2086597</td><td>25</td><td>3.00E-04</td><td>-3.522</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>462</td><td>Li1.5In0.5Ti1.5(PO4)3</td><td>10.1149/1.2086597</td><td>25</td><td>2.04E-04</td><td>-3.690</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>463</td><td>Li1.5Fe0.5Ti1.5(PO4)3</td><td>10.1149/1.2086597</td><td>25</td><td>1.75E-04</td><td>-3.756</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>464</td><td>Li1.4Cr0.4Ti1.6(PO4)3</td><td>10.1149/1.2086597</td><td>25</td><td>1.50E-04</td><td>-3.823</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>465</td><td>Li1.5Y0.5Ti1.5(PO4)3</td><td>10.1149/1.2086597</td><td>25</td><td>5.44E-05</td><td>-4.264</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>466</td><td>Li1.2Cr0.2Ti1.8(PO4)3</td><td>10.1149/1.2086597</td><td>25</td><td>1.83E-05</td><td>-4.737</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>467</td><td>Li1.2La0.2Ti1.8(PO4)3</td><td>10.1149/1.2096693</td><td>25</td><td>5.28E-04</td><td>-3.277</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>468</td><td>Li1.3La0.3Ti1.7(PO4)3</td><td>10.1149/1.2096693</td><td>25</td><td>5.28E-04</td><td>-3.277</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>469</td><td>Li1.4La0.4Ti1.6(PO4)3</td><td>10.1149/1.2096693</td><td>25</td><td>4.97E-04</td><td>-3.303</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>470</td><td>Li1.5La0.5Ti1.5(PO4)3</td><td>10.1149/1.2096693</td><td>25</td><td>2.82E-04</td><td>-3.549</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>471</td><td>LiSn2(PO4)3</td><td>10.1149/1.2220723</td><td>25</td><td>2.00E-09</td><td>-8.698</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>472</td><td>Li1.3Sc0.3Ge1.7(PO4)3</td><td>10.1246/bcsj.65.2200</td><td>25</td><td>2.98E-05</td><td>-4.525</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>473</td><td>Li1.5Ga0.5Ge1.5(PO4)3</td><td>10.1246/bcsj.65.2200</td><td>25</td><td>1.17E-04</td><td>-3.931</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>474</td><td>Li1.3Cr0.3Ge1.7(PO4)3</td><td>10.1246/bcsj.65.2200</td><td>25</td><td>2.44E-05</td><td>-4.612</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>475</td><td>Li1.3Fe0.3Ge1.7(PO4)3</td><td>10.1246/bcsj.65.2200</td><td>25</td><td>3.67E-05</td><td>-4.435</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>476</td><td>Li1.5Sc0.5Ge1.5(PO4)3</td><td>10.1246/bcsj.65.2200</td><td>25</td><td>2.51E-05</td><td>-4.600</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>477</td><td>Li1.7Fe0.7Ge1.3(PO4)3</td><td>10.1246/bcsj.65.2200</td><td>25</td><td>2.37E-05</td><td>-4.625</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>478</td><td>Li1.7Ga0.7Ge1.3(PO4)3</td><td>10.1246/bcsj.65.2200</td><td>25</td><td>2.43E-05</td><td>-4.614</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>479</td><td>Li1.3In0.3Ge1.7(PO4)3</td><td>10.1246/bcsj.65.2200</td><td>25</td><td>9.22E-06</td><td>-5.035</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>480</td><td>Li1.5In0.5Ge1.5(PO4)3</td><td>10.1246/bcsj.65.2200</td><td>25</td><td>5.75E-06</td><td>-5.240</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>481</td><td>Li1.45Al0.45Ge0.2Ti1.35(PO4)3</td><td>10.3389/fenrg.2016.00012</td><td>25</td><td>1.01E-03</td><td>-2.995</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>482</td><td>Li1.40Al0.4Ge0.2Ti1.4(PO4)3</td><td>10.3389/fenrg.2016.00012</td><td>25</td><td>1.00E-03</td><td>-3.000</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>483</td><td>Li1.50Al0.50Ge0.2Ti1.3(PO4)3</td><td>10.3389/fenrg.2016.00012</td><td>25</td><td>7.37E-04</td><td>-3.132</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>484</td><td>Li1.35Al0.35Ge0.2Ti1.45(PO4)3</td><td>10.3389/fenrg.2016.00012</td><td>25</td><td>6.18E-04</td><td>-3.209</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>485</td><td>Li1.55Al0.55Ge0.2Ti1.25(PO4)3</td><td>10.3389/fenrg.2016.00012</td><td>25</td><td>7.02E-05</td><td>-4.153</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>486</td><td>Li1.45Al0.45Ti1.55(PO4)</td><td>10.5796/electrochemistry.82.870</td><td>25</td><td>2.90E-04</td><td>-3.537</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>487</td><td>Li1.5Mg2.5V0.5Mo2.5O12</td><td>10.1016/j.jssc.2010.08.042</td><td>440</td><td>1.00E-06</td><td>-6.000</td><td>Lysonite</td><td></tr></td>
+    <tr>
+        <td>488</td><td>Li7Ge3PS12</td><td>10.1016/j.jssc.2016.12.001</td><td>25</td><td>1.10E-04</td><td>-3.958</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>489</td><td>Li3.2PO3.1N0.7</td><td>10.1016/j.ssi.2005.10.021</td><td>25</td><td>5.00E-07</td><td>-6.301</td><td>LISICON</td><td>Oxides and Other Anions</tr></td>
+    <tr>
+        <td>491</td><td>Li2TiO3</td><td>10.1016/j.ssi.2006.11.002</td><td>186</td><td>3.52E-08</td><td>-7.453</td><td>Rocksalt</td><td></tr></td>
+    <tr>
+        <td>492</td><td>Li1.9Mg0.1TiO3.05</td><td>10.1016/j.ssi.2008.03.001</td><td>600</td><td>1.07E-03</td><td>-2.970</td><td>Rocksalt</td><td></tr></td>
+    <tr>
+        <td>493</td><td>Li1.9Mg0.1TiO3.05</td><td>10.1016/j.ssi.2008.03.001</td><td>300</td><td>1.20E-05</td><td>-4.920</td><td>Rocksalt</td><td></tr></td>
+    <tr>
+        <td>495</td><td>LiFePO4 </td><td>10.1016/j.ssi.2008.06.028</td><td>30</td><td>1.10E-09</td><td>-8.958</td><td>Olivine</td><td>Oxides</tr></td>
+    <tr>
+        <td>496</td><td>Li1.3Al0.3Ti1.7(PO4)3</td><td>10.1016/S0955-2219(99)00055-2</td><td>25</td><td>3.00E-03</td><td>-2.522</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>497</td><td>Li6PS5Cl</td><td>10.1016/j.ssi.2012.06.008</td><td>150.58</td><td>2.14E-02</td><td>-1.669</td><td>Argyrodite</td><td></tr></td>
+    <tr>
+        <td>498</td><td>Li6PS5Cl</td><td>10.1016/j.ssi.2012.06.008</td><td>50.47</td><td>1.32E-03</td><td>-2.879</td><td>Argyrodite</td><td></tr></td>
+    <tr>
+        <td>499</td><td>Li6PS5Cl</td><td>10.1016/j.ssi.2012.06.008</td><td>25.36</td><td>5.37E-04</td><td>-3.270</td><td>Argyrodite</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>500</td><td>Li6PS5Cl</td><td>10.1016/j.ssi.2012.06.008</td><td>18.82</td><td>3.76E-04</td><td>-3.424</td><td>Argyrodite</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>502</td><td>Li4P2S6</td><td>10.1016/j.ssi.2015.10.015</td><td>25</td><td>2.57E-07</td><td>-6.590</td><td>Glass</td><td>Sulphides</tr></td>
+    <tr>
+        <td>504</td><td>Li3OBr</td><td>10.1016/j.ssi.2015.11.027</td><td>25</td><td>1.06E-06</td><td>-5.974</td><td>Anti-Perovskite</td><td>Oxides and Other Anions</tr></td>
+    <tr>
+        <td>505</td><td>"(Li2O)50((SeO2)0.5 (B2O3)0.5)50"</td><td>10.1016/S0167-2738(02)00137-6</td><td>27</td><td>7.54E-07</td><td>-6.122</td><td>Glass</td><td>Oxides</tr></td>
+    <tr>
+        <td>507</td><td>(YPO4)0.8(Li3PO4)0.2</td><td>10.1016/0167-2738(89)90457-8</td><td>867</td><td>2.75E-01</td><td>-0.560</td><td>Zircon</td><td></tr></td>
+    <tr>
+        <td>508</td><td>(YPO4)0.9(Li3PO4)0.1</td><td>10.1016/0167-2738(89)90457-8</td><td>873</td><td>1.35E-01</td><td>-0.869</td><td>Zircon</td><td></tr></td>
+    <tr>
+        <td>509</td><td>(YPO4)0.7(Li3PO4)0.3</td><td>10.1016/0167-2738(89)90457-8</td><td>791</td><td>6.82E-02</td><td>-1.166</td><td>Zircon</td><td></tr></td>
+    <tr>
+        <td>510</td><td>(YPO4)0.8(Li3PO4)0.2</td><td>10.1016/0167-2738(89)90457-8</td><td>585</td><td>3.74E-02</td><td>-1.427</td><td>Zircon</td><td></tr></td>
+    <tr>
+        <td>511</td><td>(YPO4)0.8(Li3PO4)0.2</td><td>10.1016/0167-2738(89)90457-8</td><td>486</td><td>5.37E-03</td><td>-2.270</td><td>Zircon</td><td></tr></td>
+    <tr>
+        <td>512</td><td>(YPO4)0.7(Li3PO4)0.3</td><td>10.1016/0167-2738(89)90457-8</td><td>598.96</td><td>3.87E-03</td><td>-2.412</td><td>Zircon</td><td></tr></td>
+    <tr>
+        <td>513</td><td>(YPO4)0.9(Li3PO4)0.1</td><td>10.1016/0167-2738(89)90457-8</td><td>400</td><td>1.21E-04</td><td>-3.917</td><td>Zircon</td><td></tr></td>
+    <tr>
+        <td>515</td><td>(YPO4)0.5(Li3PO4)0.5</td><td>10.1016/0167-2738(89)90457-8</td><td>523.93</td><td>2.45E-04</td><td>-3.610</td><td>Zircon</td><td></tr></td>
+    <tr>
+        <td>516</td><td>(YPO4)0.7(Li3PO4)0.3</td><td>10.1016/0167-2738(89)90457-8</td><td>485.26</td><td>2.13E-04</td><td>-3.671</td><td>Zircon</td><td></tr></td>
+    <tr>
+        <td>517</td><td>(YPO4)0.5(Li3PO4)0.5</td><td>10.1016/0167-2738(89)90457-8</td><td>437.38</td><td>1.78E-05</td><td>-4.749</td><td>Zircon</td><td></tr></td>
+    <tr>
+        <td>518</td><td>(YPO4)0.7(Li3PO4)0.3</td><td>10.1016/0167-2738(89)90457-8</td><td>397.77</td><td>1.09E-05</td><td>-4.962</td><td>Zircon</td><td></tr></td>
+    <tr>
+        <td>525</td><td>LiGaSiO4</td><td>10.1016/0167-2738(87)90048-8</td><td>564.29</td><td>1.58E-06</td><td>-5.801</td><td>Phenakite</td><td></tr></td>
+    <tr>
+        <td>526</td><td>Li0.68Ga0.68Si2.33O6</td><td>10.1016/0167-2738(87)90048-8</td><td>276</td><td>8.19E-07</td><td>-6.086</td><td>Phenakite</td><td></tr></td>
+    <tr>
+        <td>527</td><td>Li0.96Ga0.96Si2.04O6</td><td>10.1016/0167-2738(87)90048-8</td><td>260</td><td>6.32E-07</td><td>-6.199</td><td>Phenakite</td><td></tr></td>
+    <tr>
+        <td>528</td><td>LiGaSiO4</td><td>10.1016/0167-2738(87)90048-8</td><td>475.75</td><td>2.80E-07</td><td>-6.552</td><td>Phenakite</td><td></tr></td>
+    <tr>
+        <td>529</td><td>Li0.68Ga0.68Si2.33O6</td><td>10.1016/0167-2738(87)90048-8</td><td>216.18</td><td>7.26E-08</td><td>-7.139</td><td>Phenakite</td><td></tr></td>
+    <tr>
+        <td>530</td><td>Li0.96Ga0.96Si2.04O6</td><td>10.1016/0167-2738(87)90048-8</td><td>208.82</td><td>7.26E-08</td><td>-7.139</td><td>Phenakite</td><td></tr></td>
+    <tr>
+        <td>531</td><td>Li0.96Ga0.96Si2.04O6</td><td>10.1016/0167-2738(87)90048-8</td><td>178.14</td><td>1.78E-08</td><td>-7.749</td><td>Phenakite</td><td></tr></td>
+    <tr>
+        <td>532</td><td>LiGaSiO4</td><td>10.1016/0167-2738(87)90048-8</td><td>341.15</td><td>1.35E-08</td><td>-7.869</td><td>Phenakite</td><td></tr></td>
+    <tr>
+        <td>533</td><td>LiGaSiO4</td><td>10.1016/0167-2738(87)90048-8</td><td>312.92</td><td>5.70E-09</td><td>-8.244</td><td>Phenakite</td><td></tr></td>
+    <tr>
+        <td>534</td><td>LiTi2P3O12</td><td>10.1016/0167-2738(94)90332-8</td><td>30</td><td>4.00E-07</td><td>-6.397</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>535</td><td>LiZr2P3O12</td><td>10.1016/0167-2738(94)90332-8</td><td>30</td><td>5.00E-08</td><td>-7.301</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>536</td><td>Li2InTi(PO4)3</td><td>10.1016/S0167-2738(96)00565-6</td><td>200</td><td>1.22E-03</td><td>-2.913</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>537</td><td>Li1.6Al0.6Ge1.4 (PO4)3</td><td>10.1016/S0167-2738(97)00434-7</td><td>25</td><td>3.80E-04</td><td>-3.420</td><td>Glass-Ceramic</td><td>Oxides</tr></td>
+    <tr>
+        <td>539</td><td>Li6.25PS5.25Cl0.75</td><td>10.1016/j.apsusc.2019.07.041</td><td>25</td><td>1.40E-02</td><td>-1.853</td><td>Argyrodite</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>540</td><td>Li3.8Ge0.8P0.2O4</td><td>10.1021/acs.chemmater.8b01504</td><td>30</td><td>1.03E-06</td><td>-5.987</td><td>LISICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>541</td><td>Li3PO4</td><td>10.1021/acs.chemmater.8b01504</td><td>30</td><td>1.75E-13</td><td>-12.75696195</td><td>LISICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>542</td><td>Li3VO4</td><td>10.1021/acs.chemmater.8b01504</td><td>30</td><td>9.20E-14</td><td>-13.03621217</td><td>LISICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>543</td><td>Li3.2Ge0.2P0.8O4</td><td>10.1021/acs.chemmater.8b01504</td><td>30</td><td>1.14E-06</td><td>-5.943</td><td>LISICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>544</td><td>Li3V0.6P0.4O4</td><td>10.1021/acs.chemmater.8b01504</td><td>30</td><td>3.55E-13</td><td>-12.44977165</td><td>LISICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>546</td><td>Li3P0.2V0.8O4</td><td>10.1021/acs.chemmater.8b01504</td><td>30</td><td>1.31E-13</td><td>-12.88438949</td><td>LISICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>547</td><td>Li3.6Ge0.6P0.4O4</td><td>10.1021/acs.chemmater.8b01504</td><td>30</td><td>1.10E-05</td><td>-4.958</td><td>LISICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>548</td><td>Li3.4Ge0.4P0.6O4</td><td>10.1021/acs.chemmater.8b01504</td><td>30</td><td>4.50E-06</td><td>-5.346</td><td>LISICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>549</td><td>Li3.2Ge0.2V0.8O4</td><td>10.1021/acs.chemmater.8b01504</td><td>30</td><td>1.90E-05</td><td>-4.721</td><td>LISICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>550</td><td>Li3.6Ge0.6V0.4O4</td><td>10.1021/acs.chemmater.8b01504</td><td>30</td><td>3.19E-05</td><td>-4.496</td><td>LISICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>551</td><td>Li3.8Ge0.8V0.2O4</td><td>10.1021/acs.chemmater.8b01504</td><td>30</td><td>2.71E-06</td><td>-5.567</td><td>LISICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>553</td><td>Li3.4Ge0.4V0.6O4</td><td>10.1021/acs.chemmater.8b01504</td><td>30</td><td>8.89E-07</td><td>-6.051</td><td>LISICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>554</td><td>Li3P0.6V0.4O4</td><td>10.1021/acs.chemmater.8b01504</td><td>30</td><td>3.20E-13</td><td>-12.49485002</td><td>LISICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>555</td><td>Li4GeO4</td><td>10.1021/acs.chemmater.8b01504</td><td>30</td><td>1.30E-12</td><td>-11.88605665</td><td>LISICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>556</td><td>Li3P0.8V0.2O4</td><td>10.1021/acs.chemmater.8b01504</td><td>30</td><td>2.05E-13</td><td>-12.68824614</td><td>LISICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>561</td><td>Li6PS5Br</td><td>10.1021/acsaem.8b00280</td><td>25</td><td>1.90E-04</td><td>-3.721</td><td>Argyrodite</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>564</td><td>Li4Al0.33Si0.33P0.33O4</td><td>10.1021/acsami.6b14402</td><td>249</td><td>4.71E-03</td><td>-2.326</td><td>LISICON</td><td></tr></td>
+    <tr>
+        <td>565</td><td>Li4Al0.33Si0.17Ge0.17P0.33O4</td><td>10.1021/acsami.6b14402</td><td>215</td><td>3.53E-03</td><td>-2.452</td><td>LISICON</td><td></tr></td>
+    <tr>
+        <td>566</td><td>Li4Al0.33Si0.17Ge0.17P0.33O4</td><td>10.1021/acsami.6b14402</td><td>47</td><td>3.93E-06</td><td>-5.405</td><td>LISICON</td><td></tr></td>
+    <tr>
+        <td>567</td><td>Li4.25Si0.75Al0.25O4</td><td>10.1021/acsami.6b14402</td><td>242</td><td>8.80E-04</td><td>-3.055</td><td>LISICON</td><td></tr></td>
+    <tr>
+        <td>568</td><td>Li3.75Si0.75P0.25O4</td><td>10.1021/acsami.6b14402</td><td>228.73</td><td>2.39E-04</td><td>-3.621</td><td>LISICON</td><td></tr></td>
+    <tr>
+        <td>569</td><td>Li4Al0.33Si0.33P0.33O4</td><td>10.1021/acsami.6b14402</td><td>125.29</td><td>1.98E-04</td><td>-3.703</td><td>LISICON</td><td></tr></td>
+    <tr>
+        <td>570</td><td>Li3.75Si0.75P0.25O4</td><td>10.1021/acsami.6b14402</td><td>149.36</td><td>2.91E-05</td><td>-4.536</td><td>LISICON</td><td></tr></td>
+    <tr>
+        <td>571</td><td>Li4Al0.33Si0.33P0.33O4</td><td>10.1021/acsami.6b14402</td><td>76.66</td><td>1.93E-05</td><td>-4.714</td><td>LISICON</td><td></tr></td>
+    <tr>
+        <td>572</td><td>Li4.25Si0.75Al0.25O4</td><td>10.1021/acsami.6b14402</td><td>124.96</td><td>6.37E-06</td><td>-5.195</td><td>LISICON</td><td></tr></td>
+    <tr>
+        <td>573</td><td>Li3.75Si0.75P0.25O4</td><td>10.1021/acsami.6b14402</td><td>100.96</td><td>5.03E-06</td><td>-5.298</td><td>LISICON</td><td></tr></td>
+    <tr>
+        <td>574</td><td>Li3.75Si0.75P0.25O4</td><td>10.1021/acsami.6b14402</td><td>75.47</td><td>2.46E-06</td><td>-5.609</td><td>LISICON</td><td></tr></td>
+    <tr>
+        <td>575</td><td>Li4.25Si0.75Al0.25O4</td><td>10.1021/acsami.6b14402</td><td>74.28</td><td>2.88E-07</td><td>-6.540</td><td>LISICON</td><td></tr></td>
+    <tr>
+        <td>576</td><td>Li4.25Si0.75Al0.25O4</td><td>10.1021/acsami.6b14402</td><td>50.34</td><td>4.10E-08</td><td>-7.387</td><td>LISICON</td><td></tr></td>
+    <tr>
+        <td>577</td><td>Li4SiO4</td><td>10.1021/acsami.6b14402</td><td>228.21</td><td>8.36E-06</td><td>-5.077</td><td>Other</td><td></tr></td>
+    <tr>
+        <td>578</td><td>Li4Al0.33Si0.33P0.33O4</td><td>10.1021/acsami.6b14402</td><td>50.64</td><td>4.75E-06</td><td>-5.323</td><td>Other</td><td></tr></td>
+    <tr>
+        <td>579</td><td>Li4SiO4</td><td>10.1021/acsami.6b14402</td><td>176.36</td><td>1.35E-06</td><td>-5.869</td><td>Other</td><td></tr></td>
+    <tr>
+        <td>580</td><td>Li4SiO4</td><td>10.1021/acsami.6b14402</td><td>100.52</td><td>3.11E-08</td><td>-7.507</td><td>Other</td><td></tr></td>
+    <tr>
+        <td>581</td><td>Li4SiO4</td><td>10.1021/acsami.6b14402</td><td>75.02</td><td>5.66E-09</td><td>-8.247</td><td>Other</td><td></tr></td>
+    <tr>
+        <td>582</td><td>Li6PS5I</td><td>10.1007/s10008-011-1572-8</td><td>25</td><td>6.30E-04</td><td>-3.200</td><td>Argyrodite</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>583</td><td>Li5PS4(BH4)2</td><td>10.1021/acsomega.8b00377</td><td>50</td><td>5.00E-03</td><td>-2.301</td><td>Argyrodite</td><td></tr></td>
+    <tr>
+        <td>584</td><td>Li5PS4(BH4)2</td><td>10.1021/acsomega.8b00377</td><td>25</td><td>7.96E-03</td><td>-2.099</td><td>Argyrodite</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>585</td><td>"(Li2S)0.75 (P2S5)0.25"</td><td>10.1021/acsomega.8b00377</td><td>44.2</td><td>3.00E-04</td><td>-3.522</td><td>Other</td><td></tr></td>
+    <tr>
+        <td>586</td><td>"(Li2S)0.75 (P2S5)0.25"</td><td>10.1021/acsomega.8b00377</td><td>34.76</td><td>6.05E-04</td><td>-3.218</td><td>Glass</td><td>Sulphides</tr></td>
+    <tr>
+        <td>587</td><td>LiBH4</td><td>10.1021/acsomega.8b00377</td><td>27</td><td>9.89E-08</td><td>-7.004</td><td>Other</td><td>Other</tr></td>
+    <tr>
+        <td>588</td><td>LiBH4</td><td>10.1021/acsomega.8b00377</td><td>39.83</td><td>7.96E-08</td><td>-7.099</td><td>Other</td><td></tr></td>
+    <tr>
+        <td>589</td><td>"(Li2S)0.75 (P2S5)0.25"</td><td>10.1021/acsomega.8b00377</td><td>26.29</td><td>1.81E-04</td><td>-3.742</td><td>Glass</td><td>Sulphides</tr></td>
+    <tr>
+        <td>591</td><td>Li0.245La0.592Ti0.98Mn0.02O3</td><td>10.1006/jssc.1998.7904</td><td>25</td><td>1.00E-03</td><td>-3.000</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>592</td><td>La0.55Li0.36Ti0.995Al0.005O3</td><td>10.1007/BF02375549</td><td>25</td><td>1.10E-03</td><td>-2.958</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>593</td><td>La0.54Li0.36TiO3</td><td>10.1007/BF02375549</td><td>25</td><td>8.90E-04</td><td>-3.050</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>594</td><td>La0.51Li0.36Ti0.95W0.05O3</td><td>10.1007/BF02375549</td><td>25</td><td>7.30E-04</td><td>-3.136</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>595</td><td>La0.56Li0.36Ti0.95Al0.05O3</td><td>10.1007/BF02375549</td><td>25</td><td>6.40E-04</td><td>-3.193</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>596</td><td>La0.55Li0.36Ti0.95Ge0.05O3</td><td>10.1007/BF02375549</td><td>25</td><td>3.60E-04</td><td>-3.443</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>597</td><td>La0.58Li0.36Ti0.95Mg0.05O3</td><td>10.1007/BF02375549</td><td>25</td><td>2.10E-04</td><td>-3.677</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>598</td><td>La0.55Li0.36Ti0.95Mn0.05O3</td><td>10.1007/BF02375549</td><td>25</td><td>1.90E-04</td><td>-3.721</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>599</td><td>La0.55Li0.36Ti0.95Ru0.05O3</td><td>10.1007/BF02375549</td><td>25</td><td>5.20E-05</td><td>-4.283</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>600</td><td>LiCa1.65Ti1.3Ta1.7O9</td><td>10.1007/BF02708781</td><td>300</td><td>1.00E-05</td><td>-5.000</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>601</td><td>LiSr1.65Ti2.15W0.85O9</td><td>10.1007/BF02708781</td><td>300</td><td>1.60E-04</td><td>-3.795</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>602</td><td>LiCa1.65Ti1.3Nb1.7O9</td><td>10.1007/BF02708781</td><td>215</td><td>8.56E-07</td><td>-6.067</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>603</td><td>Li0.34La0.51TiO2.94</td><td>10.1016/0038-1098(93)90841-A</td><td>27</td><td>1.02E-03</td><td>-2.991</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>604</td><td>(La0.5Li0.5)TiO3</td><td>10.1016/0167-2738(94)90309-3</td><td>25</td><td>1.00E-03</td><td>-3.000</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>605</td><td>Sm0.52Li0.38TiO2.97</td><td>10.1016/0167-2738(94)90310-7</td><td>25</td><td>1.50E-03</td><td>-2.823</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>606</td><td>Li0.10La0.63TiO3</td><td>10.1016/0167-2738(94)90309-3</td><td>27</td><td>7.90E-05</td><td>-4.102</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>607</td><td>(La0.5Li0.5)0.75(La0.5Na0.5)0.25TiO3</td><td>10.1016/0167-2738(94)90309-3</td><td>402</td><td>2.00E-05</td><td>-4.698</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>608</td><td>(La0.5Li0.5)0.75(La0.5Na0.5)0.25TiO3</td><td>10.1016/0167-2738(94)90309-3</td><td>27</td><td>1.58E-04</td><td>-3.800</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>609</td><td>Sm0.52Li0.38TiO2.97</td><td>10.1016/0167-2738(94)90310-7</td><td>126</td><td>1.10E-07</td><td>-6.958</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>610</td><td>Li0.34Pr0.56TiO3</td><td>10.1016/0167-2738(94)90310-7</td><td>25</td><td>1.00E-06</td><td>-6.000</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>611</td><td>Nd0.55Li0.34TiO3</td><td>10.1016/0167-2738(94)90310-7</td><td>25</td><td>8.00E-08</td><td>-7.096</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>612</td><td>Li0.5(La0.4Nd0.1)TiO3</td><td>10.1016/S0167-2738(97)00015-5</td><td>25</td><td>1.00E-03</td><td>-3.000</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>613</td><td>Li0.34La0.56TiO3</td><td>10.1016/S0167-2738(98)00070-8</td><td>25</td><td>1.53E-03</td><td>-2.815</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>614</td><td>Li0.34La0.56TiO3</td><td>10.1016/S0167-2738(98)00070-8</td><td>25</td><td>6.88E-04</td><td>-3.162</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>615</td><td>Nd0.25Li0.25TaO3</td><td>10.1016/S0167-2738(98)00414-7</td><td>25</td><td>1.91E-06</td><td>-5.718</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>616</td><td>Sm0.25Li0.25TaO3</td><td>10.1016/S0167-2738(98)00414-7</td><td>125</td><td>7.30E-06</td><td>-5.136</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>617</td><td>Li0.25La0.25TaO3</td><td>10.1016/S0167-2738(98)00414-7</td><td>25</td><td>3.66E-04</td><td>-3.436</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>618</td><td>Y0.25Li0.25TaO3</td><td>10.1016/S0167-2738(98)00414-7</td><td>147</td><td>4.39E-09</td><td>-8.357</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>619</td><td>Li0.5Sr0.5Cr0.25Ta0.75O3</td><td>10.1016/S0378-7753(97)02645-1</td><td>25</td><td>6.31E-05</td><td>-4.200</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>620</td><td>Li0.5Sr0.5Fe0.25Ta0.75O3</td><td>10.1016/S0378-7753(97)02645-1</td><td>25</td><td>1.26E-04</td><td>-3.900</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>628</td><td>Li0.5Sr0.5Cr0.25Ta0.75O3</td><td>10.1016/S0378-7753(97)02645-1</td><td>75</td><td>3.55E-04</td><td>-3.450</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>629</td><td>Li0.5Sr0.5Fe0.25Ta0.75O3</td><td>10.1016/S0378-7753(97)02645-1</td><td>75</td><td>6.61E-04</td><td>-3.179</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>632</td><td> La0.29Li0.12NbO3</td><td>10.1016/S0167-2738(98)00266-5</td><td>25</td><td>4.25E-05</td><td>-4.371</td><td>Other</td><td>Oxides</tr></td>
+    <tr>
+        <td>633</td><td>La0.283Li0.15NbO3</td><td>10.1016/S0167-2738(98)00266-5</td><td>25</td><td>3.85E-05</td><td>-4.414</td><td>Other</td><td>Oxides</tr></td>
+    <tr>
+        <td>634</td><td>La0.273Li0.18NbO3</td><td>10.1016/S0167-2738(98)00266-5</td><td>25</td><td>3.82E-05</td><td>-4.417</td><td>Other</td><td>Oxides</tr></td>
+    <tr>
+        <td>635</td><td>La0.303Li0.09NbO3</td><td>10.1016/S0167-2738(98)00266-5</td><td>25</td><td>3.52E-05</td><td>-4.453</td><td>Other</td><td>Oxides</tr></td>
+    <tr>
+        <td>636</td><td>La0.313Li0.06NbO3</td><td>10.1016/S0167-2738(98)00266-5</td><td>25</td><td>2.33E-05</td><td>-4.632</td><td>Other</td><td>Oxides</tr></td>
+    <tr>
+        <td>637</td><td>Li0.1Sr0.8Ti0.7Nb0.3O3</td><td>10.1149/1.1629102</td><td>25</td><td>1.00E-08</td><td>-8.000</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>638</td><td>Li0.3Sr0.6Ti0.20Fe0.30Ta0.5O3</td><td>10.1149/1.1629102</td><td>25</td><td>1.00E-07</td><td>-7.000</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>639</td><td>Li0.3Sr0.6Ti0.35Fe0.15Ta0.5O3</td><td>10.1149/1.1629102</td><td>25</td><td>2.80E-05</td><td>-4.552</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>640</td><td>Li0.3Sr0.6Ti0.40Fe0.10Ta0.5O3</td><td>10.1149/1.1629102</td><td>25</td><td>3.60E-05</td><td>-4.443</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>641</td><td>Li0.3Sr0.6Ti0.45Fe0.05Ta0.5O3</td><td>10.1149/1.1629102</td><td>30</td><td>6.00E-05</td><td>-4.221</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>642</td><td>Li0.3Sr0.6Ti0.5Ta0.5O3</td><td>10.1149/1.1629102</td><td>30</td><td>1.70E-04</td><td>-3.769</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>643</td><td>Li0.3Sr0.6Ti0.5Nb0.5O3</td><td>10.1149/1.1629102</td><td>30</td><td>5.40E-06</td><td>-5.267</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>644</td><td>Li0.25La0.41Sr0.25TiO3</td><td>10.1021/cm020609u</td><td>25</td><td>7.64E-05</td><td>-4.116</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>645</td><td>Li0.15La0.51Sr0.15TiO3</td><td>10.1021/cm020609u</td><td>25</td><td>5.30E-05</td><td>-4.275</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>646</td><td>LiCaTiNbO6</td><td>10.1021/cm9810382</td><td>208</td><td>1.00E-07</td><td>-7.000</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>647</td><td>LiSrTiTaO6</td><td>10.1021/cm9810382</td><td>25</td><td>5.50E-04</td><td>-3.259</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>648</td><td>LiSr1.65Ti1.3Ta1.7O9</td><td>10.1021/cm9810382</td><td>25</td><td>4.90E-05</td><td>-4.309</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>649</td><td>LiSr1.65Ti1.3Nb1.7O9</td><td>10.1021/cm9810382</td><td>25</td><td>2.00E-05</td><td>-4.698</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>650</td><td>LiSr1.65Zr1.3Ta1.7O9</td><td>10.1021/cm9810382</td><td>25</td><td>1.30E-05</td><td>-4.886</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>651</td><td>LiSr2Ti2TaO9</td><td>10.1021/cm9810382</td><td>30</td><td>3.20E-05</td><td>-4.494</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>652</td><td>LiSr2Ti2NbO9</td><td>10.1021/cm9810382</td><td>25</td><td>1.00E-06</td><td>-6.000</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>653</td><td>LiSrTiNbO6</td><td>10.1021/cm9810382</td><td>25</td><td>1.00E-06</td><td>-6.000</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>654</td><td>LiBa2Ti2NbO9</td><td>10.1021/cm9810382</td><td>30</td><td>1.00E-07</td><td>-7.000</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>655</td><td>Li0.067La0.64TiO2.99</td><td>10.1016/0167-2738(94)90309-3</td><td>27</td><td>7.90E-05</td><td>-4.102</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>656</td><td>Li0.25La0.66Ti0.75Al0.25O3</td><td>10.1021/cm011149s</td><td>25</td><td>7.66E-05</td><td>-4.115</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>657</td><td>Li0.20La0.66Ti0.80Al0.20O3</td><td>10.1021/cm011149s</td><td>25</td><td>4.28E-05</td><td>-4.368</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>658</td><td>Li0.30La0.66Ti0.70Al0.30O3</td><td>10.1021/cm011149s</td><td>25</td><td>1.72E-05</td><td>-4.764</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>659</td><td>Li0.15La0.66Ti0.85Al0.15O3</td><td>10.1021/cm011149s</td><td>25</td><td>9.66E-06</td><td>-5.015</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>660</td><td>Li0.10La0.66Ti0.90Al0.10O3</td><td>10.1021/cm011149s</td><td>27</td><td>7.34E-06</td><td>-5.134</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>661</td><td>Li0.06La0.66Ti0.93Al0.06O3</td><td>10.1021/cm011149s</td><td>27</td><td>1.68E-06</td><td>-5.774</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>662</td><td>Li0.27La0.59TiO3 </td><td>10.2109/jcersj.105.548</td><td>127</td><td>1.41E-02</td><td>-1.850</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>663</td><td>Li0.27La0.59TiO3</td><td>10.2109/jcersj.105.548</td><td>25</td><td>5.80E-04</td><td>-3.236</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>664</td><td>Li3O(Cl0.5Br0.5)</td><td>10.1021/ja305709z</td><td>253</td><td>3.01E-03</td><td>-2.521</td><td>Anti-Perovskite</td><td></tr></td>
+    <tr>
+        <td>665</td><td>Li3O(Cl0.5Br0.5)</td><td>10.1021/ja305709z</td><td>260.76</td><td>1.93E-02</td><td>-1.714</td><td>Anti-Perovskite</td><td></tr></td>
+    <tr>
+        <td>666</td><td>Li3O(Cl0.5Br0.5)</td><td>10.1021/ja305709z</td><td>171.78</td><td>3.98E-03</td><td>-2.400</td><td>Anti-Perovskite</td><td></tr></td>
+    <tr>
+        <td>667</td><td>Li3OCl</td><td>10.1021/ja305709z</td><td>253.44</td><td>3.54E-03</td><td>-2.450</td><td>Anti-Perovskite</td><td></tr></td>
+    <tr>
+        <td>668</td><td>Li3O(Cl0.5Br0.5)</td><td>10.1021/ja305709z</td><td>90.59</td><td>1.58E-03</td><td>-2.801</td><td>Anti-Perovskite</td><td></tr></td>
+    <tr>
+        <td>669</td><td>Li3O(Cl0.5Br0.5)</td><td>10.1021/ja305709z</td><td>29.61</td><td>9.38E-04</td><td>-3.027</td><td>Anti-Perovskite</td><td>Oxides and Other Anions</tr></td>
+    <tr>
+        <td>670</td><td>Li3OCl</td><td>10.1021/ja305709z</td><td>150.88</td><td>9.02E-04</td><td>-3.044</td><td>Anti-Perovskite</td><td></tr></td>
+    <tr>
+        <td>671</td><td>Li3OCl</td><td>10.1021/ja305709z</td><td>90.16</td><td>4.19E-04</td><td>-3.377</td><td>Anti-Perovskite</td><td></tr></td>
+    <tr>
+        <td>672</td><td>Li3OCl</td><td>10.1021/ja305709z</td><td>30.51</td><td>1.41E-04</td><td>-3.850</td><td>Anti-Perovskite</td><td>Oxides and Other Anions</tr></td>
+    <tr>
+        <td>673</td><td>Li10SnP2S12</td><td>10.1021/ja407393y</td><td>25</td><td>4.00E-03</td><td>-2.397</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>675</td><td>Li10GeP2S12</td><td>10.1038/nmat3066</td><td>25</td><td>1.20E-02</td><td>-1.920</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>676</td><td>Li1.2Ta0.9Al1.1P3O12</td><td>10.1039/A807007E</td><td>350</td><td>1.20E-02</td><td>-1.920</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>677</td><td>LiTaAlP3O12</td><td>10.1039/A807007E</td><td>350</td><td>1.00E-02</td><td>-2.000</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>680</td><td>LiSrTiTaO6</td><td>10.1021/cm9810382</td><td>360</td><td>6.30E-02</td><td>-1.200</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>681</td><td>LiSr1.65Ti1.3Ta1.7O9</td><td>10.1021/cm9810382</td><td>360</td><td>1.14E-01</td><td>-0.943</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>682</td><td>LiSr2Ti2TaO9</td><td>10.1021/cm9810382</td><td>360</td><td>3.20E-03</td><td>-2.494</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>683</td><td>Li0.36La0.55TiO3</td><td>10.1021/cm9810382</td><td>30</td><td>2.00E-05</td><td>-4.698</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>684</td><td>LiSr1.65Ti1.3Nb1.7O9</td><td>10.1021/cm9810382</td><td>360</td><td>4.20E-02</td><td>-1.376</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>685</td><td>LiSr1.65Zr1.3Ta1.7O9</td><td>10.1021/cm9810382</td><td>360</td><td>4.20E-02</td><td>-1.376</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>686</td><td>LiSr2Ti2NbO9</td><td>10.1021/cm9810382</td><td>205</td><td>3.35E-05</td><td>-4.474</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>687</td><td>LiBa2Ti2NbO9</td><td>10.1021/cm9810382</td><td>102</td><td>1.00E-06</td><td>-6.000</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>688</td><td>LiCaTiNbO6</td><td>10.1021/cm9810382</td><td>205</td><td>1.03E-07</td><td>-6.987</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>689</td><td>LiSr2Ti2NbO9</td><td>10.1021/cm9810382</td><td>100</td><td>3.47E-06</td><td>-5.459</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>690</td><td>LiCa2Ti2NbO9</td><td>10.1021/cm9810382</td><td>300</td><td>1.89E-07</td><td>-6.723</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>691</td><td>Li3Cr(MoO4)3</td><td>10.1039/B301189e</td><td>600</td><td>3.90E-03</td><td>-2.408</td><td>LISICON</td><td></tr></td>
+    <tr>
+        <td>692</td><td>Li2Mg2(MoO4)3</td><td>10.1039/B301189e</td><td>600</td><td>2.33E-03</td><td>-2.632</td><td>Lysonite</td><td></tr></td>
+    <tr>
+        <td>693</td><td>Li3Fe(MoO4)3</td><td>10.1039/B301189e</td><td>600</td><td>1.40E-03</td><td>-2.853</td><td>Lysonite</td><td></tr></td>
+    <tr>
+        <td>694</td><td>Li3Cr(MoO4)3</td><td>10.1039/B301189e</td><td>300</td><td>2.60E-06</td><td>-5.585</td><td>Lysonite</td><td></tr></td>
+    <tr>
+        <td>695</td><td>Li3Fe(MoO4)3</td><td>10.1039/B301189e</td><td>300</td><td>6.60E-07</td><td>-6.180</td><td>Lysonite</td><td></tr></td>
+    <tr>
+        <td>696</td><td>Li2Mg2(MoO4)3</td><td>10.1039/B301189e</td><td>276</td><td>3.16E-08</td><td>-7.500</td><td>Lysonite</td><td></tr></td>
+    <tr>
+        <td>697</td><td>Li1.5Hf1.5Al0.5P3O12</td><td>10.1016/j.ssi.2005.07.010</td><td>25</td><td>1.10E-04</td><td>-3.958</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>698</td><td>"(Li2S)70 (P2S5)30"</td><td>10.1039/C3EE41655K</td><td>25</td><td>1.70E-02</td><td>-1.769</td><td>Glass-Ceramic</td><td>Sulphides</tr></td>
+    <tr>
+        <td>699</td><td>Li11AlP2S12</td><td>10.1039/C6CC02131J</td><td>25</td><td>8.02E-04</td><td>-3.095</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>700</td><td>Li6BaLa2Ta2O12</td><td>10.1002/adfm.200400044</td><td>25</td><td>4.00E-05</td><td>-4.397</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>701</td><td>Li5NI2</td><td>10.1002/anie.198000741</td><td>25</td><td>1.50E-07</td><td>-6.823</td><td>Other</td><td>Halides</tr></td>
+    <tr>
+        <td>703</td><td>Li6NBr3</td><td>10.1002/anie.198000741</td><td>25</td><td>3.10E-07</td><td>-6.509</td><td>Rocksalt</td><td>Halides</tr></td>
+    <tr>
+        <td>704</td><td>Li4SiO4</td><td>10.1016/0025-5408(76)90235-X</td><td>25</td><td>2.00E-10</td><td>-9.698</td><td>LISICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>705</td><td>Li4GeO4</td><td>10.1016/0025-5408(76)90235-X</td><td>25</td><td>3.10E-12</td><td>-11.50863831</td><td>LISICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>706</td><td>Li2Ge7O15</td><td>10.1016/0025-5408(76)90235-X</td><td>25</td><td>5.00E-16</td><td>-15.30103</td><td>Other</td><td>Oxides</tr></td>
+    <tr>
+        <td>707</td><td>Li3.5Ge0.5V0.5O4</td><td>10.1016/0025-5408(80)90249-4</td><td>25</td><td>7.00E-05</td><td>-4.154</td><td>LISICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>708</td><td>LiI</td><td>10.1016/0167-2738(81)90020-5</td><td>25</td><td>2.80E-08</td><td>-7.552</td><td>Rocksalt</td><td>Halides</tr></td>
+    <tr>
+        <td>709</td><td>Li3PS4</td><td>10.1016/0167-2738(84)90097-3</td><td>103</td><td>1.09E-05</td><td>-4.962</td><td>Other</td><td></tr></td>
+    <tr>
+        <td>710</td><td>Li3P</td><td>10.1016/0167-2738(89)90438-4</td><td>25</td><td>1.00E-03</td><td>-3.000</td><td>Other</td><td>Other</tr></td>
+    <tr>
+        <td>711</td><td>LiAlSiO4</td><td>10.1016/0375-9601(75)90788-4</td><td>500</td><td>4.00E-03</td><td>-2.397</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>712</td><td>Li3Sc2P3O12</td><td>10.1016/j.materresbull.2007.08.007</td><td>25</td><td>1.00E-10</td><td>-10.000</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>713</td><td>Li5La3Bi2O12</td><td>10.1016/j.ssi.2017.03.030</td><td>25</td><td>2.00E-05</td><td>-4.698</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>714</td><td>LiLa(TiO3)2</td><td>10.1016/S0167-2738(00)00761-X</td><td>25</td><td>1.00E-03</td><td>-3.000</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>716</td><td>Li3VO4</td><td>10.1016/S0924-0136(01)01044-5</td><td>25</td><td>1.67E-06</td><td>-5.777</td><td>LISICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>717</td><td>Li7P3S11</td><td>10.1021/acs.chemmater.7b04842</td><td>25</td><td>8.63E-04</td><td>-3.063</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>718</td><td>Li4BN3H10</td><td>10.1021/Ja907249p</td><td>25</td><td>2.00E-04</td><td>-3.698</td><td>Other</td><td>Other</tr></td>
+    <tr>
+        <td>719</td><td>LiBH4</td><td>10.1021/ja907249p</td><td>40</td><td>4.00E-08</td><td>-7.397</td><td>Other</td><td></tr></td>
+    <tr>
+        <td>721</td><td>Li10Ge(PS6)2</td><td>10.1038/nmat3066</td><td>86.61</td><td>7.94E-02</td><td>-1.100</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>722</td><td>Li2NH</td><td>10.1039/c2cp23636b</td><td>25</td><td>2.54E-04</td><td>-3.595</td><td>Other</td><td>Other</tr></td>
+    <tr>
+        <td>723</td><td>Li2Ca(NH)2</td><td>10.1039/c2cp23636b</td><td>25</td><td>6.40E-06</td><td>-5.193</td><td>Other</td><td>Other</tr></td>
+    <tr>
+        <td>725</td><td>Li3N</td><td>10.1039/C0EE00052C</td><td>25</td><td>5.75E-04</td><td>-3.240</td><td>Other</td><td>Other</tr></td>
+    <tr>
+        <td>726</td><td>Li13.6Si2.8S1.2O16</td><td>10.1016/0013-4686(77)80035-2</td><td>25</td><td>6.00E-07</td><td>-6.221</td><td>LISICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>727</td><td>LiAlH4</td><td>10.1063/1.3356981</td><td>25</td><td>2.00E-09</td><td>-8.698</td><td>Other</td><td>Other</tr></td>
+    <tr>
+        <td>730</td><td>Li4B7O12Cl</td><td>10.1107/S0567740877009443</td><td>25</td><td>1.00E-07</td><td>-7.000</td><td>Other</td><td>Oxides and Other Anions</tr></td>
+    <tr>
+        <td>731</td><td>Li10.35Si1.35P1.65S12</td><td>10.1107/S2052520615022283</td><td>25</td><td>6.50E-03</td><td>-2.187</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>732</td><td>Li9.81Sn0.81P2.19S12</td><td>10.1107/S2052520615022283</td><td>25</td><td>5.50E-03</td><td>-2.259</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>733</td><td>Li5La3Nb2O12</td><td>10.1111/j.1151-2916.2003.tb03318.x</td><td>15</td><td>8.00E-06</td><td>-5.096</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>734</td><td>Li5La3Ta2O12</td><td>10.1111/j.1151-2916.2003.tb03318.x</td><td>393</td><td>1.66E-02</td><td>-1.780</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>735</td><td>Li14ZnGe4O16</td><td>10.1149/1.2119778</td><td>25</td><td>1.00E-06</td><td>-6.000</td><td>LISICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>736</td><td>Li3Fe2P3O12</td><td>10.1016/0167-2738(90)90442-T</td><td>100</td><td>1.42E-06</td><td>-5.847</td><td>Glass-Ceramic</td><td></tr></td>
+    <tr>
+        <td>737</td><td>Li6FeCl8</td><td>10.1002/zaac.19875531020</td><td>100</td><td>2.20E-06</td><td>-5.657</td><td>Rocksalt</td><td></tr></td>
+    <tr>
+        <td>738</td><td>Li2.88PO3.73N0.14</td><td>10.1006/jssc.1995.1140</td><td>25</td><td>1.40E-13</td><td>-12.85387196</td><td>LISICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>743</td><td>Li6.35P0.65Si0.35S5Br</td><td>10.1039/c7ta08581h</td><td>25</td><td>2.30E-03</td><td>-2.638</td><td>Argyrodite</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>744</td><td>Li6.50P0.50Si0.50S5Br</td><td>10.1039/c7ta08581h</td><td>25</td><td>2.30E-03</td><td>-2.638</td><td>Argyrodite</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>745</td><td>Li6.20P0.80Si0.20S5Br</td><td>10.1039/c7ta08581h</td><td>25</td><td>1.98E-03</td><td>-2.703</td><td>Argyrodite</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>746</td><td>Li6.30P0.70Si0.30S5Br</td><td>10.1039/c7ta08581h</td><td>25</td><td>1.83E-03</td><td>-2.737</td><td>Argyrodite</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>747</td><td>Li6.25P0.75Si0.25S5Br</td><td>10.1039/c7ta08581h</td><td>25</td><td>1.50E-03</td><td>-2.823</td><td>Argyrodite</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>748</td><td>Li6.12P0.90Si0.12S5Br</td><td>10.1039/c7ta08581h</td><td>25</td><td>9.00E-04</td><td>-3.045</td><td>Argyrodite</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>749</td><td>Li6.22P0.78Si0.22S5Br</td><td>10.1039/c7ta08581h</td><td>25</td><td>1.08E-03</td><td>-2.966</td><td>Argyrodite</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>750</td><td>Li6.17P0.83Si0.17S5Br</td><td>10.1039/c7ta08581h</td><td>25</td><td>9.29E-04</td><td>-3.031</td><td>Argyrodite</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>751</td><td>Li6.13P0.87Si0.13S5Br</td><td>10.1039/c7ta08581h</td><td>25</td><td>9.01E-04</td><td>-3.045</td><td>Argyrodite</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>752</td><td>Li6.08P0.92Si0.08S5Br</td><td>10.1039/c7ta08581h</td><td>25</td><td>8.64E-04</td><td>-3.063</td><td>Argyrodite</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>753</td><td>Li6.02P0.98Si0.02S5 Br</td><td>10.1039/c7ta08581h</td><td>25</td><td>8.74E-04</td><td>-3.058</td><td>Argyrodite</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>754</td><td>Li6.10P0.90Si0.10S5Br</td><td>10.1039/c7ta08581h</td><td>25</td><td>8.05E-04</td><td>-3.094</td><td>Argyrodite</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>755</td><td>Li6PS5Br</td><td>10.1039/c7ta08581h</td><td>25</td><td>6.94E-04</td><td>-3.158</td><td>Argyrodite</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>756</td><td>Li6.05P0.95Si0.05S5Br</td><td>10.1039/c7ta08581h</td><td>25</td><td>4.41E-04</td><td>-3.355</td><td>Argyrodite</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>759</td><td>Li6BaLa2Ta2O12 </td><td>10.1002/adfm.200400044</td><td>22</td><td>4.00E-05</td><td>-4.397</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>760</td><td>Li6SrLa2Ta2O12</td><td>10.1002/adfm.200400044</td><td>22</td><td>7.00E-06</td><td>-5.154</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>762</td><td>Li3.6Si0.6P0.4S4</td><td>10.1006/jssc.2002.9701</td><td>25</td><td>7.76E-05</td><td>-4.110</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>763</td><td>Li4.8Si0.2Al0.8S4</td><td>10.1006/jssc.2002.9701</td><td>291</td><td>3.66E-03</td><td>-2.436</td><td>Thio-LISICON</td><td></tr></td>
+    <tr>
+        <td>764</td><td>Li4SiS4</td><td>10.1016/0025-5408(89)90053-6</td><td>25</td><td>4.93E-08</td><td>-7.307</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>765</td><td>Li2SiS3</td><td>10.1016/0025-5408(89)90053-6</td><td>25</td><td>2.00E-06</td><td>-5.698</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>766</td><td>Li3PS4 </td><td>10.1016/0167-2738(84)90097-3</td><td>181</td><td>1.58E-04</td><td>-3.801</td><td>Thio-LISICON</td><td></tr></td>
+    <tr>
+        <td>768</td><td>Li7.06La3Y0.06Zr1.94O12 </td><td>10.1016/j.elecom.2011.08.014</td><td>127</td><td>5.27E-03</td><td>-2.278</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>769</td><td>Li6.75La3Zr1.75Nb0.25O12 </td><td>10.1016/j.jpowsour.2010.11.089</td><td>25</td><td>8.00E-04</td><td>-3.096</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>770</td><td>Li7La3Zr1.89Al0.15O12 </td><td>10.1016/j.jpowsour.2013.03.049</td><td>25</td><td>3.40E-04</td><td>-3.468</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>771</td><td>Li6.75La3Zr1.875Te0.125O12 </td><td>10.1016/j.jpowsour.2013.03.166</td><td>30</td><td>3.77E-05</td><td>-4.424</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>772</td><td>Li10Ge0.95Si0.05P2S12</td><td>10.1016/j.jpowsour.2014.07.159</td><td>25</td><td>8.60E-03</td><td>-2.065</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>773</td><td>Li5.5La3Nb1.75In0.25O12 </td><td>10.1016/j.jssc.2005.12.025</td><td>25</td><td>2.40E-05</td><td>-4.619</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>774</td><td>Li5.5La2.75K0.25Nb2O12 </td><td>10.1016/j.jssc.2005.12.025</td><td>25</td><td>1.06E-05</td><td>-4.974</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>775</td><td>Li7La3Zr2O12 </td><td>10.1016/j.jssc.2009.05.020</td><td>27</td><td>1.52E-06</td><td>-5.818</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>776</td><td>Li7La3Hf2O12</td><td>10.1016/j.jssc.2009.10.030</td><td>27</td><td>9.73E-07</td><td>-6.011</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>777</td><td>Li6.25La3Zr2Ga0.25O12</td><td>10.1016/j.matchemphys.2012.03.054</td><td>25</td><td>3.50E-04</td><td>-3.455</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>778</td><td>Li7P3S11</td><td>10.1016/j.ssi.2006.04.017</td><td>25</td><td>3.20E-03</td><td>-2.494</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>779</td><td>Li2.2Zn0.1Zr0.9S3</td><td>10.1016/j.ssi.2008.01.055</td><td>30</td><td>1.20E-04</td><td>-3.920</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>780</td><td>Li3.9Zn0.05GeS4</td><td>10.1016/S0167-2738(00)00277-0</td><td>300</td><td>4.11E-03</td><td>-2.386</td><td>Thio-LISICON</td><td></tr></td>
+    <tr>
+        <td>781</td><td>Li4GeS4</td><td>10.1016/S0167-2738(00)00277-0</td><td>25</td><td>2.51E-07</td><td>-6.600</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>782</td><td>Li4.275Ge0.61Ga0.25S4</td><td>10.1016/S0167-2738(00)00277-0</td><td>150</td><td>2.43E-03</td><td>-2.614</td><td>Thio-LISICON</td><td></tr></td>
+    <tr>
+        <td>783</td><td>Li4P2S6</td><td>10.1021/acs.chemmater.6b04175</td><td>25</td><td>1.60E-10</td><td>-9.795</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>784</td><td>Li4PS4I</td><td>10.1021/acs.chemmater.7b00013</td><td>25</td><td>6.26E-05</td><td>-4.203</td><td>Argyrodite</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>785</td><td>Li6.6La2.75Y0.25Zr1.6Ta0.4O12</td><td>10.1021/am503731h</td><td>27</td><td>4.36E-04</td><td>-3.360</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>786</td><td>Li6.6La2.875Y0.125Zr1.6Ta0.4O12 </td><td>10.1021/am503731h</td><td>27</td><td>3.17E-04</td><td>-3.498</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>787</td><td>Li6.6La2.5Y0.5Zr1.6Ta0.4O12 </td><td>10.1021/am503731h</td><td>27</td><td>2.26E-04</td><td>-3.645</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>788</td><td>Li3Nd3Te2O12</td><td>10.1021/cm060992t</td><td>600</td><td>1.00E-05</td><td>-5.000</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>789</td><td>Li4SnS4</td><td>10.1021/cm3011315</td><td>25</td><td>7.00E-05</td><td>-4.154</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>790</td><td>Li6.4La3Zr2Ga0.2O12 </td><td>10.1021/cm5008069</td><td>24</td><td>9.00E-04</td><td>-3.045</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>791</td><td>Li2SnS3</td><td>10.1021/cm5037524</td><td>25</td><td>1.36E-05</td><td>-4.866</td><td>Rocksalt</td><td>Sulphides</tr></td>
+    <tr>
+        <td>792</td><td>Li3PS4</td><td>10.1021/ja3110895</td><td>25</td><td>1.60E-04</td><td>-3.795</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>793</td><td>Li10SnP2S12</td><td>10.1021/ja407393y</td><td>60</td><td>1.12E-02</td><td>-1.950</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>794</td><td>Li6.5La3Nb1.25Y0.75O12 </td><td>10.1021/jp304737x</td><td>25</td><td>2.70E-04</td><td>-3.568</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>795</td><td>Li6La3Nb1.5Y0.5O12 </td><td>10.1021/jp304737x</td><td>24</td><td>1.88E-04</td><td>-3.725</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>797</td><td>Li10GeP2S12</td><td>10.1038/nmat3066</td><td>5</td><td>6.31E-03</td><td>-2.200</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>798</td><td>Li7La3Sn2O12</td><td>10.1039/b907331k</td><td>85</td><td>2.88E-08</td><td>-7.540</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>799</td><td>Li6.4La3Zr1.4Ta0.6O12 </td><td>10.1039/C2JM31413D</td><td>127</td><td>2.81E-02</td><td>-1.552</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>800</td><td>Li6.5La3Zr1.5Ta0.5O12 </td><td>10.1039/C2JM31413D</td><td>25</td><td>9.20E-04</td><td>-3.036</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>801</td><td>Li6.6La3Zr1.6Ta0.4O12 </td><td>10.1039/C2JM31413D</td><td>25</td><td>7.30E-04</td><td>-3.136</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>802</td><td>Li6.7La3Zr1.7Ta0.3O12</td><td>10.1016/j.ceramint.2018.09.245</td><td>30</td><td>1.03E-03</td><td>-2.987</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>803</td><td>Li6.2La3Zr1.2Ta0.8O12 </td><td>10.1039/C2JM31413D</td><td>25</td><td>3.20E-04</td><td>-3.494</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>804</td><td>Li6.8La3Zr1.8Ta0.2O12 </td><td>10.1039/C2JM31413D</td><td>25</td><td>2.80E-04</td><td>-3.552</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>805</td><td>Li6La3ZrTaO12 </td><td>10.1039/C2JM31413D</td><td>25</td><td>1.60E-04</td><td>-3.795</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>806</td><td>Li6.6La3Zr1.6Sb0.4O12</td><td>10.1039/C3CP50991E</td><td>30</td><td>7.70E-04</td><td>-3.113</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>807</td><td>Li6.4La3Zr1.4Sb0.6O12 </td><td>10.1039/C3CP50991E</td><td>30</td><td>6.60E-04</td><td>-3.180</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>808</td><td>Li6.2La3Zr1.2Sb0.8O12 </td><td>10.1039/C3CP50991E</td><td>25</td><td>4.50E-04</td><td>-3.346</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>809</td><td>Li6La3ZrSbO12 </td><td>10.1039/C3CP50991E</td><td>30</td><td>2.60E-04</td><td>-3.585</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>810</td><td>Li6.8La3Zr1.8Sb0.2O12 </td><td>10.1039/C3CP50991E</td><td>30</td><td>5.90E-05</td><td>-4.229</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>812</td><td>Li5La3Ta2O12 </td><td>10.1111/j.1151-2916.2003.tb03318.x</td><td>25</td><td>3.40E-06</td><td>-5.468</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>813</td><td>Li5La3Nb2O12 </td><td>10.1111/j.1151-2916.2003.tb03318.x</td><td>393</td><td>3.31E-02</td><td>-1.480</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>814</td><td>Li6BaLa2Nb2O12 </td><td>10.1111/j.1551-2916.2005.00060.x</td><td>22</td><td>6.00E-06</td><td>-5.221</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>815</td><td>Li6SrLa2Nb2O12 </td><td>10.1111/j.1551-2916.2005.00060.x</td><td>22</td><td>4.20E-06</td><td>-5.376</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>816</td><td>Li6CaLa2Nb2O12</td><td>10.1111/j.1551-2916.2005.00060.x</td><td>22</td><td>1.60E-06</td><td>-5.795</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>817</td><td>Li3.25Ge0.25P0.75S4</td><td>10.1149/1.1379028</td><td>25</td><td>2.20E-03</td><td>-2.657</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>818</td><td>Li6.75La3Zr1.75Ta0.25O12 </td><td>10.1149/2.024205esl</td><td>25</td><td>6.30E-04</td><td>-3.200</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>821</td><td>Li10SiP2S12</td><td>10.1149/2.0501412jes</td><td>27</td><td>2.30E-03</td><td>-2.638</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>825</td><td>Li1.3Al0.3Ti1.7(PO4)3</td><td>10.1149/1.2086597</td><td>200</td><td>3.30E-02</td><td>-1.481</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>826</td><td>Li1.5Al0.5Ge1.5(PO4)3</td><td>10.1016/j.jpowsour.2009.11.037</td><td>127.05</td><td>8.43E-02</td><td>-1.074</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>827</td><td>Li1.5Al0.5Ge1.5(PO4)3</td><td>10.1016/j.jpowsour.2009.11.037</td><td>76.74</td><td>3.24E-02</td><td>-1.489</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>828</td><td>Li1.5Al0.5Ge1.5(PO4)3</td><td>10.1016/j.jpowsour.2009.11.037</td><td>46.92</td><td>1.20E-02</td><td>-1.920</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>829</td><td>Li1.5Al0.5Ge1.5(PO4)3</td><td>10.1016/j.jpowsour.2009.11.037</td><td>26.58</td><td>4.43E-03</td><td>-2.353</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>830</td><td>Li1.5Al0.5Ge1.5(PO4)3</td><td>10.1149/1.2988731</td><td>106.96</td><td>1.42E-01</td><td>-0.847</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>831</td><td>Li1.5Al0.5Ge1.5(PO4)3</td><td>10.1149/1.2988731</td><td>64.71</td><td>4.29E-02</td><td>-1.367</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>832</td><td>Li1.5Al0.5Ge1.5(PO4)3</td><td>10.1149/1.2988731</td><td>27.94</td><td>5.26E-03</td><td>-2.279</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>836</td><td>Li5.4La3Nb1.8Y0.75O12</td><td>10.1021/jp304737x</td><td>25</td><td>2.51E-05</td><td>-4.599</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>837</td><td>Li2MgZrO4</td><td>10.1063/1.4710021</td><td>140</td><td>1.00E-08</td><td>-8.000</td><td>Rocksalt</td><td></tr></td>
+    <tr>
+        <td>840</td><td>Li6SrLa2Ta2O12</td><td>10.1002/adfm.200400044</td><td>30</td><td>7.00E-06</td><td>-5.154</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>841</td><td>"(Li2O)50 (Al2O3)4 (P2O5)46"</td><td>10.1016/j.jeurceramsoc.2008.12.016</td><td>52</td><td>7.94E-08</td><td>-7.100</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>842</td><td>"(Li2O)50 (Al2O3)4 (P2O5)46"</td><td>10.1016/j.jeurceramsoc.2008.12.016</td><td>65</td><td>1.66E-07</td><td>-6.779</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>843</td><td>"(Li2O)50 (Al2O3)4 (P2O5)46"</td><td>10.1016/j.jeurceramsoc.2008.12.016</td><td>78</td><td>3.55E-07</td><td>-6.449</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>844</td><td>"(Li2O)50 (Al2O3)4 (P2O5)46"</td><td>10.1016/j.jeurceramsoc.2008.12.016</td><td>97</td><td>1.41E-06</td><td>-5.850</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>845</td><td>"(Li2O)50 (Al2O3)4 (P2O5)46"</td><td>10.1016/j.jeurceramsoc.2008.12.016</td><td>113</td><td>5.01E-06</td><td>-5.300</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>846</td><td>"(Li2O)50 (Al2O3)4 (P2O5)46"</td><td>10.1016/j.jeurceramsoc.2008.12.016</td><td>131</td><td>1.41E-05</td><td>-4.850</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>847</td><td>"(Li2O)50 (Al2O5)5 (P2O5)45"</td><td>10.1016/j.jeurceramsoc.2008.12.016</td><td>25</td><td>1.15E-08</td><td>-7.939</td><td>Glass</td><td>Oxides</tr></td>
+    <tr>
+        <td>848</td><td>"(Li2O)50 (Al2O5)5 (P2O5)45"</td><td>10.1016/j.jeurceramsoc.2008.12.016</td><td>55</td><td>1.26E-07</td><td>-6.899</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>849</td><td>"(Li2O)50 (Al2O5)5 (P2O5)45"</td><td>10.1016/j.jeurceramsoc.2008.12.016</td><td>85</td><td>7.94E-07</td><td>-6.100</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>850</td><td>"(Li2O)50 (Al2O5)5 (P2O5)45"</td><td>10.1016/j.jeurceramsoc.2008.12.016</td><td>112</td><td>5.01E-06</td><td>-5.300</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>851</td><td>"(Li2O)50 (Al2O5)5 (P2O5)45"</td><td>10.1016/j.jeurceramsoc.2008.12.016</td><td>128</td><td>1.78E-05</td><td>-4.749</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>852</td><td>"(Li2O)50 (P2O5)50"</td><td>10.1016/j.jeurceramsoc.2008.12.016</td><td>25</td><td>1.32E-09</td><td>-8.879</td><td>Glass</td><td>Oxides</tr></td>
+    <tr>
+        <td>853</td><td>"(Li2S)9(LaOI)"</td><td>10.1016/j.ssi.2008.01.072</td><td>30</td><td>8.13E-09</td><td>-8.089</td><td>Glass</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>854</td><td>"(Li2S)2(LaOI)5"</td><td>10.1016/j.ssi.2008.01.072</td><td>210</td><td>3.09E-08</td><td>-7.510</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>855</td><td>"(AgI)0.5(LiPO3)0.5"</td><td>10.1016/j.ssi.2008.04.015</td><td>30</td><td>4.10E-08</td><td>-7.387</td><td>Glass</td><td>Oxides and Other Anions</tr></td>
+    <tr>
+        <td>856</td><td>LiPO3</td><td>10.1016/j.ssi.2008.04.015</td><td>70</td><td>5.50E-08</td><td>-7.259</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>857</td><td>"(Li2S)2(LaOI)5"</td><td>10.1016/j.ssi.2008.01.072</td><td>30</td><td>6.92E-08</td><td>-7.159</td><td>Glass</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>858</td><td>"(Li2S)(LaOI)"</td><td>10.1016/j.ssi.2008.01.072</td><td>30</td><td>2.75E-07</td><td>-6.560</td><td>Glass</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>859</td><td>Li3.9Zn0.05GeS4</td><td>10.1016/S0167-2738(00)00277-0</td><td>25</td><td>2.84E-07</td><td>-6.546</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>860</td><td>"(AgI)0.5(LiPO3)0.5"</td><td>10.1016/j.ssi.2008.04.015</td><td>130</td><td>6.46E-07</td><td>-6.189</td><td>Glass</td><td></tr></td>
+    <tr>
+        <td>861</td><td>Li1.6Ti1.7Mg0.3P3O12</td><td>10.1016/0167-2738(86)90176-1</td><td>25</td><td>2.80E-06</td><td>-5.552</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>862</td><td>"(Li2S)7(LaOI)3"</td><td>10.1016/j.ssi.2008.01.072</td><td>30</td><td>2.88E-06</td><td>-5.540</td><td>Glass-Ceramic</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>863</td><td>Li7La3Ta2O13</td><td>10.1016/j.ssi.2009.07.002</td><td>48</td><td>3.30E-06</td><td>-5.481</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>864</td><td>"(Li0.5La0.5TiO3)94(SiO2)6"</td><td>10.1016/j.ssi.2008.08.013</td><td>15</td><td>6.30E-06</td><td>-5.200</td><td>Glass-Ceramic</td><td>Oxides</tr></td>
+    <tr>
+        <td>865</td><td>"(Li0.5La0.5TiO3)97(SiO2)3"</td><td>10.1016/j.ssi.2008.08.013</td><td>15</td><td>1.00E-05</td><td>-5.000</td><td>Glass-Ceramic</td><td>Oxides</tr></td>
+    <tr>
+        <td>866</td><td>"(Li0.5La0.5TiO3)95(SiO2)5"</td><td>10.1016/j.ssi.2008.08.013</td><td>15</td><td>1.25E-05</td><td>-4.903</td><td>Glass-Ceramic</td><td>Oxides</tr></td>
+    <tr>
+        <td>867</td><td>Li7La3Zr2O12</td><td>10.1016/j.jpowsour.2012.02.031</td><td>29</td><td>2.30E-05</td><td>-4.638</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>868</td><td>Li4.275Ge0.61Ga0.25S4</td><td>10.1016/S0167-2738(00)00277-0</td><td>25</td><td>6.34E-05</td><td>-4.197</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>869</td><td>Li1.4Ti1.6In0.4P3O12</td><td>10.1016/0167-2738(86)90176-1</td><td>25</td><td>1.90E-04</td><td>-3.721</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>870</td><td>Li1.8Cr0.8Ti1.2(PO4)3</td><td>10.1016/0167-2738(88)90291-3</td><td>25</td><td>2.40E-04</td><td>-3.619</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>871</td><td>Li3.6Ge0.4P0.6S4</td><td>10.1149/1.1379028</td><td>40</td><td>3.30E-04</td><td>-3.481</td><td>Thio-LISICON</td><td></tr></td>
+    <tr>
+        <td>872</td><td>"(Li2S)9(LaOI)"</td><td>10.1016/j.ssi.2008.01.072</td><td>210</td><td>1.45E-03</td><td>-2.838</td><td>Glass-Ceramic</td><td></tr></td>
+    <tr>
+        <td>873</td><td>Li3.35Ge0.35P0.65S4</td><td>10.1149/1.1379028</td><td>40</td><td>2.51E-03</td><td>-2.600</td><td>Thio-LISICON</td><td></tr></td>
+    <tr>
+        <td>874</td><td>Li1.6Ti1.7Mg0.3P3O12</td><td>10.1016/0167-2738(86)90176-1</td><td>300</td><td>5.30E-03</td><td>-2.275</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>875</td><td>Li3.6Ge0.4P0.6S4</td><td>10.1149/1.1379028</td><td>150</td><td>6.17E-03</td><td>-2.209</td><td>Thio-LISICON</td><td></tr></td>
+    <tr>
+        <td>876</td><td>Li1.6Ga0.6Ti1.4(PO4)3</td><td>10.1016/0167-2738(86)90176-1</td><td>300</td><td>8.40E-03</td><td>-2.075</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>877</td><td>"(Li2S)(LaOI)"</td><td>10.1016/j.ssi.2008.01.072</td><td>210</td><td>1.45E-02</td><td>-1.838</td><td>Glass-Ceramic</td><td></tr></td>
+    <tr>
+        <td>878</td><td>"(Li2S)7(LaOI)3"</td><td>10.1016/j.ssi.2008.01.072</td><td>210</td><td>1.82E-02</td><td>-1.739</td><td>Glass-Ceramic</td><td></tr></td>
+    <tr>
+        <td>879</td><td>Li3.35Ge0.35P0.65S4</td><td>10.1149/1.1379028</td><td>150</td><td>2.54E-02</td><td>-1.595</td><td>Thio-LISICON</td><td></tr></td>
+    <tr>
+        <td>880</td><td>Li3.25Ge0.25P0.75S4</td><td>10.1149/1.1379028</td><td>150</td><td>3.98E-02</td><td>-1.400</td><td>Thio-LISICON</td><td></tr></td>
+    <tr>
+        <td>881</td><td>Li1.4Ti1.6In0.4P3O12</td><td>10.1016/0167-2738(86)90176-1</td><td>300</td><td>5.50E-02</td><td>-1.259</td><td>NASICON</td><td></tr></td>
+    <tr>
+        <td>882</td><td>Li5La3Nb2O12 </td><td>10.1111/j.1151-2916.2003.tb03318.x</td><td>527</td><td>7.08E-02</td><td>-1.150</td><td>Garnet</td><td></tr></td>
+    <tr>
+        <td>883</td><td>Li6NiCl8</td><td>10.1002/zaac.19875531020</td><td>203.19</td><td>1.67E-06</td><td>-5.777</td><td>Rocksalt</td><td></tr></td>
+    <tr>
+        <td>884</td><td>Li6CoCl8</td><td>10.1002/zaac.19875531020</td><td>135.16</td><td>4.89E-06</td><td>-5.310</td><td>Rocksalt</td><td></tr></td>
+    <tr>
+        <td>885</td><td>Li6CoCl8</td><td>10.1002/zaac.19875531020</td><td>315</td><td>3.34E-05</td><td>-4.476</td><td>Rocksalt</td><td></tr></td>
+    <tr>
+        <td>886</td><td>Li6NiCl8</td><td>10.1002/zaac.19875531020</td><td>393.66</td><td>1.89E-02</td><td>-1.723</td><td>Rocksalt</td><td></tr></td>
+    <tr>
+        <td>887</td><td>Li6FeCl8</td><td>10.1002/zaac.19875531020</td><td>90.63</td><td>1.55E-06</td><td>-5.809</td><td>Rocksalt</td><td></tr></td>
+    <tr>
+        <td>888</td><td>Li6FeCl8</td><td>10.1002/zaac.19875531020</td><td>282</td><td>5.69E-03</td><td>-2.244</td><td>Rocksalt</td><td></tr></td>
+    <tr>
+        <td>889</td><td>"((Li2S)0.6 (SiS2)0.4 )95 (Li4SiO4)5"</td><td>10.1149/1.1392498</td><td>25</td><td>5.88E-03</td><td>-2.230</td><td>Glass</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>890</td><td>Li6La2Ca(Nb)2O12</td><td>10.1016/j.ssi.2008.01.047</td><td>25</td><td>2.11E-06</td><td>-5.675</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>891</td><td>Li6MgLa2Ta2O12</td><td>10.1149/1.2800764</td><td>21.1</td><td>1.92E-07</td><td>-6.716</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>892</td><td>Li1.5Al0.5Ge1.5(PO4)3</td><td>10.1149/1.3122903</td><td>25</td><td>0.006309</td><td>-2.200</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>893</td><td>Li4.4Al0.4Ge0.6S4</td><td>10.1021/acs.chemmater.8b03175</td><td>30</td><td>4.33E-05</td><td>-4.363</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>894</td><td>Li4.4Al0.4Sn0.6S4</td><td>10.1021/acs.chemmater.8b03175</td><td>30</td><td>4.39E-06</td><td>-5.357</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>895</td><td>Li4.4Ga0.4Ge0.6S4</td><td>10.1021/acs.chemmater.8b03175</td><td>30</td><td>1.63E-05</td><td>-4.787</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>896</td><td>Li4.4Ga0.4Sn0.6S4</td><td>10.1021/acs.chemmater.8b03175</td><td>30</td><td>3.20E-06</td><td>-5.494</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>897</td><td>Li4.275Ga0.25Ge0.61S4</td><td>10.1016/S0167-2738(00)00277-0</td><td>127</td><td>1.41E-03</td><td>-2.850</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>898</td><td>Li4.8Al0.8Si0.2S4</td><td>10.1006/jssc.2002.9701</td><td>86.7</td><td>7.07E-06</td><td>-5.150</td><td>Thio-LISICON</td><td></tr></td>
+    <tr>
+        <td>899</td><td>Li4GeS4</td><td>10.1016/S0167-2738(00)00277-0</td><td>127</td><td>5.25E-05</td><td>-4.280</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>900</td><td>Li4SnS4</td><td>10.1021/cm3011315</td><td>100</td><td>3.00E-03</td><td>-2.522</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>901</td><td>Li5AlS4</td><td>10.1016/j.jssc.2017.09.018</td><td>25</td><td>1.26E-08</td><td>-7.899</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>902</td><td>Li5GaS4</td><td>10.1016/S0167-2738(00)00277-0</td><td>100</td><td>5.10E-08</td><td>-7.292</td><td>Thio-LISICON</td><td></tr></td>
+    <tr>
+        <td>903</td><td>LiMgPO4</td><td>10.1021/cm504518q</td><td>25</td><td>6.31E-12</td><td>-11.19997064</td><td>Olivine</td><td>Oxides</tr></td>
+    <tr>
+        <td>904</td><td>Li0.95Mg0.95In0.05PO4</td><td>10.1021/cm504518q</td><td>25</td><td>1.12E-10</td><td>-9.950</td><td>Olivine</td><td>Oxides</tr></td>
+    <tr>
+        <td>905</td><td>Li0.9Mg0.9In0.1PO4</td><td>10.1021/cm504518q</td><td>25</td><td>5.01E-10</td><td>-9.300</td><td>Olivine</td><td>Oxides</tr></td>
+    <tr>
+        <td>906</td><td>Li0.85Mg0.85In0.15PO4</td><td>10.1021/cm504518q</td><td>25</td><td>1.26E-09</td><td>-8.899</td><td>Olivine</td><td>Oxides</tr></td>
+    <tr>
+        <td>907</td><td>Li0.83Mg0.83In0.17PO4</td><td>10.1021/cm504518q</td><td>25</td><td>1.41E-09</td><td>-8.850</td><td>Olivine</td><td>Oxides</tr></td>
+    <tr>
+        <td>908</td><td>LiMgPO4</td><td>10.1021/cm504518q</td><td>90</td><td>4.68E-10</td><td>-9.329</td><td>Olivine</td><td></tr></td>
+    <tr>
+        <td>909</td><td>Li0.95Mg0.95In0.05PO4</td><td>10.1021/cm504518q</td><td>90</td><td>1.12E-08</td><td>-7.950</td><td>Olivine</td><td></tr></td>
+    <tr>
+        <td>910</td><td>Li0.9Mg0.9In0.1PO4</td><td>10.1021/cm504518q</td><td>90</td><td>2.51E-08</td><td>-7.600</td><td>Olivine</td><td></tr></td>
+    <tr>
+        <td>911</td><td>Li0.85Mg0.85In0.15PO4</td><td>10.1021/cm504518q</td><td>90</td><td>7.08E-08</td><td>-7.149</td><td>Olivine</td><td></tr></td>
+    <tr>
+        <td>912</td><td>Li0.83Mg0.83In0.17PO4</td><td>10.1021/cm504518q</td><td>90</td><td>7.94E-08</td><td>-7.100</td><td>Olivine</td><td></tr></td>
+    <tr>
+        <td>913</td><td>Li3AlS3</td><td>10.1021/acs.chemmater.9b03230</td><td>25</td><td>1.31E-08</td><td>-7.882</td><td>Other</td><td>Sulphides</tr></td>
+    <tr>
+        <td>914</td><td>Li3AlS3</td><td>10.1021/acs.chemmater.9b03230</td><td>108</td><td>6.31E-07</td><td>-6.199</td><td>Other</td><td></tr></td>
+    <tr>
+        <td>915</td><td>Li6SiO4Cl2</td><td>10.1021/acs.chemmater.1c00157</td><td>25</td><td>1.00E-10</td><td>-10.000</td><td>Argyrodite</td><td>Oxides and Other Anions</tr></td>
+    <tr>
+        <td>916</td><td>Li6SiO4Cl2</td><td>10.1021/acs.chemmater.1c00157</td><td>302</td><td>6.20E-06</td><td>-5.207</td><td>Argyrodite</td><td></tr></td>
+    <tr>
+        <td>917</td><td>LiTa2PO8</td><td>10.1039/C8TA09170F</td><td>25</td><td>1.60E-03</td><td>-2.795</td><td>Other</td><td>Oxides</tr></td>
+    <tr>
+        <td>918</td><td>LiTa2PO8</td><td>10.1039/C8TA09170F</td><td>85</td><td>1.58E-02</td><td>-1.801</td><td>Other</td><td></tr></td>
+    <tr>
+        <td>919</td><td>Li1.4S2.2P0.6</td><td>10.1016/j.ssi.2006.07.017</td><td>45</td><td>3.16E-03</td><td>-2.500</td><td>Glass-Ceramic</td><td></tr></td>
+    <tr>
+        <td>920</td><td>Li4.8Al0.8Si0.2S4</td><td>10.1006/jssc.2002.9701</td><td>253</td><td>3.98E-03</td><td>-2.400</td><td>Thio-LISICON</td><td>Oxides and Other Anions</tr></td>
+    <tr>
+        <td>921</td><td>LiF</td><td>Journal De Physique 26 339-341, 1965</td><td>392</td><td>7.75E-09</td><td>-8.110</td><td>Rocksalt</td><td>Oxides</tr></td>
+    <tr>
+        <td>922</td><td>Li0.022 La0.118 Ti0.2 Al0.004 O0.631</td><td>10.1007/BF02378009</td><td>97.37</td><td>5.62E-03</td><td>-2.250</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>923</td><td>LiF</td><td>Journal De Physique 26 339-341, 1965</td><td>351</td><td>2.65E-09</td><td>-8.576</td><td>Rocksalt</td><td></tr></td>
+    <tr>
+        <td>924</td><td>LiF</td><td>Journal De Physique 26 339-341, 1965</td><td>321</td><td>1.07E-09</td><td>-8.970</td><td>Rocksalt</td><td></tr></td>
+    <tr>
+        <td>925</td><td>LiF</td><td>10.1023/A:1006564921011</td><td>270</td><td>1.85E-10</td><td>-9.733</td><td>Rocksalt</td><td></tr></td>
+    <tr>
+        <td>926</td><td>LiF</td><td>10.1023/A:1006564921011</td><td>203</td><td>1.41E-11</td><td>-10.85087436</td><td>Rocksalt</td><td></tr></td>
+    <tr>
+        <td>927</td><td>LiF</td><td>10.1023/A:1006564921011</td><td>142</td><td>5.70E-13</td><td>-12.24379656</td><td>Rocksalt</td><td></tr></td>
+    <tr>
+        <td>928</td><td>Li0.022 La0.118 Ti0.2 Al0.004 O0.631</td><td>10.1007/BF02378009</td><td>30</td><td>8.91E-04</td><td>-3.049</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>929</td><td>Li0.022 La0.115 Ti0.165 Al0.055 O0.618</td><td>10.1007/BF02378009</td><td>97.37</td><td>4.46E-03</td><td>-2.350</td><td>Perovskite</td><td></tr></td>
+    <tr>
+        <td>930</td><td>Li2ZrS3</td><td>10.1016/j.ssi.2008.01.055</td><td>30</td><td>7.30E-06</td><td>-5.136</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>931</td><td>Li0.022 La0.115 Ti0.165 Al0.055 O0.618</td><td>10.1007/BF02378009</td><td>30</td><td>5.25E-04</td><td>-3.280</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>2000</td><td>(YPO4)0.8(Li3PO4)0.2</td><td>10.1016/0167-2738(89)90457-8</td><td>25</td><td>1.41E-05</td><td>-4.851</td><td>Zircon</td><td>Oxides</tr></td>
+    <tr>
+        <td>2001</td><td> Li0.8La0.066Zr2(PO4)3</td><td>10.1007/s11581-009-0332-6</td><td>25</td><td>8.20E-06</td><td>-5.086</td><td>NASICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>2003</td><td>Li3.09BO2.53N0.52</td><td>10.1016/j.jpowsour.2008.09.089</td><td>25</td><td>8.65E-07</td><td>-6.063</td><td>Glass</td><td>Oxides</tr></td>
+    <tr>
+        <td>2004</td><td>Li5Nd3Sb2O12</td><td>10.1016/j.ssi.2008.01.002</td><td>25</td><td>5.58E-07</td><td>-6.253</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>2005</td><td>Li5La3Sb2O12</td><td>10.1016/j.ssi.2008.01.002</td><td>25</td><td>2.06E-06</td><td>-5.685</td><td>Garnet</td><td>Oxides</tr></td>
+    <tr>
+        <td>2006</td><td>LiAlSi2O6</td><td>10.1016/j.ssi.2009.02.028</td><td>25</td><td>3.49E-09</td><td>-8.457</td><td>Glass</td><td>Oxides</tr></td>
+    <tr>
+        <td>2007</td><td>"(Li2O)16.6 (SiO2)83.4"</td><td>10.1016/S0022-3093(99)00688-2</td><td>25</td><td>1.30E-09</td><td>-8.887</td><td>Glass</td><td>Oxides</tr></td>
+    <tr>
+        <td>2008</td><td>Li3Fe2P3O12</td><td>10.1016/0167-2738(90)90442-T</td><td>25</td><td>1.11E-08</td><td>-7.953</td><td>Glass-Ceramic</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>2009</td><td>Li2.9Sc1.9Zr0.1(PO4)3</td><td>10.1016/S0925-8388(96)02746-6</td><td>25</td><td>7.48E-05</td><td>-4.126</td><td>NASICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>2010</td><td>Li1.9Mg0.1TiO3.05</td><td>10.1016/j.ssi.2008.03.001</td><td>25</td><td>1.96E-07</td><td>-6.708</td><td>Rocksalt</td><td>Sulphides and Other Anions</tr></td>
+    <tr>
+        <td>2011</td><td>(YPO4)0.9(Li3PO4)0.1</td><td>10.1016/0167-2738(89)90457-8</td><td>25</td><td>4.64E-07</td><td>-6.333</td><td>Zircon</td><td>Oxides</tr></td>
+    <tr>
+        <td>2012</td><td>(YPO4)0.7(Li3PO4)0.3</td><td>10.1016/0167-2738(89)90457-8</td><td>25</td><td>6.57E-09</td><td>-8.182</td><td>Zircon</td><td>Oxides</tr></td>
+    <tr>
+        <td>2013</td><td>(YPO4)0.5(Li3PO4)0.5</td><td>10.1016/0167-2738(89)90457-8</td><td>25</td><td>6.68E-11</td><td>-10.1753005</td><td>Zircon</td><td>Oxides</tr></td>
+    <tr>
+        <td>2014</td><td>LiGaSiO4</td><td>10.1016/0167-2738(87)90048-8</td><td>25</td><td>1.08E-11</td><td>-10.9652893</td><td>Phenakite</td><td>Oxides</tr></td>
+    <tr>
+        <td>2015</td><td>Li0.68Ga0.68Si2.33O6</td><td>10.1016/0167-2738(87)90048-8</td><td>25</td><td>3.15E-11</td><td>-10.50228226</td><td>Phenakite</td><td>Oxides</tr></td>
+    <tr>
+        <td>2016</td><td>Li0.96Ga0.96Si2.04O6</td><td>10.1016/0167-2738(87)90048-8</td><td>25</td><td>2.35E-11</td><td>-10.62874643</td><td>Phenakite</td><td>Oxides</tr></td>
+    <tr>
+        <td>2017</td><td>Li4Al0.33Si0.33P0.33O4</td><td>10.1021/acsami.6b14402</td><td>25</td><td>3.25E-06</td><td>-5.487</td><td>LISICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>2018</td><td>Li4Al0.33Si0.17Ge0.17P0.33O4</td><td>10.1021/acsami.6b14402</td><td>25</td><td>1.61E-06</td><td>-5.792</td><td>LISICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>2019</td><td>Li4.25Si0.75Al0.25O4</td><td>10.1021/acsami.6b14402</td><td>25</td><td>2.02E-08</td><td>-7.695</td><td>LISICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>2020</td><td>Li3.75Si0.75P0.25O4</td><td>10.1021/acsami.6b14402</td><td>25</td><td>5.54E-07</td><td>-6.256</td><td>LISICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>2021</td><td>LiCaTiNbO6</td><td>10.1021/cm9810382</td><td>25</td><td>6.07E-07</td><td>-6.216</td><td>Perovskite</td><td>Oxides</tr></td>
+    <tr>
+        <td>2022</td><td>Li3Cr(MoO4)3</td><td>10.1039/B301189e</td><td>25</td><td>3.19E-09</td><td>-8.496</td><td>LISICON</td><td>Oxides</tr></td>
+    <tr>
+        <td>2023</td><td>Li2Mg2(MoO4)3</td><td>10.1039/B301189e</td><td>25</td><td>5.35E-12</td><td>-11.2712539</td><td>Lysonite</td><td>Oxides</tr></td>
+    <tr>
+        <td>2024</td><td>Li3Fe(MoO4)3</td><td>10.1039/B301189e</td><td>25</td><td>5.89E-10</td><td>-9.229</td><td>Lysonite</td><td>Oxides</tr></td>
+    <tr>
+        <td>2025</td><td>Li6FeCl8</td><td>10.1002/zaac.19875531020</td><td>25</td><td>8.97E-08</td><td>-7.047</td><td>Rocksalt</td><td>Halides</tr></td>
+    <tr>
+        <td>2026</td><td>Li4.8Si0.2Al0.8S4</td><td>10.1006/jssc.2002.9701</td><td>25</td><td>1.07E-06</td><td>-5.971</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>2027</td><td>Li3.6Ge0.4P0.6S4</td><td>10.1149/1.1379028</td><td>25</td><td>0.000221356</td><td>-3.654</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>2028</td><td>Li3.35Ge0.35P0.65S4</td><td>10.1149/1.1379028</td><td>25</td><td>0.001830655</td><td>-2.737</td><td>Thio-LISICON</td><td>Sulphides</tr></td>
+    <tr>
+        <td>2029</td><td>Li6NiCl8</td><td>10.1002/zaac.19875531020</td><td>25</td><td>2.69E-10</td><td>-9.569</td><td>Rocksalt</td><td>Halides</tr></td>
+    <tr>
+        <td>2030</td><td>Li6CoCl8</td><td>10.1002/zaac.19875531020</td><td>25</td><td>1.51E-06</td><td>-5.821</td><td>Rocksalt</td><td>Halides</tr></td>
+    <tr>
+        <td>2031</td><td>LiF</td><td>Journal De Physique 26 339-341 1965</td><td>25</td><td>1.18E-14</td><td>-13.92960042</td><td>Rocksalt</td><td>Halides</tr></td>
+    <tr>
+        
+    </tbody>
+	</table>
+    
+    </main>
+	<!-- <script src="index.js"></script> -->
+    </body>
+</div>
+</div>
+</html>

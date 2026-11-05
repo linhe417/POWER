@@ -1,0 +1,88 @@
+[
+  {
+    "dataset": "obelix",
+    "local_path": "data/raw/obelix/all.csv",
+    "url": "https://github.com/NRC-Mila/OBELiX/tree/4eaac889809dd489e3bae468c45d5c0e02b9147a",
+    "sha256": "54f6265ef84d16a919d08c6815f14b0fd7465fa00090bee2511c16c042e57f3c",
+    "bytes": 114856,
+    "license": "CC-BY-4.0",
+    "status": "complete_public_table",
+    "retrieval_date": "2026-11-05"
+  },
+  {
+    "dataset": "obelix_cifs",
+    "local_path": "data/raw/obelix/all_cifs.zip",
+    "url": "https://github.com/NRC-Mila/OBELiX/tree/4eaac889809dd489e3bae468c45d5c0e02b9147a",
+    "sha256": "90f54f781fe6c4ba014636046556ec66c3bfa909b617e7258ff50ac3dcfa027c",
+    "bytes": 292449,
+    "license": "CC-BY-4.0",
+    "status": "321_released_cifs",
+    "retrieval_date": "2026-11-05"
+  },
+  {
+    "dataset": "liion",
+    "local_path": "data/raw/unified_sources/liion_original.html",
+    "url": "https://pcwww.liverpool.ac.uk/~msd30/lmds/LiIonDatabase.html",
+    "sha256": "074b4fcdc47aea644513d894d419bf0240fc54b24c5064432134f4c523701e37",
+    "bytes": 144282,
+    "license": "University of Liverpool: academic attribution; commercial permission required",
+    "status": "complete_public_table_corrected_2024",
+    "retrieval_date": "2026-11-05"
+  },
+  {
+    "dataset": "mchaffie",
+    "local_path": "data/raw/mchaffie_conductivity.csv",
+    "url": "https://data.caltech.edu/records/23mvv-6gk43",
+    "sha256": "868c4bd793d7c31b929787dc69478691b27ced0440d19269075143c98ecd1545",
+    "bytes": 36122,
+    "license": "CC0-1.0",
+    "status": "complete_public_table",
+    "retrieval_date": "2026-11-05"
+  },
+  {
+    "dataset": "laskowski",
+    "local_path": "data/raw/upstream/OBELiX-4eaac889809dd489e3bae468c45d5c0e02b9147a/data/misc/laskowski_semi-fromatted.csv",
+    "url": "https://github.com/NRC-Mila/OBELiX/blob/4eaac889809dd489e3bae468c45d5c0e02b9147a/data/misc/laskowski_semi-fromatted.csv",
+    "sha256": "606926c22779b71b82d98f833cfde8e31d540739decee3ff872f779902f75e61",
+    "bytes": 69845,
+    "license": "CC-BY-4.0 repository transcription; original SI rights unresolved",
+    "status": "damaged_secondary_transcription_1345_label_cells",
+    "retrieval_date": "2026-11-05"
+  },
+  {
+    "dataset": "laskowski_doi_lookup",
+    "local_path": "data/raw/upstream/OBELiX-4eaac889809dd489e3bae468c45d5c0e02b9147a/data/misc/doi_lookup_table.csv",
+    "url": "https://github.com/NRC-Mila/OBELiX/blob/4eaac889809dd489e3bae468c45d5c0e02b9147a/data/misc/doi_lookup_table.csv",
+    "sha256": "b890a2d06752613d2be77e3cf7562a14718b892c516d15d4c88686d9a122313d",
+    "bytes": 11005,
+    "license": "CC-BY-4.0 repository",
+    "status": "reference_lookup_not_independently_verified",
+    "retrieval_date": "2026-11-05"
+  },
+  {
+    "dataset": "ddse_access_evidence",
+    "local_path": "data/raw/unified_sources/ddse_browser_body.txt",
+    "url": "https://www.digbat.org/",
+    "sha256": "5d01aad9073531b3b58ee6fc79d02bdbb792708112d060d6b19b9ab7b4c47291",
+    "bytes": 6028,
+    "license": "bulk data not publicly exported",
+    "status": "public_UI_says_collaborator_only_bulk_copy",
+    "retrieval_date": "2026-11-05"
+  },
+  {
+    "dataset": "laskowski_primary_SI",
+    "url": "https://authors.library.caltech.edu/records/64j4e-7fx68",
+    "status": "not_downloaded: institution HTTP521; publisher SI HTTP404 / article HTTP403",
+    "reported_records": 1346
+  },
+  {
+    "dataset": "ddse",
+    "url": "https://www.digbat.org/",
+    "status": "not_downloaded: public UI explicitly restricts bulk copy to collaborators",
+    "reported_snapshot_materials_user": 2448,
+    "current_UI_experimental_materials_all_ions": 3859,
+    "current_UI_experimental_entries_all_ions": 28074,
+    "current_UI_last_update": "2026.07.30",
+    "current_UI_is_not_Li_only": true
+  }
+]

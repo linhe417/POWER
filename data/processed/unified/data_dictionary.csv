@@ -1,0 +1,60 @@
+field,dtype,meaning,non_null_count
+record_id,str,稳定来源记录标识；不是独立样品标识。,3335
+dataset,str,来源：obelix/liion/mchaffie/laskowski；DDSE 无整库数据，不制造占位测量行。,3335
+source_record_id,str,原数据 ID；Laskowski 为原转录 CSV 电导率所在行。,3335
+source_row,int64,CSV 行号（包含表头）；LiIon 为官网表内数据行序号；Laskowski 无表头。,3335
+source_file,str,项目相对路径，指向可追溯的原始文件。,3335
+source_sha256,str,来源文件字节内容的 SHA256。,3335
+source_payload_json,str,完整来源字段或转录碎片，未自动覆盖原数值。,3335
+formula_raw,str,来源化学式或明确标记的邻行拼接结果。,3335
+doi_raw,str,原来源的文献标识字符串。,3324
+sigma_raw,str,来源原始电导率文本，单位由来源表指定为 S/cm。,3335
+temperature_raw,str,来源明确给出的温度文本；无数值不填。,820
+temperature_unit_raw,str,来源温度单位；LiIon 为摄氏度 C。,820
+measurement_temperature_K,float64,仅来源明确数值温度时填入；LiIon 摄氏度+273.15。未把 RT 强填298.15K。,820
+temperature_status,str,区分明确数值温度、来源室温声明和二手转录的室温声明。,3335
+reported_rt,bool,来源声称 RT，或 LiIon 数值温度15–35°C的操作性窗口。,3335
+conductivity_type,str,bulk/total 只在对应原字段与主标签一致时填写；否则 unknown。,3335
+measurement_method_status,str,是否外推；McHaffie 有高温最低测量标记则标为 RT 外推；na 不代表直接测量。,3335
+lowest_extrapolation_temperature_K,float64,McHaffie 原始最低测量/外推温度；不是该 RT 标签的实际测量温度。,135
+structural_family_raw,str,来源结构家族/相标记；不是统一验证的晶体结构。,1401
+space_group_raw,str,来源空间群原始文本；PDF转录残损未猜补。,1314
+space_group_number,float64,来源空间群编号，缺失为空。,1314
+icsd_id,str,ICSD 标识而非结构文件；不据此宣称已取得 CIF 或许可。,1209
+cif_path,str,仅实际随本数据交付的 CIF 路径。,321
+cif_match_status,str,来源提供的结构对应程度，含 close match；未独立核验全部结构。,3335
+cif_coordinates_status,str,按上游 randomize_cifs.py 与 ICSD ID 推断；不是逐个结构恢复原始坐标。,3335
+activation_energy_eV,float64,仅 Laskowski 二手转录给出的活化能，单位 eV；未核实值不进主清洗子集。,850
+bulk_sigma_raw,str,OBELiX 原始 bulk 电导率字段，S/cm；另表保存为辅助标签。,28
+total_sigma_raw,str,OBELiX 原始 total 电导率字段，S/cm；另表保存为辅助标签。,29
+source_note,str,原注释、来源更正说明或转录定位说明。,2302
+provenance_status,str,primary_public_table 或 secondary_damaged_transcription_unverified。,3335
+original_obelix_split,str,OBELiX 原始 train/test；不能直接沿用为合并后独立验证划分。,599
+lattice_a_A,float64,OBELiX 原始晶格常数 a，单位 Å；缺失不填。,599
+lattice_b_A,float64,OBELiX 原始晶格常数 b，单位 Å；缺失不填。,599
+lattice_c_A,float64,OBELiX 原始晶格常数 c，单位 Å；缺失不填。,599
+lattice_alpha_deg,float64,OBELiX 原始晶格角 alpha，单位度。,599
+lattice_beta_deg,float64,OBELiX 原始晶格角 beta，单位度。,599
+lattice_gamma_deg,float64,OBELiX 原始晶格角 gamma，单位度。,599
+formula_normalized,str,规范 Unicode、成对外层引号和空白；不猜补元素、下标、相比例。,2850
+formula_parse_status,str,parsed 或明确的拒绝解析原因；parsed 仅证明语法通过，不证明实验化学式正确。,3335
+composition_key,str,元素原子分数，10 位小数；仅作组成匹配，不确认晶体或样品相同。,2850
+composition_id,str,组成键的 SHA256 前20位；不是结构 ID。,2850
+formula_normalization_actions,str,仅记录语法规范化操作；原式保留在 formula_raw。,3335
+elements,str,解析组成中非零元素列表，分号分隔。,2850
+n_elements,float64,解析组成中非零元素数。,2850
+stoichiometry_json,str,解析的名义元素计数；名义混合配方不等于单一晶相。,2850
+chemistry_class,str,按元素集合启发式分类，见 common.chemistry；未作为实验相鉴定。,2850
+doi_normalized,str,提取并小写的 DOI，多个用分号分隔；未在线核验每个 DOI 是否有效。,3319
+sigma_value_S_cm,float64,S/cm；删失记录为界限值，不能直接作回归标签。,3335
+sigma_relation,str,=、<、<=、>、>=、~、≈；保留删失/近似关系。,3335
+sigma_unit,str,本次四个来源统一为 S/cm；没有把 mS/cm 当成 S/cm。,3335
+sigma_text_normalized,str,仅去除排版组合字符、空白并规范比较符号后的文本。,3335
+log10_sigma_S_cm,float64,仅精确正数标签取 log10；删失/近似/解析失败为空。,3246
+quality_flags,str,所有质量问题；不因数值看起来合理就补正。,1423
+publication_composition_group,str,组成+首个 DOI 的检索组；多 DOI 的完整配对见 links。,2843
+license_status,str,按来源保留不同条款；合并文件不统一改为开放商业许可。,3335
+eligible_numeric_label,bool,组成可解析且精确正数标签；仍可能有来源/质量问题，不等于可直接训练。,3335
+eligible_primary_clean_numeric,bool,可解析锂组成、精确正数标签、无质量标记、非未核实二手转录。不是已验证同质训练集。,3335
+eligible_reported_rt_candidate,bool,上述条件+来源RT/15–35°C且未明确高温外推；未知bulk/total或直接性仍可能存在。,3335
+leakage_group_id,str,共享任一组成或任一 DOI 的传递连通组；用于分组划分，不能视为重复样品。,3335

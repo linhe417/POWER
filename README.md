@@ -24,6 +24,7 @@
 - [逐条清洗日志](data/processed/unified/cleaning_log.csv)
 - [跨库候选对应](data/processed/unified/cross_source_links.csv)
 - [完整数据说明](data/processed/unified/数据集说明.md)
+- [已知问题与使用边界](KNOWN_ISSUES.md)
 
 主标签统一为S/cm；37条OBELiX删失界限与52条Laskowski转录界限均保留，未当作精确回归值。室温候选含来源仅声明RT的记录，温度、bulk/total、直接测量/外推等条件仍可能未知。公开CIF含坐标扰动。Laskowski未核实转录不会进入默认精确清洗子集。
 

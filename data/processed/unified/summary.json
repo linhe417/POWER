@@ -1,0 +1,20 @@
+{
+  "source_counts": {
+    "laskowski": 1345,
+    "liion": 820,
+    "obelix": 599,
+    "mchaffie": 571
+  },
+  "total_source_records": 3335,
+  "clean_primary_numeric_records": 1878,
+  "reported_rt_candidates": 1393,
+  "parsed_composition_groups": 1193,
+  "cross_source_candidate_links": 1519,
+  "confirmed_sample_duplicates_removed": 0,
+  "cif_files": 321,
+  "censored_records": 89,
+  "formula_review_records": 485,
+  "leakage_groups": 353,
+  "ddse_status": "not_obtained_bulk_export_restricted",
+  "laskowski_status": "1345 conductivity cells from secondary transcription; reported target1346, not fully recovered or primary-verified"
+}

@@ -1,0 +1,6 @@
+dataset,imported_source_records,parsed_formulas,exact_numeric_labels,numeric_temperature,clean_primary_numeric,reported_rt_candidates,cif_files,import_status
+obelix,599,598.0,562.0,0.0,502.0,502.0,321.0,complete_public_table
+liion,820,820.0,820.0,820.0,816.0,464.0,0.0,complete_public_table
+mchaffie,571,564.0,571.0,0.0,560.0,427.0,0.0,complete_public_table
+laskowski,1345,868.0,1293.0,0.0,0.0,0.0,0.0,provisional_secondary_transcription
+ddse,0,,,,,,,bulk_export_not_public; collaborator_access_required

@@ -1,0 +1,5 @@
+# Existing scientific requirements are in requirements.txt.
+openpyxl==3.1.5
+lxml>=5
+# Only needed for checking DDSE's public interface, not offline rebuilding:
+playwright==1.64.1
