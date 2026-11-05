@@ -1,0 +1,34 @@
+record_id,formula,doi,treatment_temperature_K,treatment_time_h,treatment_kind,metadata_consistent,fully_standardized_processing_protocol,in_github_core_table
+balzat2026_index01,Li7SiPS8,10.1002/anie.5778118,1048,54,source synthesis schedule,True,False,False
+balzat2026_index02,Li7SiPS8,10.1002/anie.5778118,1073,300,source synthesis schedule,True,False,False
+balzat2026_index03,Li7SiPS8,10.1002/anie.5778118,948,120,source synthesis schedule,True,False,False
+balzat2026_index04,Li7SiPS8,10.1002/anie.5778118,723,324,source synthesis schedule,True,False,False
+balzat2026_index05,Li7SiPS8,10.1002/anie.5778118,748,126,source synthesis schedule,True,False,False
+balzat2026_index06,Li7SiPS8,10.1002/anie.5778118,673,318,source synthesis schedule,True,False,False
+balzat2026_index07,Li7SiPS8,10.1002/anie.5778118,821,78,source synthesis schedule,False,False,False
+balzat2026_index08,Li7SiPS8,10.1002/anie.5778118,723,120,source synthesis schedule,True,False,False
+balzat2026_index09,Li7SiPS8,10.1002/anie.5778118,798,78,source synthesis schedule,True,False,False
+balzat2026_index10,Li7SiPS8,10.1002/anie.5778118,896,42,source synthesis schedule,False,False,False
+balzat2026_index11,Li7SiPS8,10.1002/anie.5778118,723,24,source synthesis schedule,True,False,False
+balzat2026_index12,Li7SiPS8,10.1002/anie.5778118,1048,312,source synthesis schedule,True,False,False
+balzat2026_index13,Li7SiPS8,10.1002/anie.5778118,623,234,source synthesis schedule,True,False,False
+balzat2026_index14,Li7SiPS8,10.1002/anie.5778118,648,168,source synthesis schedule,True,False,False
+balzat2026_index15,Li7SiPS8,10.1002/anie.5778118,698,24,source synthesis schedule,True,False,False
+balzat2026_index16,Li7SiPS8,10.1002/anie.5778118,648,318,source synthesis schedule,True,False,False
+balzat2026_index17,Li7SiPS8,10.1002/anie.5778118,673,24,source synthesis schedule,True,False,False
+balzat2026_index18,Li7SiPS8,10.1002/anie.5778118,698,30,source synthesis schedule,True,False,False
+balzat2026_index19,Li7SiPS8,10.1002/anie.5778118,798,24,source synthesis schedule,True,False,False
+balzat2026_index20,Li7SiPS8,10.1002/anie.5778118,748,24,source synthesis schedule,True,False,False
+balzat2026_index21,Li7SiPS8,10.1002/anie.5778118,698,318,source synthesis schedule,True,False,False
+balzat2026_index22,Li7SiPS8,10.1002/anie.5778118,698,30,source synthesis schedule,False,False,False
+balzat2026_index23,Li7SiPS8,10.1002/anie.5778118,698,18,source synthesis schedule,False,False,False
+balzat2026_index24,Li7SiPS8,10.1002/anie.5778118,998,24,source synthesis schedule,True,False,False
+balzat2026_index25,Li7SiPS8,10.1002/anie.5778118,698,168,source synthesis schedule,True,False,False
+balzat2026_index26,Li7SiPS8,10.1002/anie.5778118,773,24,source synthesis schedule,True,False,False
+balzat2026_index27,Li7SiPS8,10.1002/anie.5778118,648,84,source synthesis schedule,True,False,False
+balzat2026_index28,Li7SiPS8,10.1002/anie.5778118,698,24,source synthesis schedule,True,False,False
+balzat2026_index29,Li7SiPS8,10.1002/anie.5778118,723,24,source synthesis schedule,True,False,False
+balzat2026_index30,Li7SiPS8,10.1002/anie.5778118,723,24,source synthesis schedule,True,False,False
+balzat2026_index31,Li7SiPS8,10.1002/anie.5778118,698,24,source synthesis schedule,True,False,False
+balzat2026_index32,Li7SiPS8,10.1002/anie.5778118,698,24,source synthesis schedule,True,False,False
+obelix:8k7,Li5La3Ta2O12,10.1016/j.ssi.2009.11.015,1173,5,pellet sintering; partial manual annotation,True,False,True

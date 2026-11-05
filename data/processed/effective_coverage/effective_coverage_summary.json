@@ -1,0 +1,94 @@
+{
+  "input_sha256": "256adfbd6db510b8076661e88ef84da7ebac1366eb3c64f84aced68219cf8eb9",
+  "coverage": [
+    {
+      "subset": "all_source_records",
+      "source_records": 3335,
+      "parsed_compositions": 1193,
+      "unparsed_formula_records": 485,
+      "cif_records": 321,
+      "cif_parsed_compositions": 282,
+      "cif_unparsed_formula_records": 1,
+      "close_match_cif_records": 61,
+      "not_close_cif_records": 260,
+      "not_close_cif_compositions": 244,
+      "unperturbed_not_close_candidate_records": 30,
+      "unperturbed_not_close_candidate_compositions": 30,
+      "leakage_groups": 353,
+      "independent_physical_samples_verified": "not_determined"
+    },
+    {
+      "subset": "primary_tables",
+      "source_records": 1990,
+      "parsed_compositions": 946,
+      "unparsed_formula_records": 8,
+      "cif_records": 321,
+      "cif_parsed_compositions": 282,
+      "cif_unparsed_formula_records": 1,
+      "close_match_cif_records": 61,
+      "not_close_cif_records": 260,
+      "not_close_cif_compositions": 244,
+      "unperturbed_not_close_candidate_records": 30,
+      "unperturbed_not_close_candidate_compositions": 30,
+      "leakage_groups": 279,
+      "independent_physical_samples_verified": "not_determined"
+    },
+    {
+      "subset": "primary_clean_numeric",
+      "source_records": 1878,
+      "parsed_compositions": 925,
+      "unparsed_formula_records": 0,
+      "cif_records": 260,
+      "cif_parsed_compositions": 233,
+      "cif_unparsed_formula_records": 0,
+      "close_match_cif_records": 55,
+      "not_close_cif_records": 205,
+      "not_close_cif_compositions": 194,
+      "unperturbed_not_close_candidate_records": 23,
+      "unperturbed_not_close_candidate_compositions": 23,
+      "leakage_groups": 273,
+      "independent_physical_samples_verified": "not_determined"
+    },
+    {
+      "subset": "reported_rt_candidates",
+      "source_records": 1393,
+      "parsed_compositions": 799,
+      "unparsed_formula_records": 0,
+      "cif_records": 260,
+      "cif_parsed_compositions": 233,
+      "cif_unparsed_formula_records": 0,
+      "close_match_cif_records": 55,
+      "not_close_cif_records": 205,
+      "not_close_cif_compositions": 194,
+      "unperturbed_not_close_candidate_records": 23,
+      "unperturbed_not_close_candidate_compositions": 23,
+      "leakage_groups": 218,
+      "independent_physical_samples_verified": "not_determined"
+    }
+  ],
+  "independent_physical_sample_count": null,
+  "reason": "No universal original-sample identifier or verified phase/process equivalence",
+  "complete_coordinate_cif_syntax_checks": 321,
+  "processing": {
+    "core_structured_synthesis_T_and_time_records": 0,
+    "supplementary_quantitative_schedule_records": 32,
+    "supplementary_consistent_schedule_records": 28,
+    "supplementary_compositions": 1,
+    "supplementary_publications": 1,
+    "manual_core_sintering_annotations": 1,
+    "partial_quantitative_processing_records_total": 33,
+    "full_processing_protocols_verified": 0
+  },
+  "testing": {
+    "locked_untouched_external_samples": 0,
+    "rt_internal_leakage_groups": 218,
+    "supplementary_records_from_new_doi": 32,
+    "supplementary_records_from_new_composition": 0,
+    "supplementary_doi_already_explored": true,
+    "supplementary_composition_overlap_record_ids": [
+      "mchaffie:0045",
+      "laskowski:csvline0039"
+    ]
+  },
+  "correction": "Original close match Yes is now recognized: 61 CIF rows in all data,55 in clean subset; conductivity values unchanged."
+}

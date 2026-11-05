@@ -1,0 +1,5 @@
+subset,source_records,parsed_compositions,unparsed_formula_records,cif_records,cif_parsed_compositions,cif_unparsed_formula_records,close_match_cif_records,not_close_cif_records,not_close_cif_compositions,unperturbed_not_close_candidate_records,unperturbed_not_close_candidate_compositions,leakage_groups,independent_physical_samples_verified
+all_source_records,3335,1193,485,321,282,1,61,260,244,30,30,353,not_determined
+primary_tables,1990,946,8,321,282,1,61,260,244,30,30,279,not_determined
+primary_clean_numeric,1878,925,0,260,233,0,55,205,194,23,23,273,not_determined
+reported_rt_candidates,1393,799,0,260,233,0,55,205,194,23,23,218,not_determined

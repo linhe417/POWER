@@ -49,3 +49,19 @@ python3 -m unittest discover -s tests -p test_unified_dataset.py -v
 - DDSE：[官方平台](https://www.digbat.org/)。本仓库仅保留其获取状态，未收录整库数据。
 
 此版本用于可追溯的数据整理和探索分析，尚未完成逐条原文复核，不构成已确认的新科学发现。
+
+
+## 有效覆盖与独立性审计
+
+清洗后1878条来源记录对应925种归一化组成；室温候选1393条对应799种组成。清洗集有260条CIF、233种组成，排除近似匹配后205条/194种组成，再排除按上游规则推定的坐标扰动后剩23条/23种保守结构候选，仍未逐条确认与测量样品严格对应。原始321个CIF仍完整保留。
+
+核心表未系统提取合成温度/时间等工艺字段。另附32次Li7SiPS8实验的定量工艺补充（28次表格间无冲突、1种组成、1篇论文），以及1条人工核查的核心记录烧结条件。它们不是33份完整工艺SOP。该32次实验的组成与主表Li3.5Si0.5P0.5S4相同，不能算作跨组成新材料外测。当前没有预先封存、未参与探索的外部盲测集；218个室温防泄漏组仅用于内部验证。
+
+本次修正统一管线对原表`close match=Yes`的识别错误，恢复全体61条、清洗后55条近似结构匹配标记；所有来源原值、电导率和组成去重数保持不变。
+
+- [完整覆盖审计](reports/effective_dataset_coverage.md)
+- [逐条结构证据](data/processed/effective_coverage/clean_structure_evidence.csv)
+- [部分定量工艺清单](data/processed/effective_coverage/partial_quantitative_processing_inventory.csv)
+- [补充实验的组成重叠](data/processed/effective_coverage/supplementary_composition_overlap.csv)
+
+审计复现需要额外安装`scikit-learn`，然后运行`python3 -m src.audit_effective_dataset`。补充实验数据及论文出处见`data/processed/new_sources/balzat2026_linked_experiments.csv`，原始表格数据许可CC-BY-4.0；论文DOI为10.1002/anie.5778118。人工原文核查注释逐条保留来源DOI。

@@ -110,7 +110,7 @@ def load_obelix():
                 n=names[v['ID']];raw=z.read(n)
                 target=DEST/'structures'/f"{v['ID']}.cif";target.parent.mkdir(exist_ok=True)
                 target.write_bytes(raw)
-                r.update(cif_path=str(target.relative_to(ROOT)),cif_match_status='close_composition_match' if v['close match'].lower()=='true' else 'source_matched_not_independently_verified',
+                r.update(cif_path=str(target.relative_to(ROOT)),cif_match_status='close_composition_match' if v['close match'].strip().lower() in {'yes','true','1','y'} else 'source_matched_not_independently_verified',
                          cif_coordinates_status='perturbed_per_upstream_script' if v['ICSD ID'] else 'unperturbed_per_upstream_script')
                 cifs.append({'record_id':r['record_id'],'cif_path':r['cif_path'],'archive_member':n,
                              'cif_sha256':hashlib.sha256(raw).hexdigest(),'archive_sha256':digest(archive),

@@ -78,6 +78,14 @@ class UnifiedDatasetIntegrity(unittest.TestCase):
             self.assertEqual(hashlib.sha256((ROOT/r.cif_path).read_bytes()).hexdigest(),r.cif_sha256)
         self.assertTrue(self.d[self.d.dataset.eq('mchaffie')].cif_path.eq('').all())
 
+    def test_yes_close_match_is_not_treated_as_exact_structure(self):
+        ob=self.d[self.d.dataset.eq('obelix')]
+        raw_close=ob.source_payload_json.map(lambda s:str(json.loads(s).get('close match','')).strip().lower() in {'yes','true','1','y'})
+        with_cif=ob.cif_path.ne('')
+        self.assertEqual(int(raw_close.sum()),61)
+        self.assertTrue(ob.loc[raw_close&with_cif,'cif_match_status'].eq('close_composition_match').all())
+        self.assertEqual(int(ob.loc[ob.eligible_primary_clean_numeric,'cif_match_status'].eq('close_composition_match').sum()),55)
+
     def test_cross_source_links_do_not_assert_sample_identity(self):
         l=pd.read_csv(DEST/'cross_source_links.csv')
         self.assertFalse(l.same_physical_sample_confirmed.any())

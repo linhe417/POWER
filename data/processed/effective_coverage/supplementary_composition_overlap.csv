@@ -1,0 +1,3 @@
+record_id,dataset,formula_raw,composition_key,doi_normalized,eligible_primary_clean_numeric
+mchaffie:0045,mchaffie,Li3.5Si0.5P0.5S4,Li:0.4117647059|P:0.0588235294|S:0.4705882353|Si:0.0588235294,10.1021/acs.chemmater.9b00657,True
+laskowski:csvline0039,laskowski,Li 3.5 Si 0.5 P 0.5 S  4,Li:0.4117647059|P:0.0588235294|S:0.4705882353|Si:0.0588235294,10.1006/jssc.2002.9701,False

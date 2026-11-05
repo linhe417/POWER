@@ -1,0 +1,6 @@
+fold,train_records,test_records,test_compositions,test_leakage_groups,composition_overlap,doi_overlap,status
+0,1114,279,151,27,0,0,exploratory grouped internal validation; not untouched external confirmation
+1,1114,279,146,28,0,0,exploratory grouped internal validation; not untouched external confirmation
+2,1114,279,143,48,0,0,exploratory grouped internal validation; not untouched external confirmation
+3,1115,278,173,57,0,0,exploratory grouped internal validation; not untouched external confirmation
+4,1115,278,186,58,0,0,exploratory grouped internal validation; not untouched external confirmation
